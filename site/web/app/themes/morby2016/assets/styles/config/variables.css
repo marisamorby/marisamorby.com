@@ -2,7 +2,7 @@ $vheight-default: 30px;
 $max-width: 1024px;
 
 $font-family-default: futura-pt, futura, sans-serif;
-$font-family-script: 'Texas Hero';
+$font-family-script: texas-hero, script, sans-serif;
 $font-size-default: 22px;
 $font-weight-normal: 300;
 $font-weight-bold: 700;
