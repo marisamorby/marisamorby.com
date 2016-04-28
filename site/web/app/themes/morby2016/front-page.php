@@ -32,32 +32,32 @@
         <h2 class="credibility__heading">I&rsquo;ve worked with (and been featured by) great companies, including&hellip;</h2>
         <ul class="worked-with__companies">
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/jobhero.svg"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/jobhero.svg"
                  alt="Featured on JobHero"
                  class="worked-with__company-logo">
           </li>
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/lifehack.png"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/lifehack.png"
                  alt="Featured on Lifehack"
                  class="worked-with__company-logo">
           </li>
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/ww_huffington-post.png"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/ww_huffington-post.png"
                  alt="Featured on The Huffington Post"
                  class="worked-with__company-logo">
           </li>
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/nuschool.png"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/nuschool.png"
                  alt="Worked with The nuSchool"
                  class="worked-with__company-logo">
           </li>
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/the-muse.png"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/the-muse.png"
                  alt="Featured on The Muse"
                  class="worked-with__company-logo">
           </li>
           <li class="worked-with__company">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/linkedinpulse.png"
+            <img src="<?= get_template_directory_uri() ?>/dist/images/linkedinpulse.png"
                  alt="Featured on LinkedIn Pulse"
                  class="worked-with__company-logo">
           </li>
@@ -72,7 +72,7 @@
               &ldquo;Working with Marisa was like a really, <em>really</em> good butt massage. She just gets right up in there, but without making it uncomfortable.&rdquo;
             </p>
             <figure class="testimonials__attribution">
-              <img src="<?= get_template_directory_uri() ?>/assets/images/jason-lengstorf-200.jpg"
+              <img src="<?= get_template_directory_uri() ?>/dist/images/jason-lengstorf-200.jpg"
                    alt="Jason L"
                    class="testimonials__attribution-photo">
               <figcaption class="testimonials__attribution-text">
@@ -86,7 +86,7 @@
               &ldquo;Marisa is exactly the right person for your marketing needs. Or if you drop something between the seats in your car; she's got these tiny little hands, so she can fit them into tight spaces.&rdquo;
             </p>
             <figure class="testimonials__attribution">
-              <img src="<?= get_template_directory_uri() ?>/assets/images/nate-green-200.jpg"
+              <img src="<?= get_template_directory_uri() ?>/dist/images/nate-green-200.jpg"
                    alt="Jason L"
                    class="testimonials__attribution-photo">
               <figcaption class="testimonials__attribution-text">
