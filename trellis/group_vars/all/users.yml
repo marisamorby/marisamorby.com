@@ -20,3 +20,9 @@ web_user: web
 web_group: www-data
 web_sudoers:
   - "/usr/sbin/service php7.0-fpm *"
+
+# Add authorized github users
+github_ssh_keys:
+  - username: jlengstorf
+    authorized:
+      - "{{ web_user }}"
