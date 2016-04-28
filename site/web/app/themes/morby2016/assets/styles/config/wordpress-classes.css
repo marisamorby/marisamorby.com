@@ -1,0 +1,150 @@
+.wp-caption {
+  max-width: 100% !important;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.wp-caption-text,.wp-caption-dd {
+  display: block;
+  margin-top: 0;
+  padding: 0 5px;
+  color: color( $color-tan-dark tint(25%) );
+  font-size: 80%;
+  font-style: italic;
+  line-height: 1.25;
+}
+
+.aligncenter,.alignleft,.alignright {
+  display: block;
+  margin-bottom: calc( $vheight-default );
+  margin-left: auto;
+  margin-right: auto;
+
+  figure& {
+    margin-top: $vheight-default;
+  }
+
+  img&,&>img {
+    border: 1px solid color( $color-tan-dark alpha(50%) );
+    box-shadow: 0 1px 4px color( $color-tan-dark alpha(25%) );
+  }
+}
+
+figure.aligncenter,dl.aligncenter {
+  margin-top: $vheight-default;
+
+  @media (min-width: 800px) {
+    margin-left: -65px;
+    margin-right: -65px;
+    text-align: center;
+
+    img {
+      max-width: 780px;
+      width: 780px;
+    }
+
+    figcaption.wp-caption-text,dd.wp-caption-dd {
+      width: 780px;
+      max-width: 780px;
+    }
+  }
+}
+
+img.alignleft,img.alignright,img.aligncenter {
+  max-width: 100%;
+  height: auto;
+}
+
+img.aligncenter {
+  margin-top: $vheight-default;
+
+  @media (min-width: 800px) {
+    margin-left: -65px;
+    margin-right: -65px;
+    max-width: 780px;
+    width: 780px;
+  }
+}
+
+.alignleft,.alignright {
+  &,figure&,img&,dl& {
+    margin-top: $vheight-default;
+
+    @media $mq-tablet {
+      max-width: 45% !important;
+    }
+  }
+}
+
+.alignleft {
+  &,figure&,img&,dl& {
+    @media $mq-tablet {
+      float: left;
+      margin-right: $vheight-default;
+    }
+
+    @media (min-width: 800px) {
+      margin-left: -65px
+    }
+  }
+}
+
+.alignright {
+  &,figure&,img&,dl& {
+    @media $mq-tablet {
+      float: right;
+      margin-left: $vheight-default;
+      text-align: right;
+    }
+
+    @media (min-width: 800px) {
+      margin-right: -65px;
+    }
+  }
+}
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.posts-navigation {
+  max-width: $max-width;
+  margin-top: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+
+  .nav-links {
+    display: flex;
+    align-content: space-between;
+  }
+
+  .nav-previous,.nav-next {
+    flex: 1 50%;
+    margin: 0;
+
+    a {
+      color: color( $color-purple-dark tint(30%) );
+      font-size: 65%;
+      font-weight: $font-weight-bold;
+      letter-spacing: 0.2em;
+      line-height: 1;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+
+  .nav-next {
+    text-align: right;
+  }
+}

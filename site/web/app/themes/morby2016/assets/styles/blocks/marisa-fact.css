@@ -1,0 +1,67 @@
+.marisa-fact {
+  padding: 2em 1.5em;
+
+  &__heading {
+    flex: 1 100%;
+    order: 1;
+    color: $color-tan-dark;
+    font-family: $font-family-script;
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+  }
+
+  &__fact {
+    position: relative;
+    padding: calc( $vheight-default * 0.75 ) 0;
+    font-size: 9vw;
+    font-weight: $font-weight-bold;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+
+    &::before,&::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      display: block;
+      width: 75%;
+      height: 1px;
+      background-color: $color-tan-dark;
+      transform: translateX(-50%);
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+
+    @media $mq-mobile {
+      font-size: 7.5vw;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 200%;
+    }
+  }
+
+  &__more-link {
+    display: block;
+    color: $color-tan-dark;
+    font-size: 80%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,&:active,&:focus {
+      outline: 0;
+      text-decoration: underline;
+    }
+  }
+}

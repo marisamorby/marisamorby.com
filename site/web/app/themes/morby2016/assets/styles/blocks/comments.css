@@ -1,0 +1,4 @@
+.comments {
+  max-width: 650px;
+  margin: calc( $vheight-default * 2 ) auto 0;
+}

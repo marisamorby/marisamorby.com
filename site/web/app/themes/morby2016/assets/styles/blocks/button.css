@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  padding: 0.25em 0.5em;
+  background: transparent;
+  border: 3px solid $color-lightest;
+  border-radius: calc( $vheight-default / 4 );
+  color: $color-lightest;
+  cursor: pointer;
+  font-family: $font-family-default;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 200ms all ease-in-out;
+
+  &:hover,&:active,&:focus {
+    outline: none;
+    background: color( $color-lightest alpha(50%) );
+    box-shadow: 0 0 10px color( $color-darkest alpha(25%) );
+    text-shadow: 0 0 5px color( $color-darkest alpha(25%) );
+  }
+
+  @media $mq-mobile {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,33 @@
+.post-previews {
+  width: 100vw;
+  max-width: $max-width;
+  margin-left: -5vw;
+  margin-right: -5w;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__preview {
+    margin-top: calc( $vheight-default * 1.5 );
+
+    @media (min-width: 1024px) {
+      flex: 1 45%;
+      max-width: 48%;
+
+      &:nth-child(odd) {
+        margin-right: calc( $vheight-default / 2 );
+      }
+
+      &:nth-child(even) {
+        margin-left: calc( $vheight-default / 2 );
+      }
+    }
+  }
+}

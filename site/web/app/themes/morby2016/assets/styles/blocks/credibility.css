@@ -1,0 +1,18 @@
+.credibility {
+  padding: 50px 5vw;
+
+  &__section {
+
+    &+& {
+      margin-top: calc( $vheight-default * 2 );
+    }
+  }
+
+  &__heading {
+    font-size: 80%;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
