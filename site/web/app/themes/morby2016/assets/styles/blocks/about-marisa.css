@@ -46,6 +46,7 @@
 
   &__heading {
     font-size: 7.5vw;
+    font-weight: $font-weight-black;
     letter-spacing: 0.2em;
     line-height: 1;
     text-align: center;

@@ -14,6 +14,6 @@
     }
   },
   "config": {
-    "devUrl": "http://localhost:3000"
+    "devUrl": "marisamorby.dev"
   }
 }

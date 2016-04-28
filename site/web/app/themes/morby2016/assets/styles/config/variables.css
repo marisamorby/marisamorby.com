@@ -1,11 +1,12 @@
 $vheight-default: 30px;
 $max-width: 1024px;
 
-$font-family-default: 'Futura LT', sans-serif;
+$font-family-default: futura-pt, futura, sans-serif;
 $font-family-script: 'Texas Hero';
 $font-size-default: 22px;
-$font-weight-normal: 200;
+$font-weight-normal: 300;
 $font-weight-bold: 700;
+$font-weight-black: 800;
 
 $color-lightest:     #fffdf9;
 $color-darkest:      #020815;

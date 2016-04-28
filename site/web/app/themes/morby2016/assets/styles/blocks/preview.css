@@ -76,6 +76,7 @@
     order: 2;
     margin-top: calc( $vheight-default * 0.625 );
     font-size: 8vw;
+    font-weight: $font-weight-black;
     letter-spacing: 0.1em;
     line-height: 1;
     text-align: center;

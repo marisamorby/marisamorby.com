@@ -16,7 +16,7 @@
     position: relative;
     padding: calc( $vheight-default * 0.75 ) 0;
     font-size: 9vw;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-black;
     letter-spacing: 0.1em;
     line-height: 1;
     text-align: center;

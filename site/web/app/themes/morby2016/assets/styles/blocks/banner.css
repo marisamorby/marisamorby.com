@@ -230,7 +230,7 @@
     &--bold {
       font-family: $font-family-default;
       font-size: 135%;
-      font-weight: $font-weight-bold;
+      font-weight: $font-weight-black;
       letter-spacing: 0.25em;
       text-indent: 0.2em;
       text-transform: uppercase;

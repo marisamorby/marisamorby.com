@@ -59,7 +59,7 @@
         height: 1.625em;
         overflow: hidden;
         visibility: hidden;
-        font-weight: $font-weight-bold;
+        font-weight: $font-weight-black;
 
         @media $mq-mobile {
           width: auto;

@@ -46,6 +46,7 @@
     padding: 4em 5vw 1.5em;
     color: $color-lightest;
     font-size: 10vw;
+    font-weight: $font-weight-black;
     letter-spacing: 0.15em;
     line-height: 1;
     text-shadow: 0 0 8px color( $color-darkest alpha(40%) );
@@ -60,6 +61,23 @@
       font-size: 300%;
     }
   }
+
+  &__page-heading {
+    color: $color-darkest;
+    font-size: 10vw;
+    font-weight: $font-weight-black;
+    letter-spacing: 0.15em;
+    line-height: 1;
+    text-transform: uppercase;
+
+    @media $mq-mobile {
+      font-size: 8vw;
+    }
+
+    @media $mq-tablet {
+      font-size: 250%;
+    }
+  }
 }
 
 .content-page__content,.wp-editor {
@@ -68,6 +86,11 @@
 
   @media $mq-tablet {
     margin-top: calc( $vheight-default * 2.5 );
+  }
+
+  &--no-header {
+    margin-top: 0;
+    padding-top: calc( $vheight-default * 1.5 );
   }
 
   * {

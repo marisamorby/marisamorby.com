@@ -6,10 +6,10 @@
 
 ?>
   <article class="content-page">
-    <header class="content-page__header" style="background-image: url(<?= $featured_image_url ?>);">
-      <h1 class="content-page__heading"><?php the_title(); ?></h1>
-    </header>
-    <div class="content-page__content">
+    <!-- <header class="content-page__header" style="background-image: url(<?= $featured_image_url ?>);">
+    </header> -->
+    <div class="content-page__content content-page__content--no-header">
+      <h1 class="content-page__page-heading"><?php the_title(); ?></h1>
       <?php the_content(); ?>
     </div>
   </article>
