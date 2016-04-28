@@ -59,7 +59,10 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "roots/soil": "*",
     "wpackagist-plugin/easy-footnotes": "*",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*"
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+    "wpackagist-plugin/highlight-and-share": "*",
+    "wpackagist-plugin/thumbnails-regenerate": "*",
+    "wpackagist-plugin/wordpress-importer": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
