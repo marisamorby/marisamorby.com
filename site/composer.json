@@ -62,7 +62,10 @@
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/highlight-and-share": "*",
     "wpackagist-plugin/thumbnails-regenerate": "*",
-    "wpackagist-plugin/wordpress-importer": "*"
+    "wpackagist-plugin/wordpress-importer": "*",
+    "afragen/github-updater": "*",
+    "wp-sync-db/wp-sync-db": "dev-master@dev",
+    "wp-sync-db/wp-sync-db-media-files": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

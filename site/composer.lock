@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "862901f0667b5e0518af38a078f719a5",
-    "content-hash": "c63a5498678663ee6be7d38859c4aa68",
+    "hash": "23ec5dd4d194d6f1ea5873c562b5ac34",
+    "content-hash": "eb2c9154384018d08055bef785f73f50",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -21,6 +21,46 @@
                 "philippbaschke/acf-pro-installer": "^1.0"
             },
             "type": "wordpress-muplugin"
+        },
+        {
+            "name": "afragen/github-updater",
+            "version": "5.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/github-updater.git",
+                "reference": "646b93d1113c8321eaa4e4e1c5bfa0a15cd8b3a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/github-updater/zipball/646b93d1113c8321eaa4e4e1c5bfa0a15cd8b3a4",
+                "reference": "646b93d1113c8321eaa4e4e1c5bfa0a15cd8b3a4",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "http://thefragens.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "install",
+                "plugin",
+                "theme",
+                "updater",
+                "wordpress"
+            ],
+            "time": "2016-04-21 15:54:48"
         },
         {
             "name": "composer/installers",
@@ -455,6 +495,70 @@
             "time": "2016-04-15 10:48:49"
         },
         {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-04-24 08:56:12"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "be6dc51678ee7e44c158d9bd38169aba4ac8964c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/be6dc51678ee7e44c158d9bd38169aba4ac8964c",
+                "reference": "be6dc51678ee7e44c158d9bd38169aba4ac8964c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2015-01-17 02:23:40"
+        },
+        {
             "name": "wpackagist-plugin/easy-footnotes",
             "version": "1.0.8",
             "source": {
@@ -708,16 +812,16 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "3.2.3",
+            "version": "3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/wordpress-seo.git",
-                "reference": "cabf086baddc4d9c4a3f311755ddce283542071b"
+                "reference": "b0e40488471fcdcb573e93b60ff57ee089fc0a46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/wordpress-seo/zipball/cabf086baddc4d9c4a3f311755ddce283542071b",
-                "reference": "cabf086baddc4d9c4a3f311755ddce283542071b",
+                "url": "https://api.github.com/repos/Yoast/wordpress-seo/zipball/b0e40488471fcdcb573e93b60ff57ee089fc0a46",
+                "reference": "b0e40488471fcdcb573e93b60ff57ee089fc0a46",
                 "shasum": ""
             },
             "require": {
@@ -757,7 +861,7 @@
                 "seo",
                 "wordpress"
             ],
-            "time": "2016-04-21 12:29:11"
+            "time": "2016-04-28 12:23:06"
         }
     ],
     "packages-dev": [
@@ -842,7 +946,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
