@@ -43,7 +43,7 @@
   }
 
   &__heading {
-    padding: 4em 5vw 1.5em;
+    padding: 10vh 5vw 5vh;
     color: $color-lightest;
     font-size: 10vw;
     font-weight: $font-weight-black;
@@ -57,7 +57,7 @@
     }
 
     @media $mq-tablet {
-      padding-top: 3em;
+      padding-top: 15vh;
       font-size: 300%;
     }
   }
