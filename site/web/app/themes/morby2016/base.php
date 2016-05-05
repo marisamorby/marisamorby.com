@@ -13,21 +13,19 @@ use Roots\Sage\Wrapper;
         <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'sage'); ?>
       </div>
     <![endif]-->
-    <?php
-      do_action('get_header');
-      get_template_part('templates/header');
-      get_template_part('templates/navigation');
-    ?>
+<?php
+    do_action('get_header');
+    get_template_part('templates/header');
+    get_template_part('templates/navigation');
+?>
     <main class="main">
       <?php include Wrapper\template_path(); ?>
     </main><!-- /.main -->
-    <?php
-      do_action('get_footer');
-      get_template_part('templates/footer');
-      wp_footer();
-    ?>
-    <script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.11.2.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+<?php
+    do_action('get_footer');
+    get_template_part('templates/footer');
+    wp_footer();
+?>
+
   </body>
 </html>
