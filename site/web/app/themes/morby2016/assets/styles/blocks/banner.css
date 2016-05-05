@@ -151,7 +151,11 @@
       top: 0;
       bottom: 0;
       width: 0.75em;
-      border: 0.22em solid color( $color-lightest alpha(80%) );
+      border: 0.22em solid color( $color-lightest alpha(95%) );
+
+      @media $mq-tablet {
+        border-color: color( $color-lightest alpha(80%) );
+      }
     }
 
     &::before {
@@ -217,9 +221,13 @@
     margin: 0;
     color: $color-lightest;
     line-height: 0.85;
-    opacity: 0.8;
+    opacity: 0.95;
     text-align: center;
     text-shadow: 0 0 10px color( $color-darkest alpha(40%) );
+
+    @media $mq-tablet {
+      opacity: 0.8;
+    }
 
     &--script {
       font-family: $font-family-script;
@@ -237,7 +245,7 @@
     }
   }
 
-  &__link {
+  &__link.button {
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -245,9 +253,16 @@
     width: 65%;
     margin: 0;
     font-size: 40%;
-    opacity: 0.8;
+    opacity: 0.95;
+    background-color: color( $color-purple-dark alpha(85%) );
+    border-width: 4px;
+
+    @media $mq-tablet {
+      opacity: 1;
+    }
 
     &:hover,&:active,&:focus {
+      background-color: color( $color-purple-dark tint(20%) alpha(85%) );
       opacity: 1;
     }
   }
