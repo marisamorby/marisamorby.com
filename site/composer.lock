@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23ec5dd4d194d6f1ea5873c562b5ac34",
-    "content-hash": "eb2c9154384018d08055bef785f73f50",
+    "hash": "9a0b2d87e7ca573f4f13d5939dd099a3",
+    "content-hash": "609fbdf7c79bf72b95657196c8f95981",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -495,6 +495,45 @@
             "time": "2016-04-15 10:48:49"
         },
         {
+            "name": "wp-api/wp-api",
+            "version": "2.0-beta13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/WP-API.git",
+                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/d0a392c3397960f81cf0bff0db239814c12aa228",
+                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.3.4",
+                "wp-coding-standards/wpcs": "0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "json-rest-api"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2+"
+            ],
+            "authors": [
+                {
+                    "name": "WP-API Team",
+                    "homepage": "http://wp-api.org/"
+                }
+            ],
+            "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
+            "homepage": "http://wp-api.org/",
+            "time": "2016-03-30 00:04:19"
+        },
+        {
             "name": "wp-sync-db/wp-sync-db",
             "version": "dev-master",
             "source": {
@@ -559,6 +598,26 @@
             "time": "2015-01-17 02:23:40"
         },
         {
+            "name": "wpackagist-plugin/acf-to-wp-api",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-wp-api/",
+                "reference": "tags/1.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-wp-api.1.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-wp-api/"
+        },
+        {
             "name": "wpackagist-plugin/easy-footnotes",
             "version": "1.0.8",
             "source": {
@@ -617,46 +676,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/highlight-and-share/"
-        },
-        {
-            "name": "wpackagist-plugin/thumbnails-regenerate",
-            "version": "2.0.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/thumbnails-regenerate/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/thumbnails-regenerate.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/thumbnails-regenerate/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "xrstf/composer-php52",
@@ -947,7 +966,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-sync-db/wp-sync-db": 20
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-api/wp-api": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
