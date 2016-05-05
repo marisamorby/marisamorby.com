@@ -1,18 +1,28 @@
 .credibility {
-  padding: 50px 5vw;
+  padding: calc( $vheight-default * 1 ) 0;
 
   &__section {
-
     &+& {
-      margin-top: calc( $vheight-default * 2 );
+      margin-top: calc( $vheight-default * 1.5 );
     }
   }
 
   &__heading {
-    font-size: 80%;
-    font-weight: $font-weight-normal;
-    letter-spacing: 0.25em;
+    font-size: 120%;
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    letter-spacing: 0.15em;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  @media $mq-tablet {
+    padding: calc( $vheight-default * 3 ) 0;
+
+    &__section {
+      &+& {
+        margin-top: calc( $vheight-default * 3 );
+      }
+    }
   }
 }
