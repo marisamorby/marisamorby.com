@@ -91,6 +91,12 @@
   &--no-header {
     margin-top: 0;
     padding-top: calc( $vheight-default * 1.5 );
+
+    h2:first-child {
+
+      /* Kind of hacky. Mostly lazy. */
+      margin-top: 0;
+    }
   }
 
   * {
