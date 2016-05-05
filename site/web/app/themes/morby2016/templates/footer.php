@@ -1,4 +1,4 @@
-
+<?php if (!is_page_template('template-no-footer.php') && !is_front_page()): ?>
 <div class="about-marisa">
   <figure class="about-marisa__image-box">
     <img class="about-marisa__image"
@@ -41,6 +41,7 @@
     </ul>
   </div>
 </div>
+<?php endif; ?>
 
 <footer class="footer">
   <ul class="footer__links footer__links--left">
