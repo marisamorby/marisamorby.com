@@ -41,6 +41,22 @@ function enable_svg_uploads( $mimes ) {
 }
 add_filter('upload_mimes', __NAMESPACE__ . '\\enable_svg_uploads');
 
+/*
+ * Add custom options pages
+ */
+function add_acf_options_pages() {
+  if (!function_exists('acf_add_options_page')) {
+    return;
+  }
+
+  acf_add_options_page(array(
+    'page_title' => 'Website Self-Assessment Settings',
+    'menu_title' => 'Website Assessment',
+    'parent_slug' => 'options-general.php',
+  ));
+}
+add_action('after_setup_theme', __NAMESPACE__ . '\\add_acf_options_pages');
+
 /**
  * Add custom field groups
  */
