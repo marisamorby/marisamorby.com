@@ -22,6 +22,15 @@
     text-shadow: 0 0 5px color( $color-darkest alpha(25%) );
   }
 
+  &--dark {
+    border-color: $color-darkest;
+    color: $color-darkest;
+
+    &:hover,&:active,&:focus {
+      text-shadow: none;
+    }
+  }
+
   @media $mq-mobile {
     display: inline-block;
   }
