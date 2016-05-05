@@ -6,11 +6,23 @@
       ],
       "main": true
     },
+    "assessment.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "bower": ["mm-assessment"]
+    },
     "main.css": {
       "files": [
         "styles/main.css"
       ],
       "main": true
+    },
+    "assessment.css": {
+      "files": [
+        "styles/assessment.css"
+      ],
+      "main": false
     }
   },
   "config": {
