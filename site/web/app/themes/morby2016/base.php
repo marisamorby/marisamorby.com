@@ -24,6 +24,7 @@ use Roots\Sage\Wrapper;
 <?php
     do_action('get_footer');
     get_template_part('templates/footer');
+    get_template_part('templates/assessment-footer');
     wp_footer();
 ?>
 
