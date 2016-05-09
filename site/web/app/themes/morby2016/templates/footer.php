@@ -8,16 +8,16 @@
   </figure>
   <div class="about-marisa__text-box">
     <h3 class="about-marisa__heading">
-      I love to get people talking to each other.
+      <?php the_field('footer_heading', 'option'); ?>
     </h3>
-    <p class="about-marisa__text">
-      Bacon ipsum dolor amet beef meatball alcatra, prosciutto shank turducken boudin. Pork loin brisket ham hock beef, short loin short ribs ground round beef ribs. Short ribs pork chop turkey kevin porchetta bresaola turducken cow short loin.
-    </p>
+    <div class="about-marisa__text">
+      <?php the_field('footer_about_text', 'option'); ?>
+    </div>
     <ul class="about-marisa__links">
       <li class="about-marisa__item about-marisa__item--button-item">
-        <a href="#"
+        <a href="<?php the_field('footer_button_link', 'option'); ?>"
            class="about-marisa__link about-marisa__link--button button">
-          Find Out How
+          <?php the_field('footer_button_text', 'option'); ?>
         </a>
       </li>
       <li class="about-marisa__item about-marisa__item--icon-item">
