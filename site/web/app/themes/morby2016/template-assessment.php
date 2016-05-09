@@ -40,8 +40,6 @@ if ($_POST):
     'html' => preg_replace('/\*\|FNAME\|\*/', $fname, $msg),
   ));
 
-  echo "<pre>"; print_r($response); echo "</pre>";
-
   if ($response->http_response_code === 200):
 ?>
   <article class="content-page">
