@@ -3,7 +3,8 @@
  * Template Name: Website Self-Assessment
  */
 
-require 'vendor/autoload.php';
+// Kind of hacky, but should work as long as we're using roots.io/bedrock/.
+require sprintf('%s/vendor/autoload.php', str_replace('/web', '', getcwd()));
 use Mailgun\Mailgun;
 
 /*
@@ -52,7 +53,6 @@ if ($_POST):
   </article>
 <?php
 
-    exit;
   else:
 
 ?>
@@ -65,7 +65,7 @@ if ($_POST):
 <?php
 
   endif;
-endif;
+else:
 
 ?>
   <article class="content-page">
@@ -73,3 +73,6 @@ endif;
       <div id="root" class="mm-assessment"></div>
     </div>
   </article>
+<?php
+
+endif;
