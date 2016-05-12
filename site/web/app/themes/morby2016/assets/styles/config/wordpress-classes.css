@@ -122,6 +122,7 @@ img.aligncenter {
   margin-top: 6vh;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 calc( $vheight-default / 2 );
   line-height: 1;
 
   .nav-links {
@@ -146,5 +147,270 @@ img.aligncenter {
 
   .nav-next {
     text-align: right;
+  }
+}
+
+.search-form {
+  min-width: 260px;
+  margin: 0;
+  text-align: center;
+}
+
+.search-field,.search-submit {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.search-field {
+  width: 60%;
+  padding: 0.25em 0.5em;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid $color-darkest;
+  color: $color-darkest;
+  font-family: $font-family-default;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  transition: 200ms all ease-in-out;
+
+  &::placeholder {
+    color: inherit;
+    text-shadow: 0 0 4px color( $color-darkest alpha(40%) );
+  }
+
+  &:focus,&:hover {
+    outline: none;
+    background-color: color( $color-purple-light alpha(25%) );
+    border-color: $color-purple-dark;
+  }
+}
+
+.search-submit {
+  margin: 0;
+  padding: 0.25em 0.5em;
+  background: transparent;
+  border: 3px solid $color-darkest;
+  border-radius: calc( $vheight-default / 4 );
+  color: $color-darkest;
+  cursor: pointer;
+  font-family: $font-family-default;
+  font-weight: $font-weight-black;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 200ms all ease-in-out;
+
+  &:hover,&:active,&:focus {
+    outline: none;
+    background: color( $color-lightest alpha(50%) );
+    box-shadow: 0 0 10px color( $color-darkest alpha(25%) );
+    text-shadow: 0 0 5px color( $color-darkest alpha(25%) );
+  }
+}
+
+
+/*
+ * Gravity Forms
+ */
+
+
+.gform_wrapper {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    padding: 0;
+  }
+
+  form {
+
+    label {
+
+    }
+  }
+
+  .gfield_required {
+  }
+
+  .form-left-half,.form-right-half {
+
+  }
+
+  .form-right-half {
+
+  }
+
+  .gfield_label {
+    font-size: 75%;
+    font-weight: $font-weight-bold;
+  }
+
+  .ginput_container {
+    margin-top: 0;
+
+    label {
+      font-size: 10px;
+      font-weight: $font-weight-normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    input,select,textarea {
+      width: 100%;
+      padding: 0.25em 0.5em;
+      background: color( $color-purple-light alpha(25%) );
+      border: 0;
+      border-bottom: 2px solid $color-darkest;
+      color: $color-darkest;
+      font-family: $font-family-default;
+      font-size: 16px;
+      font-weight: $font-weight-normal;
+      letter-spacing: 0.1em;
+      line-height: 1.5;
+      transition: 200ms all ease-in-out;
+
+      &::placeholder {
+        color: inherit;
+        text-shadow: 0 0 4px color( $color-darkest alpha(40%) );
+      }
+
+      &:focus,&:hover {
+        outline: none;
+        background-color: color( $color-purple-dark alpha(25%) );
+        border-color: $color-purple-dark;
+      }
+    }
+
+    textarea {
+
+
+      &.small {
+
+      }
+    }
+
+    &.ginput_complex {
+      display: flex;
+
+      &:before,&:after {
+        content: " ";
+        display: table;
+      }
+
+      &:after {
+        clear: both;
+      }
+
+      > span {
+        flex: 1 50%;
+        margin: 0;
+        padding: 0 calc( $vheight-default / 4 );
+
+        &:nth-child(odd) {
+          padding-left: 0;
+        }
+
+        &:nth-child(even) {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .gform_radio,.gfield_checkbox {
+    label,input {
+
+    }
+
+    label {
+
+    }
+  }
+
+  .gfield_radio,.gfield_checkbox {
+
+
+    li {
+
+    }
+
+    label {
+
+    }
+  }
+
+  input.gform_button,.button {
+    margin: 0;
+    padding: 0.25em 0.5em;
+    background: transparent;
+    border: 3px solid $color-darkest;
+    border-radius: calc( $vheight-default / 4 );
+    color: $color-darkest;
+    cursor: pointer;
+    font-family: $font-family-default;
+    font-size: 20px;
+    font-weight: $font-weight-black;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 200ms all ease-in-out;
+
+    &:hover,&:active,&:focus {
+      outline: none;
+      background: color( $color-purple-light alpha(50%) );
+      box-shadow: 0 0 10px color( $color-darkest alpha(25%) );
+      text-shadow: 0 0 5px color( $color-darkest alpha(25%) );
+    }
+  }
+
+  .gform_validation_container {
+
+  }
+
+  .gfield_error {
+    .gfield_label {
+      color: red;
+    }
+    input,select,textarea {
+      background: color( red alpha(12.5%) );
+      border-color: red;
+    }
+  }
+
+  .gform_footer {
+    text-align: center;
+  }
+
+  .validation_error {
+    padding: 1em;
+    background: rgba(255,0,0,0.125);
+    border: 3px solid #F00;
+    color: #F00;
+    font-size: 62.5%;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .validation_message {
+    margin: 0;
+    color: red;
+    font-size: 62.5%;
+  }
+
+  #gforms_confirmation_message {
+  }
+
+  .gfield_hidden_product {
+      display: none;
   }
 }
