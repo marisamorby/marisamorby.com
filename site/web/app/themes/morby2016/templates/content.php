@@ -22,8 +22,8 @@
           <p class="preview__excerpt">
             <?php the_excerpt(); ?>
           </p>
-          <a href="<?php the_permalink(); ?>" class="preview__button button">
-            Read This Post
-          </a>
         </section>
+        <a href="<?php the_permalink(); ?>" class="preview__button button">
+          Read This Post
+        </a>
       </article>
