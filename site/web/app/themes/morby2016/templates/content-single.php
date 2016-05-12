@@ -15,6 +15,7 @@
     <div class="content-page__content">
       <?php the_content(); ?>
     </div>
+    <?php get_template_part('templates/form', 'large'); ?>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
 <?php
