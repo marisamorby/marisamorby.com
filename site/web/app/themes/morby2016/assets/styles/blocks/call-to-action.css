@@ -3,7 +3,7 @@
   max-width: $max-width;
   margin: calc( $vheight-default * 1.5 ) -5vw 0;
   padding: 3em 2.5em;
-  background-color: $color-tan-dark;
+  background-color: $color-purple-dark;
   background-position: center;
   background-size: cover;
 
@@ -19,7 +19,7 @@
     bottom: calc( $vheight-default * 0.5 );
     right: calc( $vheight-default * 0.5 );
     display: block;
-    border: 8px solid $color-tan-light;
+    border: 8px solid $color-lightest;
     z-index: 2;
   }
 
@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: color( $color-tan-dark alpha(80%) );
+    background-color: color( $color-purple-dark alpha(80%) );
     z-index: 1;
   }
 

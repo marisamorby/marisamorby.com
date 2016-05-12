@@ -37,7 +37,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: color( $color-tan-dark alpha(80%) );
+      background: color( $color-darkest alpha(80%) );
       z-index: 1;
     }
   }
@@ -58,7 +58,7 @@
 
     @media $mq-tablet {
       padding-top: 15vh;
-      font-size: 300%;
+      font-size: 275%;
     }
   }
 
@@ -158,7 +158,7 @@
     }
   }
 
-  iframe,iframe[style] {
+  .twitter-tweet {
     margin-bottom: $vheight-default !important;
     margin-top: $vheight-default !important;
   }
@@ -207,4 +207,9 @@
 body.wp-editor {
   margin-left: 0;
   margin-right: 0;
+
+  blockquote {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
