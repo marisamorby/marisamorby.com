@@ -199,10 +199,6 @@
     display: none;
   }
 
-  .qtip-content,.qtip-default {
-    margin-top: 0;
-  }
-
   .content-page__testimonial {
     font-size: 100%;
     text-align: center;

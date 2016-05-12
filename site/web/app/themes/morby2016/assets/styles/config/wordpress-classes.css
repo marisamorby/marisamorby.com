@@ -417,3 +417,7 @@ img.aligncenter {
       display: none;
   }
 }
+
+.qtip-content,.qtip-default {
+  margin: 0;
+}
