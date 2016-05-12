@@ -6,12 +6,46 @@
 
   @media (min-width: 1024px) {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  &__search {
+    flex: 2 100%;
+    display: flex;
+    padding: 0 calc( $vheight-default / 2 );
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+
+    &-term {
+      flex: 1 45%;
+      min-width: 250px;
+      text-align: center;
+
+      @media (min-width: 540px) {
+        text-align: left;
+      }
+
+      p {
+        display: inline-block;
+        line-height: 1.5;
+        vertical-align: baseline;
+      }
+    }
+
+    .search-form {
+      flex: 1 45%;
+
+      @media (min-width: 540px) {
+        text-align: right;
+      }
+    }
   }
 
   &__preview {
