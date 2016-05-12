@@ -1,16 +1,14 @@
 .call-to-action {
   position: relative;
   max-width: $max-width;
-  margin-left: -5vw;
-  margin-right: -5vw;
+  margin: calc( $vheight-default * 1.5 ) -5vw 0;
   padding: 3em 2.5em;
   background-color: $color-tan-dark;
   background-position: center;
   background-size: cover;
 
   @media (min-width: 1024px) {
-    margin-left: auto;
-    margin-right: auto;
+    margin: calc( $vheight-default * 2 ) auto;
   }
 
   &::before {
