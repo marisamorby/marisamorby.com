@@ -9,6 +9,14 @@
   <?php get_search_form(); ?>
 <?php else: ?>
     <section class="post-previews">
+      <div class="post-previews__search">
+        <div class="post-previews__search-term">
+          <?php if (is_search()): ?>
+            <p>Showing search results for &ldquo;<?= get_search_query(); ?>&rdquo;.</p>
+          <?php endif; ?>
+        </div>
+        <?php get_search_form(); ?>
+      </div>
 <?php
 
     $post_counter = 0;
