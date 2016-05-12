@@ -1,40 +1,50 @@
 .testimonials {
   max-width: $max-width;
   margin: 0 auto;
+  text-align: center;
 
-  @media (min-width: 480px) {
+  @media $mq-mobile {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: space-between;
     margin-top: $vheight-default;
   }
 
   &__testimonial {
+    display: inline-block;
     margin-top: calc( $vheight-default * 0.75 );
+    padding: 2em 1.5em;
+    background-color: $color-lightest;
+    box-shadow: 0 0 10px color( $color-darkest alpha(5%) );
     text-align: center;
 
-    &+& {
-      margin-top: calc( $vheight-default * 2 );
-    }
-
-    @media (min-width: 480px) {
+    @media $mq-mobile {
       margin-top: 0;
+      padding: $vheight-default;
       flex: 1 45%;
       display: flex;
       flex-wrap: wrap;
-      max-width: 45%;
+      max-width: 48%;
 
       &+& {
         margin-top: 0;
       }
+    }
+
+    @media $mq-desktop {
+      padding: calc( $vheight-default * 1.5 ) calc( $vheight-default * 2 ) calc( $vheight-default * 2 );
     }
   }
 
   &__quote {
     flex: 1 100%;
     order: 2;
-    margin-top: calc( $vheight-default / 4 );
+    margin-top: 0;
     font-size: 90%;
+
+    @media $mq-mobile {
+      margin-top: calc( $vheight-default / 2 );
+    }
 
     >p {
       +p {
@@ -54,6 +64,10 @@
   &__attribution {
     flex: 1 100%;
     order: 1;
+
+    @media $mq-mobile {
+      margin-top: 0;
+    }
 
     &-photo,&-text {
       display: inline-block;

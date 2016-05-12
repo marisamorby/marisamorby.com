@@ -1,5 +1,4 @@
 .credibility {
-  padding: calc( $vheight-default * 1 ) 0;
 
   &__section {
     &+& {
@@ -17,7 +16,6 @@
   }
 
   @media $mq-tablet {
-    padding: calc( $vheight-default * 3 ) 0;
 
     &__section {
       &+& {
