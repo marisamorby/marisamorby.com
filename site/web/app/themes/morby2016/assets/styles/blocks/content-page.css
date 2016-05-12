@@ -113,7 +113,7 @@
     text-transform: uppercase;
   }
 
-  a {
+  a:not([class]) {
     color: $color-purple-dark;
   }
 
