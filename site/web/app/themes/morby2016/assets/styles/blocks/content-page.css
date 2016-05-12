@@ -202,6 +202,36 @@
   .qtip-content,.qtip-default {
     margin-top: 0;
   }
+
+  .content-page__testimonial {
+    display: inline-block;
+    font-size: 100%;
+    text-align: center;
+
+    &-image {
+      width: 75px;
+      height: auto;
+      margin: 0;
+      background: $color-purple-dark;
+      border: 1px solid $color-purple-dark;
+      border-radius: 50%;
+    }
+
+    &-name,&-business {
+      display: block;
+      margin: 0;
+      font-size: 90%;
+      line-height: 1.1;
+    }
+
+    &-name::before {
+      content: '– ';
+    }
+
+    &-business {
+      font-size: 75%;
+    }
+  }
 }
 
 body.wp-editor {
