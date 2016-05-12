@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25a3f700f3bdf097ef41ebdcb03f0188",
-    "content-hash": "0f73635d74dced7792760d7fd18360ab",
+    "hash": "374211d967f3467e93332479493dbfd3",
+    "content-hash": "af738f7a4bd086cf9d4e0de33fbb72a3",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -161,6 +161,22 @@
                 "zikula"
             ],
             "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "gravityforms/gravityforms",
+            "version": "1.9.19",
+            "dist": {
+                "type": "zip",
+                "url": "./uncooperative_plugins/gravityforms_1.9.19.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "classmap": [
+                    "gravityforms.php"
+                ]
+            }
         },
         {
             "name": "guzzlehttp/guzzle",

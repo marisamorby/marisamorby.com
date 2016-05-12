@@ -38,6 +38,18 @@
           "composer/installers": "^1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityforms/gravityforms",
+        "version": "1.9.19",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "url": "./uncooperative_plugins/gravityforms_1.9.19.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "require": {
@@ -59,7 +71,8 @@
     "wp-api/wp-api": "*@dev",
     "wpackagist-plugin/acf-to-wp-api": "*",
     "mailgun/mailgun-php": "dev-master#89869402e04d1ff783a99fd654ac10d8e4e4f136",
-    "php-http/guzzle6-adapter": "1.0"
+    "php-http/guzzle6-adapter": "1.0",
+    "gravityforms/gravityforms": "1.9.19"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
