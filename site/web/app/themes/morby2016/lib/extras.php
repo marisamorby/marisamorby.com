@@ -41,6 +41,19 @@ function enable_svg_uploads( $mimes ) {
 }
 add_filter('upload_mimes', __NAMESPACE__ . '\\enable_svg_uploads');
 
+
+/*
+ * Shortcode to create buttons.
+ */
+function mm_shortcode_button( $atts, $content ) {
+  if (!isset($atts['href'])) {
+    return '';
+  }
+
+  return sprintf('<a href="%s" class="button button--dark">%s</a>', $atts['href'], $content);
+}
+add_shortcode('button', __NAMESPACE__ . '\\mm_shortcode_button');
+
 /*
  * Add custom options pages
  */
