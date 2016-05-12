@@ -1,4 +1,6 @@
 .preview {
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 2em 1.5em;
   background-color: $color-tan-dark;
@@ -139,5 +141,16 @@
     font-size: 150%;
     line-height: 1;
     text-align: center;
+  }
+
+  &__body {
+    padding-bottom: calc( $vheight-default / 2 );
+  }
+
+  &__button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
   }
 }
