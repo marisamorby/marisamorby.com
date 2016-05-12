@@ -257,9 +257,12 @@ img.aligncenter {
     margin-top: 0;
 
     label {
+      display: block;
+      margin: 0;
       font-size: 10px;
       font-weight: $font-weight-normal;
       letter-spacing: 0.15em;
+      line-height: 1.5;
       text-transform: uppercase;
     }
 
