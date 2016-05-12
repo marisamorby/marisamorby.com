@@ -55,6 +55,14 @@ function mm_shortcode_button( $atts, $content ) {
 add_shortcode('button', __NAMESPACE__ . '\\mm_shortcode_button');
 
 /*
+ * Responsive embed wrapper for WP's OEmbed handler
+ */
+function mm_responsive_embed($html, $url, $attr) {
+    return $html!='' ? '<div class="embed-container">'.$html.'</div>' : '';
+}
+add_filter('embed_oembed_html', __NAMESPACE__ . '\\mm_responsive_embed', 10, 3);
+
+/*
  * Add custom options pages
  */
 function add_acf_options_pages() {
