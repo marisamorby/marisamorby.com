@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "mm-assessment": "jlengstorf/mm-assessment#0.2.7"
+    "mm-assessment": "jlengstorf/mm-assessment#0.2.8"
   }
 }
