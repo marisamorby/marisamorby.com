@@ -6,11 +6,11 @@
   line-height: 1;
 
   @media $mq-tablet {
-    display: flex;
-    justify-content: space-between;
   }
 
   @media $mq-desktop {
+    display: flex;
+    justify-content: space-between;
     padding-left: 0;
     padding-right: 0;
   }
@@ -21,7 +21,7 @@
     list-style: none;
     text-align: center;
 
-    @media $mq-tablet {
+    @media $mq-desktop {
       display: inline-block;
       padding: 0;
       text-align: left;
