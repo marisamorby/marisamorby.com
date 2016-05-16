@@ -150,6 +150,7 @@
     @media $mq-tablet {
       display: flex;
       align-items: flex-end;
+      flex-wrap: wrap;
       justify-content: space-between;
       padding-left: $vheight-default;
       padding-right: $vheight-default;
@@ -212,13 +213,26 @@
   &__button {
     display: block;
     width: 100%;
-    margin-top: 0;
     font-size: 18px;
 
     @media $mq-tablet {
       flex: 1 30%;
       max-width: 30%;
+      margin-top: 0;
       font-size: 15px;
+    }
+  }
+
+  &__notices-text {
+    font-size: 10px;
+    line-height: 1.25;
+    text-align: center;
+
+    @media $mq-tablet {
+      flex: 2 100%;
+      width: 100%;
+      padding: 0 2em;
+      font-size: 12px;
     }
   }
 }
