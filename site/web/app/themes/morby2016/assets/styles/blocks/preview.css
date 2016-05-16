@@ -125,9 +125,6 @@
 
     &:active,&:hover,&:focus {
       outline: 0;
-    }
-
-    &:focus {
       background: color( $color-lightest alpha(25%) );
       border-color: $color-lightest;
     }
