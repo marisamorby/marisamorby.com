@@ -90,6 +90,7 @@ function mm_add_custom_post_types() {
       'public' => true,
       'label'  => 'Marisa Facts',
       'supports' => false,
+      'show_in_rest' => true
     );
     register_post_type( 'facts', $args );
 }
