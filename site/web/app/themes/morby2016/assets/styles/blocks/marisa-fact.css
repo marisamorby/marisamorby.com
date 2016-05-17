@@ -1,30 +1,57 @@
 .marisa-fact {
-  padding: 2em 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5em;
+
+  >*,&::after {
+    opacity: 1;
+    transition: 200ms opacity linear;
+  }
+
+  &--loading {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      background-color: $color-darkest;
+      background-image: url(../images/marisa-morby_logo.svg);
+      background-position: center;
+      background-size: 70%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      animation-name: bat-loader;
+      animation-duration: 1000ms;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: cubic-bezier(0.220, -0.600, 0.720, 1.650);
+      opacity: 1;
+    }
+
+    >* {
+      opacity: 0;
+    }
+  }
 
   &__heading {
-    flex: 1 100%;
-    order: 1;
+    position: relative;
+    padding-bottom: calc( $vheight-default * 0.5 );
     color: $color-tan-dark;
     font-family: $font-family-script;
     font-size: 150%;
     font-weight: normal;
     line-height: 1;
     text-align: center;
-  }
 
-  &__fact {
-    position: relative;
-    padding: calc( $vheight-default * 0.75 ) 0;
-    font-size: 9vw;
-    font-weight: $font-weight-black;
-    letter-spacing: 0.1em;
-    line-height: 1;
-    text-align: center;
-    text-transform: uppercase;
-
-    &::before,&::after {
+    &::after {
       content: '';
       position: absolute;
+      bottom: 0;
       left: 50%;
       display: block;
       width: 75%;
@@ -32,14 +59,17 @@
       background-color: $color-tan-dark;
       transform: translateX(-50%);
     }
+  }
 
-    &::before {
-      top: 0;
-    }
-
-    &::after {
-      bottom: 0;
-    }
+  &__fact {
+    margin: 0;
+    padding: calc( $vheight-default * 0.75 ) 0;
+    font-size: 9vw;
+    font-weight: $font-weight-black;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
 
     @media $mq-mobile {
       font-size: 7.5vw;
@@ -51,7 +81,10 @@
   }
 
   &__more-link {
+    position: relative;
     display: block;
+    margin: 0;
+    padding-top: calc( $vheight-default * 0.5 );
     color: $color-tan-dark;
     font-size: 80%;
     letter-spacing: 0.1em;
@@ -63,5 +96,49 @@
       outline: 0;
       text-decoration: underline;
     }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      display: block;
+      width: 75%;
+      height: 1px;
+      background-color: $color-tan-dark;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@keyframes bat-loader {
+  0% {
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  /*5% {
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }*/
+
+  50% {
+    width: 80px;
+    height: 80px;
+    animation-timing-function: linear;
+  }
+
+  /*95% {
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%, -50%) rotate(390deg);
+  }*/
+
+  100% {
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
