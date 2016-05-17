@@ -77,6 +77,10 @@
 
 	var _floatingNav2 = _interopRequireDefault(_floatingNav);
 
+	var _marisaFact = __webpack_require__(5);
+
+	var _marisaFact2 = _interopRequireDefault(_marisaFact);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
@@ -284,6 +288,7 @@
 	exports.throttle = throttle;
 	exports.arrayIntersect = arrayIntersect;
 	exports.toArray = toArray;
+	exports.shuffle = shuffle;
 	function debounce(func) {
 	  var _arguments = arguments,
 	      _this = this;
@@ -410,6 +415,107 @@
 
 	  return arr;
 	}
+
+	function shuffle(array) {
+	  var counter = array.length;
+
+	  // While there are elements in the array
+	  while (counter > 0) {
+
+	    // Pick a random index
+	    var index = Math.floor(Math.random() * counter);
+
+	    // Decrease counter by 1
+	    counter--;
+
+	    // And swap the last element with it
+	    var temp = array[counter];
+	    array[counter] = array[index];
+	    array[index] = temp;
+	  }
+
+	  return array;
+	}
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _utils = __webpack_require__(4);
+
+	var factContainer = document.getElementsByClassName('marisa-fact')[0];
+
+	var getDataFromApi = function getDataFromApi(endpoint) {
+	  return new Promise(function (resolve, reject) {
+	    var client = new XMLHttpRequest();
+
+	    client.open('GET', '/wp-json/wp/v2' + endpoint);
+	    client.send();
+
+	    client.onload = function handleAjaxLoad() {
+	      if (this.status >= 200 && this.status < 300) {
+	        resolve(JSON.parse(this.response));
+	      } else {
+	        reject(this.statusText);
+	      }
+	    };
+
+	    client.onerror = function handleAjaxError() {
+	      reject(this.statusText);
+	    };
+	  });
+	};
+
+	var showNextFact = function showNextFact(container, facts) {
+
+	  var currentId = parseInt(container.dataset.postId);
+	  var otherFacts = facts.filter(function (fact) {
+	    return currentId !== parseInt(fact.id);
+	  });
+	  var newFact = (0, _utils.shuffle)(otherFacts).pop();
+
+	  container.dataset.postId = newFact.id;
+	  container.querySelector('.marisa-fact__heading').textContent = 'Marisa Fact #' + newFact.fact_number;
+	  container.querySelector('.marisa-fact__fact').textContent = newFact.fact;
+
+	  container.classList.remove('marisa-fact--loading');
+	};
+
+	var marisaFact = function marisaFact() {};
+	var marisaFacts = [];
+
+	if (factContainer) {
+	  getDataFromApi('/facts').then(function (facts) {
+	    marisaFacts = facts.map(function (fact) {
+	      return {
+	        id: fact.id,
+	        fact_number: fact.acf.fact_number,
+	        fact: fact.acf.fact
+	      };
+	    });
+	  });
+
+	  factContainer.addEventListener('click', function (event) {
+	    if (event.target.tagName.toLowerCase() === 'a') {
+	      event.preventDefault();
+
+	      // Enable the loading animation
+	      factContainer.classList.add('marisa-fact--loading');
+
+	      setTimeout(function () {
+	        showNextFact(factContainer, marisaFacts);
+	      }, 1000);
+	    }
+	  });
+	}
+
+	exports.default = marisaFact;
 
 /***/ }
 /******/ ]);
