@@ -46,7 +46,9 @@
 <footer class="footer">
   <ul class="footer__links footer__links--left">
     <li class="footer__item">
-      All content © <a href="/" class="footer__link">Marisa Morby</a> |
+      All content © <a href="/" class="footer__link">Marisa Morby</a>
+    </li>
+    <li class="footer__item">
       Site built with &hearts; and curl-defining cream by
       <a href="https://lengstorf.com/" class="footer__link">Jason Lengstorf</a>
     </li>
