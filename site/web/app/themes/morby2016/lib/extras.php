@@ -55,6 +55,14 @@ function mm_shortcode_button( $atts, $content ) {
 add_shortcode('button', __NAMESPACE__ . '\\mm_shortcode_button');
 
 /*
+ * Shortcode to enable a collapsible transcript box.
+ */
+function mm_shortcode_transcript( $atts, $content ) {
+  return sprintf('<div class="transcript transcript--collapsible">%s</div>', $content);
+}
+add_shortcode('transcript', __NAMESPACE__ . '\\mm_shortcode_transcript');
+
+/*
  * Responsive embed wrapper for WP's OEmbed handler
  */
 function mm_responsive_embed($html, $url, $attr) {
