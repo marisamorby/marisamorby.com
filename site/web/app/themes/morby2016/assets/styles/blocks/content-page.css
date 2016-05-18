@@ -105,11 +105,14 @@
     margin-right: auto;
   }
 
-  h2,h3 {
+  h2,h3,h4 {
     color: $color-darkest;
     margin-top: $vheight-default;
-    letter-spacing: 0.1em;
     line-height: 1.125;
+  }
+
+  h2,h3 {
+    letter-spacing: 0.1em;
     text-transform: uppercase;
   }
 
@@ -206,7 +209,14 @@
   }
 
   .content-page__testimonial {
-    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: calc( $vheight-default * 1.5 ) 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $color-purple-light;
+    border-top: 1px solid $color-purple-light;
+    font-size: 90%;
     text-align: center;
 
     &-image {
@@ -231,6 +241,21 @@
 
     &-business {
       font-size: 75%;
+    }
+
+    @media (min-width: 480px) {
+      align-items: center;
+      text-align: right;
+      flex-direction: row;
+      padding: $vheight-default;
+
+      &-attribution {
+        flex: 1 30%;
+        max-width: 30%;
+        margin-left: calc( $vheight-default * 1.5);
+        margin-top: 0;
+        text-align: center;
+      }
     }
   }
 }
