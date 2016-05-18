@@ -81,7 +81,18 @@
 
 	var _marisaFact2 = _interopRequireDefault(_marisaFact);
 
+	var _transcript = __webpack_require__(6);
+
+	var _transcript2 = _interopRequireDefault(_transcript);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	/*
+	 * Enable transcript toggling.
+	 */
+	setTimeout(function () {
+	  (0, _transcript2.default)('transcript--collapsible', true);
+	}, 1000);
 
 /***/ },
 /* 3 */
@@ -516,6 +527,71 @@
 	}
 
 	exports.default = marisaFact;
+
+/***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = enableTranscriptToggle;
+	/*
+	 * # transcript.js
+	 * Allows the user to toggle video transcripts open/closed.
+	 */
+
+	var __config = {
+	  classes: {
+	    toggle: 'js--toggle-transcript',
+	    collapsed: 'js--collapsed'
+	  },
+	  height: {
+	    open: null,
+	    collapsed: '150px'
+	  }
+	};
+
+	function enableTranscriptToggle(elementClass) {
+	  var startCollapsed = arguments.length <= 1 || arguments[1] === undefined ? true : arguments[1];
+
+	  var transcript = document.getElementsByClassName(elementClass)[0];
+
+	  if (!transcript) {
+	    return;
+	  }
+
+	  var transcriptHeight = transcript.offsetHeight;
+	  __config.height.open = transcriptHeight + 'px';
+	  startCollapsed && toggleCollapse(transcript);
+	  addToggleLink(transcript);
+	  transcript.addEventListener('click', handleTranscriptToggle);
+	}
+
+	var handleTranscriptToggle = function handleTranscriptToggle(event) {
+	  var target = event && event.target;
+	  if (target && target.classList.contains(__config.classes.toggle)) {
+	    var transcript = event.currentTarget;
+	    toggleCollapse(transcript);
+	  }
+	};
+
+	function addToggleLink(transcript) {
+	  var toggleElement = document.createElement('a');
+	  toggleElement.classList.add(__config.classes.toggle);
+	  toggleElement.textContent = 'Transcript';
+	  transcript.appendChild(toggleElement);
+	}
+
+	function toggleCollapse(transcript) {
+	  var isCollapsed = transcript.classList.contains(__config.classes.collapsed);
+	  var classFunc = isCollapsed ? 'remove' : 'add';
+	  transcript.style.height = isCollapsed ? __config.height.open : __config.height.collapsed;
+
+	  transcript.classList[classFunc](__config.classes.collapsed);
+	}
 
 /***/ }
 /******/ ]);
