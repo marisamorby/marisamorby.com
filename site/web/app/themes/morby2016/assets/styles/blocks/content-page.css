@@ -158,6 +158,12 @@
     }
   }
 
+  .work-infographic {
+    display: block;
+    margin: calc( $vheight-default * 1.5 ) auto;
+    max-width: 450px;
+  }
+
   .twitter-tweet {
     margin-bottom: $vheight-default !important;
     margin-top: $vheight-default !important;
