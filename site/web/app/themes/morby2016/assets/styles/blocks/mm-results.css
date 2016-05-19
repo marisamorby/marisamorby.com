@@ -17,9 +17,9 @@
 
   &__heading:first-child {
     position: relative;
-    padding: calc( $vheight-default * 2 ) $vheight-default 0;
+    padding: $vheight-default $vheight-default 0;
     color: $color-lightest;
-    font-size: 135%;
+    font-size: 125%;
     font-weight: $font-weight-black;
     letter-spacing: 0.2em;
     text-align: center;
@@ -27,8 +27,10 @@
     z-index: 2;
 
     @media (min-width: 750px) {
+      padding-top: calc( $vheight-default * 2 );
       padding-left: calc( $vheight-default / 2 );
       padding-right: calc( $vheight-default / 2 );
+      font-size: 135%;
     }
   }
 
@@ -41,6 +43,7 @@
     margin-top: calc( $vheight-default / 4 );
     padding: 0 $vheight-default;
     color: $color-lightest;
+    font-size: 110%;
     text-align: center;
     text-shadow: 0 0 10px color( $color-darkest alpha(40%) );
     z-index: 2;
