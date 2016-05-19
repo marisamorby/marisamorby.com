@@ -15,15 +15,18 @@
 
   &__company {
     flex: 1 50%;
+    max-width: 50%;
     margin-top: calc( $vheight-default / 2 );
     padding: 0 1rem;
 
     @media (min-width: 480px) {
       flex: 1 33%;
+      max-width: 33%;
     }
 
     @media (min-width: 700px) {
       flex: 1 16%;
+      max-width: 16%;
     }
   }
 
