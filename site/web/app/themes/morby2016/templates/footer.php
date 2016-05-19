@@ -50,7 +50,7 @@
     </li>
     <li class="footer__item">
       Site built with &hearts; and curl-defining cream by
-      <a href="https://lengstorf.com/" class="footer__link">Jason Lengstorf</a>
+      <a href="https://lengstorf.com/?utm_source=marisamorby.com&amp;utm_medium=site-credit&amp;utm_campaign=web-design" class="footer__link">Jason Lengstorf</a>
     </li>
   </ul>
   <ul class="footer__links footer__links--right">
@@ -58,16 +58,16 @@
       <a href="/" class="footer__link">Home</a>
     </li>
     <li class="footer__item">
-      <a href="/" class="footer__link">Blog</a>
+      <a href="/blog/" class="footer__link">Blog</a>
     </li>
     <li class="footer__item">
-      <a href="/" class="footer__link">Work</a>
+      <a href="/work/" class="footer__link">Work</a>
     </li>
     <li class="footer__item">
-      <a href="/" class="footer__link">About</a>
+      <a href="/about/" class="footer__link">About</a>
     </li>
     <li class="footer__item">
-      <a href="/" class="footer__link">Contact</a>
+      <a href="/contact/" class="footer__link">Contact</a>
     </li>
   </ul>
 </footer>
