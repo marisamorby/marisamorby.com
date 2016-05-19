@@ -58,7 +58,7 @@ add_shortcode('button', __NAMESPACE__ . '\\mm_shortcode_button');
  * Shortcode to enable a collapsible transcript box.
  */
 function mm_shortcode_transcript( $atts, $content ) {
-  return sprintf('<div class="transcript transcript--collapsible">%s</div>', $content);
+  return sprintf('<div class="transcript transcript--collapsible">%s</div>', do_shortcode($content));
 }
 add_shortcode('transcript', __NAMESPACE__ . '\\mm_shortcode_transcript');
 
