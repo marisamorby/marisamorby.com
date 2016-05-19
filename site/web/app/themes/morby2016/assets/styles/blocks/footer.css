@@ -44,6 +44,14 @@
       margin-left: 0;
     }
 
+    &+& {
+      margin-top: calc( $vheight-default / 4 );
+
+      @media (min-width: 682px) {
+        margin-top: 0;
+      }
+    }
+
     &:last-child {
       margin-right: 0;
     }

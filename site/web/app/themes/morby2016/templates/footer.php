@@ -49,7 +49,7 @@
       All content © <a href="/" class="footer__link">Marisa Morby</a>
     </li>
     <li class="footer__item">
-      Site built with &hearts; and curl-defining cream by
+      Built with &hearts; and a shitload of curl cream by
       <a href="https://lengstorf.com/?utm_source=marisamorby.com&amp;utm_medium=site-credit&amp;utm_campaign=web-design" class="footer__link">Jason Lengstorf</a>
     </li>
   </ul>
