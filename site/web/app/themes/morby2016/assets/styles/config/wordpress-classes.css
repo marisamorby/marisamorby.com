@@ -353,10 +353,10 @@ img.aligncenter {
   input.gform_button,.button {
     margin: 0;
     padding: 0.25em 0.5em;
-    background: transparent;
+    background-color: $color-purple-dark;
     border: 3px solid $color-darkest;
     border-radius: calc( $vheight-default / 4 );
-    color: $color-darkest;
+    color: $color-lightest;
     cursor: pointer;
     font-family: $font-family-default;
     font-size: 20px;
@@ -370,9 +370,9 @@ img.aligncenter {
 
     &:hover,&:active,&:focus {
       outline: none;
-      background: color( $color-purple-light alpha(50%) );
-      box-shadow: 0 0 10px color( $color-darkest alpha(25%) );
-      text-shadow: 0 0 5px color( $color-darkest alpha(25%) );
+      background-color: color( $color-purple-dark alpha(75%) );
+      box-shadow: inset 0 0 4px color( $color-darkest alpha(60%) );
+      text-shadow: 0 0 2px color( $color-darkest alpha(60%) );
     }
   }
 

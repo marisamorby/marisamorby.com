@@ -136,31 +136,6 @@
     }
   }
 
-  /*blockquote {
-    margin-bottom: $vheight-default;
-    margin-top: $vheight-default;
-    padding: 0.75em 1em;
-    background-color: color( $color-purple-light alpha(50%) );
-    border-left: 4px solid $color-purple-dark;
-    font-size: 100%;
-    font-style: italic;
-
-    @media (min-width: 800px) {
-      max-width: 780px;
-      width: 780px;
-      margin-left: -65px;
-      margin-right: -65px;
-      padding-left: 64px;
-      padding-right: 64px;
-    }
-
-    p:last-child>strong:only-child {
-      display: block;
-      font-size: 85%;
-      text-align: right;
-    }
-  }*/
-
   blockquote {
     margin-bottom: $vheight-default;
     margin-top: $vheight-default;
