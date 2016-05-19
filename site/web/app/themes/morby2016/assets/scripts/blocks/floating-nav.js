@@ -46,7 +46,7 @@ class FloatingNav {
   }
 
   setBarVisibility() {
-    const marginClass = '--hack_floating-nav__sibling--add-top-margin';
+    const marginClass = 'js--hack_floating-nav__sibling--add-top-margin';
     if (window.scrollY >= __triggerY) {
       __floatingBar.classList.add(`${__config.className}${__config.classModifier}`);
       __floatingBar.nextElementSibling.classList.add(marginClass);
