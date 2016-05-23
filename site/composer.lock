@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "374211d967f3467e93332479493dbfd3",
-    "content-hash": "af738f7a4bd086cf9d4e0de33fbb72a3",
+    "hash": "f6e51a4a61b16761a339932d9d9f5412",
+    "content-hash": "c8c19d73814866d9e3a802aaf34ecb5a",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -242,16 +242,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8"
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/bb9024c526b22f3fe6ae55a561fd70653d470aa8",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-03-08 01:15:46"
+            "time": "2016-05-18 16:56:05"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -522,16 +522,16 @@
         },
         {
             "name": "philippbaschke/acf-pro-installer",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PhilippBaschke/acf-pro-installer.git",
-                "reference": "fdeb8d1ca394b3f861997e61af89277cd55445b9"
+                "reference": "045980ffb3f60f02fba31623edfdc363945bd482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PhilippBaschke/acf-pro-installer/zipball/fdeb8d1ca394b3f861997e61af89277cd55445b9",
-                "reference": "fdeb8d1ca394b3f861997e61af89277cd55445b9",
+                "url": "https://api.github.com/repos/PhilippBaschke/acf-pro-installer/zipball/045980ffb3f60f02fba31623edfdc363945bd482",
+                "reference": "045980ffb3f60f02fba31623edfdc363945bd482",
                 "shasum": ""
             },
             "require": {
@@ -574,7 +574,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2016-04-25 12:05:41"
+            "time": "2016-05-19 07:34:23"
         },
         {
             "name": "php-http/discovery",
@@ -1169,15 +1169,15 @@
         },
         {
             "name": "wpackagist-plugin/highlight-and-share",
-            "version": "1.2.7",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/highlight-and-share/",
-                "reference": "tags/1.2.7"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/highlight-and-share.1.2.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/highlight-and-share.2.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1186,6 +1186,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/highlight-and-share/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "0.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/0.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "xrstf/composer-php52",
@@ -1258,16 +1278,16 @@
         },
         {
             "name": "yoast/i18n-module",
-            "version": "1.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/i18n-module.git",
-                "reference": "4648918ccf8bc6da12eadf57e4bece4829af29b3"
+                "reference": "7dddeee1481af3437fe451dc235ceb4a301d7220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/4648918ccf8bc6da12eadf57e4bece4829af29b3",
-                "reference": "4648918ccf8bc6da12eadf57e4bece4829af29b3",
+                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/7dddeee1481af3437fe451dc235ceb4a301d7220",
+                "reference": "7dddeee1481af3437fe451dc235ceb4a301d7220",
                 "shasum": ""
             },
             "type": "library",
@@ -1292,7 +1312,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-04-22 12:48:39"
+            "time": "2016-04-29 11:09:50"
         },
         {
             "name": "yoast/license-manager",
