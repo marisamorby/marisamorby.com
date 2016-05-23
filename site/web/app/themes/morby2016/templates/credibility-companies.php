@@ -9,12 +9,15 @@
       the_row();
 
       $image = get_sub_field('logo');
+      $imageSrc = $image['sizes']['as-seen-in'];
+      $imageSrc2x = $image['sizes']['as-seen-in@2x'];
       $name = get_sub_field('name');
       $relationship = get_sub_field('relationship') === 'featured' ? 'Featured on' : 'Worked with';
 
 ?>
           <li class="worked-with__company">
-            <img src="<?= $image['url'] ?>"
+            <img src="<?= $imageSrc ?>"
+                 srcset="<?= $imageSrc ?> 1x, <?= $imageSrc2x ?> 2x"
                  alt="<?= $relationship ?> <?= $name ?>"
                  class="worked-with__company-logo">
           </li>

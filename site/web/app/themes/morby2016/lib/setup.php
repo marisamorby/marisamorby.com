@@ -37,6 +37,10 @@ function setup() {
   add_theme_support('post-thumbnails');
   add_image_size('post_retina', 2048, 1536, true);
   add_image_size('post_preview', 800, 800, true);
+  add_image_size('testimonial', 80, 80, true);
+  add_image_size('testimonial@2x', 160, 160, true);
+  add_image_size('as-seen-in', 176, 75);
+  add_image_size('as-seen-in@2x', 352, 150);
 
   // Enable post formats
   // http://codex.wordpress.org/Post_Formats

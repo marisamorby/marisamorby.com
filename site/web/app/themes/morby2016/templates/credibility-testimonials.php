@@ -10,6 +10,8 @@
       $name = get_sub_field('name');
       $title = get_sub_field('title');
       $image = get_sub_field('photo');
+      $imageSrc = $image['sizes']['testimonial'];
+      $imageSrc2x = $image['sizes']['testimonial@2x'];
 
 ?>
           <blockquote class="testimonials__testimonial">
@@ -18,7 +20,8 @@
 
             </div>
             <figure class="testimonials__attribution">
-              <img src="<?= $image['url'] ?>"
+              <img src="<?= $imageSrc ?>"
+                   srcset="<?= $imageSrc ?> 1x, <?= $imageSrc2x ?> 2x"
                    alt="<?= $name ?>, <?= $title ?>"
                    class="testimonials__attribution-photo">
               <figcaption class="testimonials__attribution-text">
