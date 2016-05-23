@@ -22,7 +22,7 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 var webpack       = require('webpack');
-var webpack       = require('webpack-stream');
+var webpackStream = require('webpack-stream');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -134,7 +134,7 @@ var jsTasks = function(filename) {
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.init());
     })
-    .pipe(webpack, {
+    .pipe(webpackStream, {
       module: {
         loaders: [
           {
@@ -144,6 +144,11 @@ var jsTasks = function(filename) {
           },
         ],
       },
+      plugins: [
+        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.optimize.DedupePlugin(),
+        new webpack.optimize.OccurrenceOrderPlugin(),
+      ],
     })
     .pipe(concat, filename)
     .pipe(function() {
