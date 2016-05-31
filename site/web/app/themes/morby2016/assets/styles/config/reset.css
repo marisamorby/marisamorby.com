@@ -14,3 +14,8 @@ body {
   margin-top: 0;
   background-color: $color-tan-light;
 }
+
+/* iOS adds weird form styles that we don't want here. */
+input:not([type=checkbox]),input:not([type=radio]),textarea,select {
+  -webkit-appearance: none;
+}
