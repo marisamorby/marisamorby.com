@@ -65,7 +65,6 @@
     "wpackagist-plugin/easy-footnotes": "*",
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/highlight-and-share": "*",
-    "wpackagist-plugin/wp-mail-smtp": "*",
     "afragen/github-updater": "*",
     "wp-sync-db/wp-sync-db": "dev-master@dev",
     "wp-sync-db/wp-sync-db-media-files": "*",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f6e51a4a61b16761a339932d9d9f5412",
-    "content-hash": "c8c19d73814866d9e3a802aaf34ecb5a",
+    "hash": "c5a6e1f6540a8ad0d7956bc62b386a6c",
+    "content-hash": "ff6b5e305402c5152b65117d59b82053",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1006,16 +1006,16 @@
         },
         {
             "name": "wp-api/wp-api",
-            "version": "2.0-beta13",
+            "version": "2.0-beta13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WP-API/WP-API.git",
-                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228"
+                "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/d0a392c3397960f81cf0bff0db239814c12aa228",
-                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228",
+                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/739e7f5cb842dceb5cd06bed4ffd612aecf63387",
+                "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387",
                 "shasum": ""
             },
             "require": {
@@ -1041,7 +1041,7 @@
             ],
             "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
             "homepage": "http://wp-api.org/",
-            "time": "2016-03-30 00:04:19"
+            "time": "2016-05-25 12:24:10"
         },
         {
             "name": "wp-sync-db/wp-sync-db",
@@ -1186,26 +1186,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/highlight-and-share/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "0.9.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/0.9.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "xrstf/composer-php52",
@@ -1416,16 +1396,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b"
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1bcdf03b068a530ac1962ce671dead356eeba43b",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
                 "shasum": ""
             },
             "require": {
@@ -1490,7 +1470,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-04-03 22:58:34"
+            "time": "2016-05-30 22:24:32"
         }
     ],
     "aliases": [],
