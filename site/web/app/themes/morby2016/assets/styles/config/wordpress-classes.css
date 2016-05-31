@@ -168,6 +168,7 @@ img.aligncenter {
   background: transparent;
   border: 0;
   border-bottom: 2px solid $color-darkest;
+  border-radius: 0;
   color: $color-darkest;
   font-family: $font-family-default;
   font-weight: $font-weight-normal;

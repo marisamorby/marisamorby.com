@@ -40,9 +40,9 @@
     }
 
     .search-form {
-      flex: 1 45%;
 
       @media (min-width: 540px) {
+        flex: 1 45%;
         text-align: right;
       }
     }
