@@ -10,7 +10,6 @@
   color: $color-lightest;
   text-align: center;
   text-shadow: 0 0 4px color( $color-darkest alpha(25%) );
-  transition: 3s background-size linear;
 
   &:hover {
     background-size: 300%;
