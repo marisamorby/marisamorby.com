@@ -132,3 +132,13 @@ function mm_filter_facts_columns( $columns ) {
   );
 }
 add_action('manage_facts_posts_columns', __NAMESPACE__ . '\\mm_filter_facts_columns');
+
+function mm_limit_search_results_to_posts($query) {
+  if ($query->is_search && !is_admin()) {
+    $query->set('post_type', array('post'));
+  }
+
+  return $query;
+}
+
+add_filter('pre_get_posts', __NAMESPACE__ . '\\mm_limit_search_results_to_posts');
