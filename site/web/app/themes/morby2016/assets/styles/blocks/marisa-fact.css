@@ -17,8 +17,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       background-color: $color-darkest;
       background-image: url(../images/marisa-morby_logo.svg);
       background-position: center;
@@ -26,10 +26,12 @@
       background-repeat: no-repeat;
       border-radius: 50%;
       animation-name: bat-loader;
-      animation-duration: 1000ms;
+      animation-direction: alternate;
+      animation-duration: 500ms;
       animation-fill-mode: forwards;
-      animation-iteration-count: 1;
-      animation-timing-function: cubic-bezier(0.220, -0.600, 0.720, 1.650);
+      animation-iteration-count: infinite;
+      /*animation-timing-function: cubic-bezier(0.220, -0.600, 0.720, 1.650);*/
+      animation-timing-function: ease-in-out;
       opacity: 1;
     }
 
@@ -113,32 +115,24 @@
 
 @keyframes bat-loader {
   0% {
-    width: 20px;
-    height: 20px;
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.01);
   }
 
-  /*5% {
-    width: 70px;
-    height: 70px;
-    transform: translate(-50%, -50%) rotate(-30deg);
-  }*/
+  5% {
+    transform: translate(-50%, -50%) rotate(-45deg) scale(0.1);
+  }
 
-  50% {
-    width: 80px;
-    height: 80px;
-    animation-timing-function: linear;
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg) scale(1);
   }
 
   /*95% {
     width: 70px;
     height: 70px;
     transform: translate(-50%, -50%) rotate(390deg);
-  }*/
+  }*//*
 
   100% {
-    width: 20px;
-    height: 20px;
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.1);
+  }*/
 }
