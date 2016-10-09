@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [staging]
-107.170.124.15
+your_server_hostname
 
 [web]
-107.170.124.15
+your_server_hostname

@@ -5,9 +5,11 @@
 wordpress_sites:
   marisamorby.com:
     site_hosts:
-      - marisamorby.dev
+      - canonical: marisamorby.dev
+        redirects:
+          - www.marisamorby.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: jason@lengstorf.com
+    admin_email: admin@marisamorby.dev
     multisite:
       enabled: false
     ssl:
