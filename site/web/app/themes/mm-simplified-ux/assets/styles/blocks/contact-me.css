@@ -1,0 +1,10 @@
+.contact-me {
+  margin-top: 3rem;
+  text-align: center;
+
+  &__heading {
+    font-size: 1.75rem;
+    line-height: 1;
+    text-align: center;
+  }
+}
