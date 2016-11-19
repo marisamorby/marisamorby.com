@@ -1,3 +1,4 @@
+.DS*
 .vault_pass
 .vagrant
 vendor/roles
