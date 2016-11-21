@@ -11,7 +11,7 @@ while (have_posts()):
             Hi, I’m <strong>Marisa Morby</strong>.
         </h1>
         <h2 class="intro__subheading">
-            I’m a UX Researcher &amp; Designer.
+            I do UX/UI &amp; Product Design.
         </h2>
         <img class="intro__photo"
              src="<?= $asset_dir; ?>/images/marisa-morby.jpg"
@@ -22,12 +22,12 @@ while (have_posts()):
             <p class="intro__text">
                 I believe in staying curious, learning constantly, and never
                 giving up. I use my trademark combination of tenacity,
-                people-centered problem solving, and devastating cuteness to
+                people-centered problem solving, and devastating optimism to
                 solve UX/UI, marketing, and front-end development challenges.
             </p>
             <p class="intro__text">
-                <strong>I’m currently available for hire for UX Research, UX Design,
-                and Product Development.</strong> Want to see if we’d be a good fit?
+                <strong>I’m currently available for hire for UX/UI Design,
+                and Product Design.</strong> Want to see if we’d be a good fit?
                 <a class="intro__link" href="/contact/">Shoot me an email!</a>
             </p>
         </div>
@@ -103,8 +103,8 @@ while (have_posts()):
                 </a>
                 <h3 class="work-sample__heading">Fix Your Own Back</h3>
                 <p class="work-sample__lede">
-                    I helped Dr. Snell speak to people like, y’know, a people.
-                    Now his customers know how he can help.
+                    I made sure this website spoke to people like, y’know, a people.
+                    Now customers know how Dr. Snell can help.
                 </p>
                 <a class="work-sample__link"
                    href="/case-studies/fix-your-own-back/">Read the Case Study &rsaquo;</a>
