@@ -11,7 +11,7 @@ while (have_posts()):
             Hi, I’m <strong>Marisa Morby</strong>.
         </h1>
         <h2 class="intro__subheading">
-            I do UX/UI &amp; Product Design.
+            I do Product Management &amp; Optimization.
         </h2>
         <img class="intro__photo"
              src="<?= $asset_dir; ?>/images/marisa-morby.jpg"
@@ -23,11 +23,11 @@ while (have_posts()):
                 I believe in staying curious, learning constantly, and never
                 giving up. I use my trademark combination of tenacity,
                 people-centered problem solving, and devastating optimism to
-                solve UX/UI, marketing, and front-end development challenges.
+                identify your business problems and create data driven designs 
+                that lift the bottom line.
             </p>
             <p class="intro__text">
-                <strong>I’m currently available for hire for UX/UI Design,
-                and Product Design.</strong> Want to see if we’d be a good fit?
+                Have questions?
                 <a class="intro__link" href="/contact/">Shoot me an email!</a>
             </p>
         </div>
