@@ -1,0 +1,37 @@
+{
+  "name": "marisamorby-site",
+  "version": "1.0.0",
+  "description": "Marisa Morby’s website.",
+  "repository": "https://github.com/marisamorby/marisamorby.com.git",
+  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "lint": "eslint src gatsby-* --fix"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.172",
+    "gatsby-image": "^1.0.34",
+    "gatsby-link": "^1.6.35",
+    "gatsby-plugin-react-helmet": "^2.0.4",
+    "gatsby-plugin-sharp": "^1.6.27",
+    "gatsby-remark-copy-linked-files": "^1.5.25",
+    "gatsby-remark-images": "^1.5.41",
+    "gatsby-remark-responsive-iframe": "^1.4.16",
+    "gatsby-remark-smartypants": "^1.4.10",
+    "gatsby-source-filesystem": "^1.5.15",
+    "gatsby-transformer-remark": "^1.7.30",
+    "gatsby-transformer-sharp": "^1.6.17",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "jl-toolbox": "^0.9.2"
+  }
+}
