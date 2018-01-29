@@ -1,17 +1,16 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
-const Page = ({ data: { page } }) => (
-  <Layout title={page.frontmatter.title}>
-    <h1>{page.frontmatter.title}</h1>
-    <section
-      // className={styles['content-area']}
-      dangerouslySetInnerHTML={{ __html: page.html }}
-    />
-  </Layout>
-);
+const Page = ({ data: { page } }) => [
+  <SEO key="page-seo" data={page} />,
+  <h1 key="page-heading">{page.frontmatter.title}</h1>,
+  <section
+    key="page-content"
+    dangerouslySetInnerHTML={{ __html: page.html }}
+  />,
+];
 
 Page.propTypes = {
   data: PropTypes.shape({

@@ -1,18 +1,13 @@
 import React from 'react';
 import Link from 'gatsby-link';
-
-const nav = [
-  { path: '/', name: 'Home' },
-  { path: '/articles', name: 'Articles' },
-  { path: '/speaking', name: 'Speaking' },
-  { path: '/about', name: 'About' },
-];
+import { nav } from '../config';
+import styles from '../styles/header.module.css';
 
 const Header = () => (
-  <header>
+  <header className={styles.header}>
     <nav>
       {nav.map(link => (
-        <Link key={`nav-${link.name}`} to={link.path}>
+        <Link key={`nav-${link.name}`} to={link.path} className={styles.link}>
           {link.name}
         </Link>
       ))}

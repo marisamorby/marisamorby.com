@@ -2,23 +2,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
-import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
-const Page = ({ data: { post } }) => (
-  <Layout title={post.frontmatter.title}>
-    <h1>{post.frontmatter.title}</h1>
-    <Img
-      resolutions={post.frontmatter.image.childImageSharp.resolutions}
-      alt={post.frontmatter.title}
-    />
-    <section
-      // className={styles['content-area']}
-      dangerouslySetInnerHTML={{ __html: post.html }}
-    />
-  </Layout>
-);
+const Post = ({ data: { post } }) => [
+  <SEO key="post-seo" data={post} article />,
+  <h1 key="post-heading">{post.frontmatter.title}</h1>,
+  <Img
+    key="post-image"
+    sizes={post.frontmatter.image.childImageSharp.sizes}
+    alt={post.frontmatter.title}
+  />,
+  <section
+    key="post-content"
+    dangerouslySetInnerHTML={{ __html: post.html }}
+  />,
+];
 
-Page.propTypes = {
+Post.propTypes = {
   data: PropTypes.shape({
     post: PropTypes.shape({
       frontmatter: PropTypes.shape({
@@ -37,11 +37,12 @@ export const query = graphql`
     post: markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
+        datePublished: date(formatString: "YYYY-MM-DDTHH:mm:ssZ")
         title
         image {
           childImageSharp {
-            resolutions(width: 400) {
-              ...GatsbyImageSharpResolutions_tracedSVG
+            sizes(maxWidth: 690, traceSVG: { color: "#ffdddd" }) {
+              ...GatsbyImageSharpSizes_tracedSVG
             }
           }
         }
@@ -53,4 +54,4 @@ export const query = graphql`
   }
 `;
 
-export default Page;
+export default Post;

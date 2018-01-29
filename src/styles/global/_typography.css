@@ -1,0 +1,24 @@
+@import url('https://use.typekit.net/mvn0eaw.css');
+@import '../_variables.css';
+
+html,
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-sm);
+  line-height: 1.45;
+  text-decoration-skip: ink;
+
+  @media (--small) {
+    font-size: var(--font-size-md);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-darkest);
+}
