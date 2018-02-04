@@ -44,7 +44,7 @@ const Index = ({ data: { page } }) => [
     />
   </section>,
   <a key="home-button" className={styles.button} href="#">
-    See How
+    {page.frontmatter.hero.button}
   </a>,
   <section
     key="home-content"
@@ -72,6 +72,7 @@ export const query = graphql`
           heading
           tagline
           mission
+          button
         }
         image {
           childImageSharp {
