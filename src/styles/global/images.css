@@ -71,9 +71,9 @@
   &__caption {
     margin-top: 0.5rem;
     padding: 0 0 0.5rem;
-    border-bottom: 1px solid var(--color-darkest);
-    color: var(--color-darkest);
-    font-size: 0.875rem;
+    border-bottom: 1px solid color(var(--text-light) alpha(15%));
+    color: var(--text-light);
+    font-size: 0.75rem;
     line-height: 1rem;
 
     @media (--medium) {

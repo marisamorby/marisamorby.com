@@ -20,14 +20,14 @@
   border-radius: 0.125rem;
   color: var(--color-darkest);
   margin: 0 0.25rem;
+  outline: 0 solid var(--color-accent);
   padding: 0.125rem 0.5rem;
   text-decoration: none;
   text-transform: lowercase;
-  transition: var(--transition-default);
+  transition: background-color var(--transition-length) var(--transition-easing);
 
   &:focus {
-    background-color: var(--color-darkest);
-    color: var(--color-lightest);
+    background-color: var(--color-accent);
     outline: none;
   }
 }

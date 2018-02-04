@@ -2,6 +2,7 @@
 
 .hero {
   clip-path: polygon(0% 0%, 100% 0, 100% calc(100% - 20px), 0% 100%);
+  max-width: 400px;
   position: relative;
 
   & :global(.gatsby-image-outer-wrapper) {
@@ -72,10 +73,10 @@
   color: color(var(--color-accent) lightness(- 50%));
   display: block;
   font-family: var(--font-family-heading);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bold;
   line-height: 1;
-  margin: -2rem 20px 0;
+  margin: -1.5rem 20px 0;
   padding: 0.625rem 0.5rem 0.5rem;
   position: relative;
   text-align: center;

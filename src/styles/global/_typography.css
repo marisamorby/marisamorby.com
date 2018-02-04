@@ -21,4 +21,28 @@ h4,
 h5,
 h6 {
   color: var(--color-darkest);
+
+  &:not(:first-child) {
+    margin-top: 2.25rem;
+  }
+
+  & + * {
+    margin-top: 0.75rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+a {
+  padding: 0.125em;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 2px solid var(--color-accent);
+  }
 }

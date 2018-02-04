@@ -29,3 +29,10 @@ export const social = {
 export const colors = {
   tracedSVG: '#f00',
 };
+
+export const categories = {
+  confidence: 'Confidence',
+  'better-humans': 'Better Humans',
+  'business-basics': 'Business Basics',
+  'uncomfortable-things': 'Uncomfortable Things',
+};

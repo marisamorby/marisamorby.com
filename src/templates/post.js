@@ -7,11 +7,6 @@ import SEO from '../components/SEO';
 const Post = ({ data: { post } }) => [
   <SEO key="post-seo" data={post} article />,
   <h1 key="post-heading">{post.frontmatter.title}</h1>,
-  <Img
-    key="post-image"
-    sizes={post.frontmatter.image.childImageSharp.sizes}
-    alt={post.frontmatter.title}
-  />,
   <section
     key="post-content"
     dangerouslySetInnerHTML={{ __html: post.html }}

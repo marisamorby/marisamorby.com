@@ -4,7 +4,8 @@
   --color-darkest: #443634;
   --color-accent: #42f7ff;
 
-  --text-color: color(var(--color-darkest) lightness(+ 10%));
+  --text-color: color(var(--color-darkest) whiteness(+ 19%));
+  --text-light: color(var(--color-darkest) whiteness(+ 35%));
   --text-inverted: color(var(--color-lightest) lightness(- 10%));
 
   /* FONTS */
