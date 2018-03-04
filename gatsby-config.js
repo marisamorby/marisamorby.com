@@ -6,14 +6,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/posts`,
-        name: 'posts',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/pages`,
+        path: `${__dirname}/content`,
         name: 'pages',
       },
     },
@@ -33,6 +26,7 @@ module.exports = {
           },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          'gatsby-remark-numbered-footnotes',
         ],
       },
     },

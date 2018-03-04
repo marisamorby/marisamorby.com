@@ -1,5 +1,5 @@
 ---
-date: 20165-12-21
+date: 2015-12-21
 title: >
   Just Take My Money: How Bad User Experience Can Cost You Customers
 slug: take-my-money
