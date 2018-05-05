@@ -73,11 +73,7 @@ const paginate = (
       });
     });
 
-exports.onCreateNode = ({
-  node,
-  boundActionCreators: { createNodeField },
-  getNode,
-}) => {
+exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
     const fileData = path.parse(fileNode.relativePath);
@@ -94,10 +90,7 @@ exports.onCreateNode = ({
   }
 };
 
-exports.createPages = ({
-  graphql,
-  boundActionCreators: { createPage, createRedirect },
-}) =>
+exports.createPages = ({ graphql, actions: { createPage, createRedirect } }) =>
   new Promise((resolve, reject) => {
     const templates = {
       page: path.resolve('src/templates/page.js'),
@@ -181,7 +174,7 @@ exports.createPages = ({
 
         result.data.pages.edges.forEach(({ node: page }) => {
           // We manually create these pages, so skip them here.
-          if (['/index/', '/articles/'].includes(page.fields.slug)) {
+          if (['/articles/'].includes(page.fields.slug)) {
             return;
           }
 
@@ -196,7 +189,7 @@ exports.createPages = ({
             : 'page';
 
           createPage({
-            path: realPath,
+            path: realPath !== '/index/' ? realPath : '/',
             component: templates[type],
             context: {
               slug: page.fields.slug,

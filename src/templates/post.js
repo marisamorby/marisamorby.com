@@ -1,17 +1,16 @@
 /* eslint react/no-danger: "off" */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
+import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 
-const Post = ({ data: { post } }) => [
-  <SEO key="post-seo" data={post} article />,
-  <h1 key="post-heading">{post.frontmatter.title}</h1>,
-  <section
-    key="post-content"
-    dangerouslySetInnerHTML={{ __html: post.html }}
-  />,
-];
+const Post = ({ data: { post } }) => (
+  <Layout>
+    <SEO data={post} article />
+    <h1>{post.frontmatter.title}</h1>
+    <section dangerouslySetInnerHTML={{ __html: post.html }} />
+  </Layout>
+);
 
 Post.propTypes = {
   data: PropTypes.shape({

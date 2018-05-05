@@ -1,8 +1,9 @@
 export const nav = [
-  { path: '/', name: 'Home' },
-  { path: '/articles', name: 'Articles' },
-  { path: '/speaking', name: 'Speaking' },
+  { path: '/', name: 'Home', hidden: true },
+  { path: '/portfolio', name: 'Portfolio' },
+  { path: '/articles', name: 'Articles', hidden: true },
   { path: '/about', name: 'About' },
+  { path: '/contact', name: 'Contact' },
 ];
 
 export const site = {

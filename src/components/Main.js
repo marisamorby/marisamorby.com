@@ -1,11 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/main.module.css';
+import { css } from 'react-emotion';
+import Grid from './Grid';
 
-const Main = ({ children }) => <main className={styles.main}>{children}</main>;
+const topMargin = css`
+  margin-top: 3rem;
+`;
+
+const Main = ({ children }) => (
+  <Grid element="main" className={topMargin}>
+    {children}
+  </Grid>
+);
 
 Main.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element),
+  ]).isRequired,
 };
 
 export default Main;

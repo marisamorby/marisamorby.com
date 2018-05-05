@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import CategoryLink from '../components/CategoryLink';
+import Layout from '../components/Layout';
 import Pagination from '../components/Pagination';
 import { categories } from '../config';
 import styles from '../styles/blog.module.css';
@@ -21,7 +22,7 @@ const getHeading = (isFirstPage, currentPage, totalPages, type, value) => {
 
 const Previews = ({
   data,
-  pathContext: {
+  pageContext: {
     postGroup,
     isFirstPage,
     isLastPage,
@@ -32,7 +33,7 @@ const Previews = ({
     value,
   },
 }) => (
-  <div>
+  <Layout>
     {isFirstPage ? (
       <header>
         <h1 className={styles.previewPageHeading}>
@@ -76,7 +77,7 @@ const Previews = ({
       totalPages={totalPages}
       linkBase={linkBase}
     />
-  </div>
+  </Layout>
 );
 
 Previews.propTypes = {
@@ -88,7 +89,7 @@ Previews.propTypes = {
       html: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     postGroup: PropTypes.any,
     isFirstPage: PropTypes.bool,
     isLastPage: PropTypes.bool,
