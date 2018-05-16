@@ -1,7 +1,8 @@
 export const nav = [
   { path: '/', name: 'Home', hidden: true },
-  { path: '/portfolio/', name: 'Portfolio' },
-  { path: '/articles/', name: 'Articles', hidden: true },
+  // { path: '/podcast/', name: 'Podcast' },
+  { path: 'https://medium.com/@marisamorby', name: 'Blog', hidden: true },
+  { path: '/work/', name: 'Work' },
   { path: '/about/', name: 'About' },
   { path: '/contact/', name: 'Contact' },
 ];
@@ -25,10 +26,6 @@ export const social = {
   facebook: {
     appId: '',
   },
-};
-
-export const colors = {
-  tracedSVG: '#f00',
 };
 
 export const categories = {

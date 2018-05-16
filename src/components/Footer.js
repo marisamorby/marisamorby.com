@@ -1,12 +1,14 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import styled from 'react-emotion';
-import { nav } from '../config';
 import Grid from './Grid';
+import { color, font } from '../utils/style';
+import { nav } from '../config';
 
 const Wrapper = styled('footer')`
   background-color: #f5f8f9;
-  color: var(--text-light);
+  color: ${color.textLight};
+  font-family: ${font.default};
   font-size: 11px;
   margin-top: 4rem;
   padding: 1.5rem 0 1rem;
@@ -15,32 +17,48 @@ const Wrapper = styled('footer')`
   &::before,
   &::after {
     content: ' ';
-    height: 8px;
     left: 0;
     position: absolute;
-    top: 0;
     width: 100%;
   }
 
   &::before {
-    background-color: var(--color-accent);
+    background-color: ${color.accent};
     clip-path: polygon(
       0% 0%,
+      calc(50% - 5px) 0%,
+      50% 50%,
+      calc(50% + 5px) 0%,
       100% 0%,
       100% 50%,
-      53% 50%,
+      calc(50% + 5px) 50%,
       50% 100%,
-      47% 50%,
+      calc(50% - 5px) 50%,
       0% 50%
     );
+    height: 4px;
+    top: -2px;
     z-index: 10;
   }
 
-  /* &::after {
-    background-color: var(--color-accent-dark);
-    clip-path: polygon(0% 80%, 100% 50%, 100% 100%, 0% 100%);
-    z-index: 10;
-  } */
+  &::after {
+    background-color: ${color.lightest};
+    clip-path: polygon(
+      0% 0%,
+      calc(50% - 5px) 0%,
+      50% 50%,
+      calc(50% + 5px) 0%,
+      100% 0%,
+      100% 25%,
+      calc(50% + 5px) 25%,
+      50% 75%,
+      calc(50% - 5px) 25%,
+      0% 25%
+    );
+    height: 4px;
+    top: 0;
+    z-index: 18;
+  }
 `;
 
 const Nav = styled('nav')`
@@ -53,7 +71,18 @@ const Nav = styled('nav')`
   }
 `;
 
-const NavLink = styled(Link)`
+const LinkWrap = ({ to, children, ...props }) =>
+  /^\/(?!\/)/.test(to) ? (
+    <Link to={to} {...props}>
+      {children}
+    </Link>
+  ) : (
+    <a href={to} {...props}>
+      {children}
+    </a>
+  );
+
+const NavLink = styled(LinkWrap)`
   color: inherit;
   margin: 0 0.25rem;
   padding: 0.375rem;

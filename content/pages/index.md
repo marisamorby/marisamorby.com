@@ -1,6 +1,6 @@
 ---
-title: Conversion Optimization. User Research. Also Cookies.
-image: images/milkshakes.jpg
+title: Product Management. Conversion Optimization. User Research. Also Cookies.
+image: images/marisa-coat.jpg
 ---
 
 My resume says I work with data, but what I’m _really_ good at is understanding people. Data tells us what’s happening — people tell us stories.
@@ -11,4 +11,4 @@ By combining the stories from real people with the larger trends gathered by ana
 
 Whether you’re developing a brand new product from scratch or optimizing conversion in your existing funnel, **I provide battle-tested strategies for minimizing risk and overhead while maximizing your revenue.**
 
-<a href="/contact" class="btn">Work With Me</a>
+<a href="/contact" class="button">Work With Me</a>

@@ -164,6 +164,14 @@ exports.createPages = ({ graphql, actions: { createPage, createRedirect } }) =>
           allPosts,
         );
 
+        // Create an alias for the old blog URL.
+        createRedirect({
+          fromPath: '/blog/',
+          toPath: '/articles/',
+          isPermanent: true,
+          redirectInBrowser: true,
+        });
+
         // Create an alias for the first page of blog listings.
         createRedirect({
           fromPath: '/articles/1',
@@ -193,6 +201,9 @@ exports.createPages = ({ graphql, actions: { createPage, createRedirect } }) =>
             component: templates[type],
             context: {
               slug: page.fields.slug,
+              tracedSVGColor: '#d3f5fe',
+              duotoneHighlight: '#ffffff',
+              duotoneShadow: '#39bbdf',
             },
           });
         });
