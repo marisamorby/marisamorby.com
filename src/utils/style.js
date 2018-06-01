@@ -44,7 +44,7 @@ export const font = {
     '"Helvetica Neue"',
     'sans-serif',
   ].join(),
-  headingWeight: 100,
+  headingWeight: 300,
   lineHeight: 1.45,
 };
 
@@ -54,7 +54,9 @@ export const button = css`
   border-radius: 0.5rem;
   color: ${color.lightest};
   font-family: ${font.heading};
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
   line-height: 2;
   margin-top: 2rem;
   max-width: 100%;
@@ -62,6 +64,7 @@ export const button = css`
   position: relative;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   width: 300px;
 
   span {

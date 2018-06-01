@@ -9,7 +9,6 @@ const styles = css`
   }
 
   h2 {
-    font-weight: 100;
     margin: 4rem 0 2rem;
     text-align: center;
 
