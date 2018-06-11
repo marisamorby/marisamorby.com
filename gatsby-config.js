@@ -5,7 +5,7 @@ module.exports = {
     title: 'Marisa Morby · Transformation Designer and UX Researcher',
     titleTemplate: '%s · Marisa Morby',
     description:
-      'Marisa Morby is a product manager, user experience researching, designer, and strategist living in Portland, OR.',
+      'Marisa Morby is a product manager, user experience researcher, designer, and strategist living in Portland, OR.',
     url: 'https://marisamorby.com', // no trailing slash!
     image: '/images/marisa-morby.jpg',
     owner: 'Marisa Morby',
