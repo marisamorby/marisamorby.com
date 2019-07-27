@@ -1,5 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
+import Helmet from 'react-helmet';
+import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../components/layout';
 import Intro from '../../sections/intro.mdx';
 import Praise from '../../sections/praise.mdx';
@@ -7,8 +9,21 @@ import Speaking from '../../sections/speaking.mdx';
 import Contact from '../../sections/contact.mdx';
 
 const Index = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
   return (
     <Layout>
+      <Helmet>
+        <html lang="en" />
+        <title>{data.site.siteMetadata.title}</title>
+      </Helmet>
       <Intro
         sx={{
           h1: {
