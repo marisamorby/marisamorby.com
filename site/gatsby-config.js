@@ -65,6 +65,19 @@ module.exports = {
           },
         ],
         plugins: [
+          'gatsby-plugin-offline',
+          {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+              name: 'Marisa Morby',
+              short_name: 'Marisa',
+              start_url: '/',
+              background_color: '#ffffff',
+              theme_color: '#a330f6',
+              display: 'standalone',
+              icon: 'static/marisa-morby.svg',
+            },
+          },
           {
             resolve: 'gatsby-plugin-manifest',
             options: {
