@@ -65,6 +65,7 @@ module.exports = {
           },
         ],
         plugins: [
+          'gatsby-plugin-offline',
           {
             resolve: 'gatsby-plugin-manifest',
             options: {
