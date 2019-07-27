@@ -57,8 +57,12 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env*
+!.env*EXAMPLE
 
 .cache/
 public
 yarn-error.log
+
+# Netlify stuff that I don’t think we need
+.netlify
