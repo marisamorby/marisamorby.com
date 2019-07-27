@@ -52,7 +52,7 @@ export default merge(theme, {
           outlineColor: 'secondary',
         },
       },
-      li: { mt: 2 },
+      li: { mt: 3 },
       blockquote: {
         color: 'muted',
         fontSize: [2, 3],
