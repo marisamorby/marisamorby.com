@@ -14,6 +14,7 @@ const Index = () => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -23,6 +24,7 @@ const Index = () => {
       <Helmet>
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>
+        <meta name="description" content={data.site.siteMetadata.description} />
       </Helmet>
       <Intro
         sx={{
