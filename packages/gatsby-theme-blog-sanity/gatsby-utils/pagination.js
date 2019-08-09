@@ -8,7 +8,7 @@ const paginate = (
   {
     reporter = console,
     postsPerPage = 10,
-    getPath = pageNumber => path.join('/', 'blog', pageNumber),
+    getPath = pageNumber => path.join('/', 'blog', `${pageNumber}`),
     category = '.*', // load all posts by default
     createPage,
     component,
