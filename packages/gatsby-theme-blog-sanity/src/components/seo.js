@@ -10,7 +10,6 @@ const SEO = ({ post }) => {
           title
           description
           baseUrl
-          image
         }
       }
     }
