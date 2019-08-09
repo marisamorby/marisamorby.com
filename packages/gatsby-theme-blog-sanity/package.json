@@ -16,12 +16,15 @@
     "@mdx-js/react": "^1.0.27",
     "@sanity/block-content-to-react": "^2.0.6",
     "dotenv": "^8.0.0",
+    "gatsby-image": "^2.2.8",
     "gatsby-plugin-emotion": "^4.0.7",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-theme-ui": "^0.2.6",
     "gatsby-source-sanity": "^5.0.1",
+    "get-youtube-id": "^1.0.1",
     "lodash": "^4.17.11",
     "react-helmet": "^5.2.1",
+    "react-youtube": "^7.9.0",
     "theme-ui": "^0.2.14"
   },
   "keywords": [
