@@ -1,3 +1,5 @@
+const path = require('path');
+
 // we’re not sending this to the browser, so we don’t need to stress about bundle size
 const _ = require('lodash');
 
@@ -6,7 +8,7 @@ const paginate = (
   {
     reporter = console,
     postsPerPage = 10,
-    pathTemplate = '/blog/<%= pageNumber %>',
+    getPath = pageNumber => path.join('/', 'blog', pageNumber),
     category = '.*', // load all posts by default
     createPage,
     component,
@@ -22,8 +24,8 @@ const paginate = (
     const isFirstPage = index === 0;
     const currentPage = index + 1;
     const totalPages = allGroups.length;
-    const getPath = _.template(pathTemplate);
-    const path = getPath({ pageNumber: isFirstPage ? '' : currentPage });
+    const pageNumber = isFirstPage ? '' : currentPage;
+    const path = getPath(pageNumber);
 
     createPage({
       path,
@@ -36,7 +38,7 @@ const paginate = (
         currentPage,
         totalPages,
         isLastPage: currentPage === totalPages,
-        linkBase: getPath({ pageNumber: '' }),
+        linkBase: getPath(''),
       },
     });
   });

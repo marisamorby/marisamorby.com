@@ -71,7 +71,7 @@ exports.createPages = async (
   // create pages for all posts
   paginate(posts, {
     ...paginationDefaults,
-    pathTemplate: `${basePath}/<%= pageNumber %>`,
+    getPath: pageNumber => path.join('/', basePath, pageNumber),
   });
 
   // create category-specific pages
@@ -82,7 +82,8 @@ exports.createPages = async (
 
     paginate(postGroup, {
       ...paginationDefaults,
-      pathTemplate: `${basePath}/category/${catSlug}/<%= pageNumber %>`,
+      getPath: pageNumber =>
+        path.join('/', basePath, 'category', catSlug, pageNumber),
       category,
     });
   });
