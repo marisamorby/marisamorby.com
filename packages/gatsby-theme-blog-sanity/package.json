@@ -31,5 +31,10 @@
     "gatsby",
     "gatsby-theme",
     "gatsby-plugin"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marisamorby/marisamorby.com/tree/master/packages/gatsby-theme-blog-sanity"
+  },
+  "homepage": "https://github.com/marisamorby/marisamorby.com/tree/master/packages/gatsby-theme-blog-sanity"
 }
