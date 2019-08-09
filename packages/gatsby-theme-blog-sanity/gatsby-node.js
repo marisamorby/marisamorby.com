@@ -1,7 +1,11 @@
 const _ = require('lodash');
+const path = require('path');
 const { paginate, groupPostsByCategory } = require('./gatsby-utils/pagination');
 
-exports.createPages = async ({ graphql, actions, reporter }, options) => {
+exports.createPages = async (
+  { graphql, actions, reporter },
+  { includePathInPosts = true, basePath = '/' },
+) => {
   const result = await graphql(`
     query {
       allSanityPost(
@@ -42,9 +46,9 @@ exports.createPages = async ({ graphql, actions, reporter }, options) => {
 
   const posts = (result.data.allSanityPost.nodes || []).map(post => ({
     ...post,
-    path: options.includePathInPosts
-      ? `${options.path}/${post.slug.current}`
-      : `/${post.slug.current}`,
+    path: includePathInPosts
+      ? path.join('/', basePath, post.slug.current)
+      : path.join('/', post.slug.current),
   }));
 
   // create a page for each post
@@ -67,7 +71,7 @@ exports.createPages = async ({ graphql, actions, reporter }, options) => {
   // create pages for all posts
   paginate(posts, {
     ...paginationDefaults,
-    pathTemplate: `${options.path}/<%= pageNumber %>`,
+    pathTemplate: `${basePath}/<%= pageNumber %>`,
   });
 
   // create category-specific pages
@@ -78,7 +82,7 @@ exports.createPages = async ({ graphql, actions, reporter }, options) => {
 
     paginate(postGroup, {
       ...paginationDefaults,
-      pathTemplate: `${options.path}/category/${catSlug}/<%= pageNumber %>`,
+      pathTemplate: `${basePath}/category/${catSlug}/<%= pageNumber %>`,
       category,
     });
   });
