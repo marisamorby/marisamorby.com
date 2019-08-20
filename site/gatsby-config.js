@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-blog-sanity',
       options: {
-        path: '/articles',
+        basePath: '/articles',
         includePathInPosts: false,
         sanity: {
           projectId: process.env.GATSBY_SANITY_PROJECT_ID,
