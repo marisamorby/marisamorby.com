@@ -1,12 +1,6 @@
 export default {
   widgets: [
-    {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
-      }
-    },
-    {name: 'structure-menu'},
+    { name: 'structure-menu' },
     {
       name: 'project-info',
       options: {
@@ -15,19 +9,19 @@ export default {
             name: 'netlify',
             options: {
               description:
-                'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
+                'Deploys happen automatically when you publish posts. If you want to manually trigger a deploy, click these buttons.',
               sites: [
                 {
-                  buildHookId: '5cd87c930f75d2f0fb8108f5',
-                  title: 'Sanity Studio',
-                  name: 'sanity-gatsby-blog-studio-cbqhgfxm',
-                  apiId: '37144c3b-e243-4c4d-8f34-a843bfbda3c7'
+                  buildHookId: '5d3d18f123cbe9a226844184',
+                  title: 'marisamorby.com',
+                  name: 'marisamorby',
+                  apiId: 'ec1eda55-820a-40d7-b2cc-42d5c59da1c2'
                 },
                 {
-                  buildHookId: '5cd87c93346fb235cd6b1f97',
-                  title: 'Blog Website',
-                  name: 'sanity-gatsby-blog-web-cge7a16x',
-                  apiId: '77126eef-68aa-4e0b-b48c-cbdf0efc7ea9'
+                  buildHookId: '5cd87c930f75d2f0fb8108f5',
+                  title: 'Admin Interface',
+                  name: 'sanity-gatsby-blog-studio-cbqhgfxm',
+                  apiId: '37144c3b-e243-4c4d-8f34-a843bfbda3c7'
                 }
               ]
             }
@@ -36,22 +30,22 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/marisamorby/sanity-gatsby-blog',
+            value: 'https://github.com/marisamorby/marisamorby.com',
             category: 'Code'
           },
           {
             title: 'Frontend',
-            value: 'https://sanity-gatsby-blog-web-cge7a16x.netlify.com',
+            value: 'https://marisamorby.com',
             category: 'apps'
           }
         ]
       }
     },
-    {name: 'project-users', layout: {height: 'auto'}},
+    { name: 'project-users', layout: { height: 'auto' } },
     {
       name: 'document-list',
-      options: {title: 'Recent blog posts', order: '_createdAt desc', types: ['post']},
-      layout: {width: 'medium'}
+      options: { title: 'Recent blog posts', order: '_createdAt desc', types: ['post'] },
+      layout: { width: 'medium' }
     }
   ]
 }
