@@ -21,6 +21,14 @@ const Layout = ({ children }) => (
         #___gatsby {
           margin-top: 0;
         }
+
+        @media (min-width: 600px) {
+          .airtable-embed {
+            margin-left: calc((90vw - 540px) / 2 * -1);
+            height: 75vh;
+            width: 90vw;
+          }
+        }
       `}
     />
     <Header />
