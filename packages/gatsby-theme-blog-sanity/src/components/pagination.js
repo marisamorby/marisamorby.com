@@ -44,19 +44,19 @@ const Pagination = ({
     )}
     {!isFirstPage && (
       <Link
-        to={`${linkBase}${currentPage - 1 === 1 ? '' : currentPage - 1}`}
+        to={`${linkBase}/${currentPage - 1 === 1 ? '' : currentPage - 1}`}
         className="newer"
       >
         ‹ newer posts
       </Link>
     )}
     {!isLastPage && (
-      <Link to={`${linkBase}${currentPage + 1}`} className="older">
+      <Link to={`${linkBase}/${currentPage + 1}`} className="older">
         older posts ›
       </Link>
     )}
     {!isLastPage && currentPage !== totalPages - 1 && (
-      <Link to={`${linkBase}${totalPages}`} title="jump to oldest posts">
+      <Link to={`${linkBase}/${totalPages}`} title="jump to oldest posts">
         <span className="screen-reader-text">oldest post</span> »
       </Link>
     )}
