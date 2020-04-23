@@ -20,7 +20,7 @@ const useLocation = () => {
     return () => {
       removeListener();
     };
-  }, []);
+  }, [initialState]);
 
   return state;
 };

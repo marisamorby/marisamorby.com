@@ -5,7 +5,7 @@ import Image from 'gatsby-image';
 const PostPreview = ({ post, ...props }) => (
   <article {...props}>
     <Link to={post.path}>
-      <Image fixed={post.image} alt={post.title} />
+      {post.image && <Image fixed={post.image} alt={post.title} />}
     </Link>
     <div className="preview-text">
       <h2>

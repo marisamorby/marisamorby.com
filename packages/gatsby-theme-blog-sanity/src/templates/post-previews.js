@@ -8,7 +8,7 @@ const PostPreviewsTemplate = ({ pageContext }) => {
     id: p.id,
     title: p.title,
     description: p.description,
-    image: p.mainImage.asset.fixed,
+    image: p.mainImage?.asset?.fixed || false,
     path: p.path,
   }));
 

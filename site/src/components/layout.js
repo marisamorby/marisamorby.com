@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { jsx, Layout as ThemeLayout } from 'theme-ui';
+import { jsx } from 'theme-ui';
 import { Global, css } from '@emotion/core';
 import Header from './header';
 import Footer from './footer';
 
 const Layout = ({ children }) => (
-  <ThemeLayout>
+  <div sx={{ variant: 'wrapper' }}>
     <Global
       styles={css`
         * {
@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
       {children}
     </main>
     <Footer />
-  </ThemeLayout>
+  </div>
 );
 
 export default Layout;

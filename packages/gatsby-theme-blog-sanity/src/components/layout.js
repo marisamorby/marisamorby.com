@@ -1,12 +1,13 @@
-import React from 'react';
-import { Layout as ThemeLayout, Main, Container } from 'theme-ui';
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+import { Main, Container } from 'theme-ui';
 
 const Layout = ({ children }) => (
-  <ThemeLayout>
+  <div sx={{ variant: 'wrapper' }}>
     <Main>
       <Container>{children}</Container>
     </Main>
-  </ThemeLayout>
+  </div>
 );
 
 export default Layout;

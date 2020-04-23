@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { graphql, useStaticQuery } from 'gatsby';
 import Layout from '../components/layout';
 import Intro from '../../sections/intro.mdx';
