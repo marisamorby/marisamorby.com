@@ -60,8 +60,7 @@ typings/
 .env*
 !.env*EXAMPLE
 
-.cache/
-public
+dist
 yarn-error.log
 
 # Netlify stuff that I don’t think we need
