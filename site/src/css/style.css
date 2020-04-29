@@ -2,6 +2,7 @@
   --darkest: #112145;
   --text: #445478;
   --muted: #dce1ea;
+  --lightest: #f1f3f9;
 }
 
 * {
@@ -12,6 +13,7 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  line-height: 1.45;
   margin: 0;
 }
 
@@ -73,7 +75,7 @@ header a:not(:first-child) {
 
 main {
   margin: 0 auto;
-  max-width: 54ch;
+  max-width: 60ch;
   min-height: 50vh;
   width: 90vw;
 }
@@ -85,6 +87,83 @@ h4,
 h5,
 h6 {
   color: var(--darkest);
+}
+
+form {
+  margin: 2rem 0;
+  overflow: visible;
+}
+
+.honeypot {
+  display: none;
+}
+
+label {
+  color: var(--text);
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+label:not(:first-of-type) {
+  margin-top: 2rem;
+}
+
+input,
+textarea {
+  background-color: white;
+  border: 0;
+  border-bottom: 2px solid var(--muted);
+  display: block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  transition: 150ms border-color linear;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--darkest);
+  outline: 0;
+}
+
+input {
+  max-width: 100%;
+  width: 90vw;
+}
+
+textarea {
+  height: 10em;
+  width: 100%;
+}
+
+button {
+  background: var(--darkest);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: var(--lightest);
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.125em;
+  line-height: 2;
+  margin-top: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button:active,
+button:hover,
+button:focus {
+  border-color: var(--muted);
+  cursor: pointer;
+  outline: none;
 }
 
 footer {

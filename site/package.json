@@ -9,6 +9,8 @@
     "build": "eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "@sanity/block-content-to-markdown": "0.0.5",
+    "node-fetch": "^2.6.0"
   }
 }

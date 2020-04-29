@@ -1,0 +1,22 @@
+---
+layout: default
+title: Library
+---
+
+# Looking for something to read?
+
+### Head on over to my library, where I've listed some of the more recent books I've read.
+
+[Airtable library of books](https://airtable.com/shrh598LzI6DEsGhG)
+
+<iframe
+  class="airtable-embed"
+  src="https://airtable.com/embed/shrh598LzI6DEsGhG?backgroundColor=teal"
+  frameborder="0"
+  onmousewheel=""
+  width="100%"
+  height="533"
+  style="background: transparent; border: 1px solid #ccc;"
+></iframe>
+
+Have a question about a book? Send me a note [on Twitter](https://twitter.com/marisamorby)!
