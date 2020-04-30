@@ -10,3 +10,5 @@ permalink: /{{ post.slug.current }}/
 # {{ post.title }}
 
 {{ post.body }}
+
+[&larr; back to list](/articles/)

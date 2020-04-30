@@ -1,12 +1,14 @@
 ---
 layout: default
 pagination:
-  alias: note
+  alias: post
   data: notes
   size: 1
-permalink: /{{ note.slug.current }}/
+permalink: /{{ post.slug.current }}/
 ---
 
-# {{ note.title }}
+# {{ post.title }}
 
-{{ note.body }}
+{{ post.body }}
+
+[&larr; back to list](/notes/)
