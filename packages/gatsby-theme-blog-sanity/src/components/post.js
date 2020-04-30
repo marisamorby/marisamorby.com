@@ -9,7 +9,7 @@ const Post = ({ post, ...props }) => (
     <SEO
       post={{
         ...post,
-        image: post.image.asset.fixed.src,
+        image: post.image?.asset?.fixed?.src || false,
       }}
     />
     <PostImage image={post.image} />

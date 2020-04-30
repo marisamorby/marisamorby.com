@@ -1,9 +1,20 @@
-import {format} from 'date-fns'
-
 export default {
   name: 'post',
   type: 'document',
   title: 'Blog Post',
+  initialValue: () => ({
+    postType: 'note',
+    publishedAt: new Date().toISOString(),
+    authors: [
+      {
+        _type: 'authorReference',
+        author: {
+          _ref: '1b1c7451-c976-48fd-b416-73bf5a356f10',
+          _type: 'reference'
+        }
+      }
+    ]
+  }),
   fields: [
     {
       name: 'title',
@@ -26,6 +37,18 @@ export default {
       type: 'datetime',
       title: 'Published at',
       description: 'This can be used to schedule post for publishing'
+    },
+    {
+      title: 'Type',
+      name: 'postType',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Post', value: 'post'},
+          {title: 'Note', value: 'note'}
+        ],
+        layout: 'radio'
+      }
     },
     {
       name: 'mainImage',
@@ -64,9 +87,17 @@ export default {
       ]
     },
     {
+      name: 'markdown',
+      type: 'markdown',
+      title: 'Body (Markdown)',
+      description: 'NOTE: If you use in this field, the “Body” field below will be ignored.'
+    },
+    {
       name: 'body',
       type: 'bodyPortableText',
-      title: 'Body'
+      title: 'Body (Legacy)',
+      description:
+        'This is only here because it would suck to migrate all posts. Probably don’t use this for new posts.'
     }
   ],
   orderings: [

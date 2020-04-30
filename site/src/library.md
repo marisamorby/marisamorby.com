@@ -1,6 +1,7 @@
-import Layout from '../components/layout.js';
-
-export default Layout;
+---
+layout: default
+title: Library
+---
 
 # Looking for something to read?
 
