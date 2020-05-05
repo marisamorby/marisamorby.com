@@ -33,11 +33,11 @@ header {
 }
 
 header::after {
-  background: var(--muted);
+  background: radial-gradient(hotpink, transparent);
   border-radius: 2px;
   bottom: 0;
   content: '';
-  height: 2px;
+  height: 1.5px;
   left: 0;
   position: absolute;
   width: 100%;
