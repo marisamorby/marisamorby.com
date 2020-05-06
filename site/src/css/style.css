@@ -21,6 +21,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: #c11069;
+}
+
 strong { 
 font-weight: 600;
 }
