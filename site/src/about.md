@@ -13,7 +13,7 @@ In many cases, I think the biggest impact we can make is through focused, increm
 
 ## I love sharing what I’m learning
 
-I have a few hobbies and interests that I've fallen really hard for, and love sharing those things with people like you! You'll find articles about design systems, urban design, research, projects, and skills I’ve gained over the years in an effort to help teach others. There's a lot already there, and more to come! [See my writing here.](/articles)
+I have a few hobbies and interests that I've fallen really hard for, and love sharing those things with people like you! You'll find articles about design systems, urban design, research, projects, and skills I’ve gained over the years in an effort to help teach others. There's a lot already there, and more to come! [See my writing here.](/)
 
 
 ## How I work
