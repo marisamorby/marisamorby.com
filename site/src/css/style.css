@@ -109,6 +109,10 @@ h2 a {
   text-decoration: none;
 }
 
+.post {
+  padding-top: 25px;
+}
+
 .post:hover h2, .post:hover a {
     text-decoration: underline;
 }
