@@ -109,6 +109,10 @@ h2 a {
   text-decoration: none;
 }
 
+.post:hover h2, .post:hover a {
+    text-decoration: underline;
+}
+
 figure {
   margin: 2rem 0 0;
 }
