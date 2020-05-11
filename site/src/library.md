@@ -5,9 +5,9 @@ title: Library
 
 # Looking for something to read?
 
-### Head on over to my library, where I've listed some of the more recent books I've read.
+**These are some of my favorite books. This list gets updated occasionally, as I read things that I want to share**
 
-[Airtable library of books](https://airtable.com/shrh598LzI6DEsGhG)
+If you want a more categorized list, check out this [Airtable chart](https://airtable.com/shrh598LzI6DEsGhG). Or go see the [full list on GoodReads](https://www.goodreads.com/review/list/7510925)
 
 <iframe
   class="airtable-embed"
