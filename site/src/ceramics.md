@@ -2,7 +2,7 @@
 layout: default
 pagination:
   alias: post
-  data: notes
+  data: ceramics
   size: 1
 permalink: /{{ post.slug.current }}/
 ---
@@ -11,4 +11,4 @@ permalink: /{{ post.slug.current }}/
 
 {{ post.body }}
 
-[&larr; back to list](/notes/)
+[&larr; back to list](/ceramics/)
