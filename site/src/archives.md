@@ -6,7 +6,7 @@ title: Archives
 These are all past work related projects I've done. Have a peruse!
 
 ### 2020
-- [Let's Make Lunch: Cooking with Jason and Marisa](https://www.youtube.com/watch?v=NcE_nDlLeJA): Home cooking show</br>
+I made it through 2020 without a full breakdown, so I'm calling that a win!
 
 ### 2019
 - [Gatsby Swag Store Case Study](https://www.gatsbyjs.com/blog/2019-01-24-swag-store)</br>
