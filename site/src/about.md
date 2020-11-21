@@ -5,7 +5,7 @@ title: Design Research, Flowers, and Sourdough
 
 # Hey there, I'm Marisa.
 
-I'm passionate about Design & Research, focusing my work on new technologies, reducing climate impact, and urban planning. 
+I'm passionate about Design & Research, focusing my work on making tech approachable, advocating for climate justice, and urban planning. This site, like me, is a work in progress, so you'll see things come and go as I learn and change based on new information.
 
 ## My Mission
 
