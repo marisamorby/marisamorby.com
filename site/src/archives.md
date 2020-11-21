@@ -9,7 +9,7 @@ These are all past work related projects I've done. Have a peruse!
 I made it through the year without a total breakdown... so... that's what I did.
 
 ### 2019
-[Gatsby Swag Store Case Study](https://www.gatsbyjs.com/blog/2019-01-24-swag-store)
+[Gatsby Swag Store Case Study](https://www.gatsbyjs.com/blog/2019-01-24-swag-store)</br>
 [Introducing Gatsby Preview Beta](https://www.gatsbyjs.com/blog/2019-03-22-introducing-gatsby-preview-beta)
 [How we think about product at Gatsby
 Marisa Morby
