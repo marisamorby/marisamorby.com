@@ -7,7 +7,6 @@ These are all past work related projects I've done. Have a peruse!
 
 ### 2020
 - [Let's Make Lunch: Cooking with Jason and Marisa](https://www.youtube.com/watch?v=NcE_nDlLeJA): Home cooking show</br>
--
 
 ### 2019
 - [Gatsby Swag Store Case Study](https://www.gatsbyjs.com/blog/2019-01-24-swag-store)</br>
@@ -17,13 +16,13 @@ These are all past work related projects I've done. Have a peruse!
 - [Gatsby Days: Gatsby Preview](https://www.youtube.com/watch?v=XG5gdoyAiwE): Speaking</br>
 - [Putting Emphasis on User Outcomes with Marisa Morby](https://egghead.io/podcasts/putting-emphasis-on-user-outcomes-with-marisa-morby): Podcast</br>
 - [Prototyping, Product Management, and Conference Proposals with Marisa Morby](https://techjr.dev/episodes/2019/prototyping-product-management-and-conference-proposals-with-marisa-morby/): Podcast</br>
--[Turning an App Idea into a Plan with UX Design, Workflows, and Prototypes](https://www.learnwithjason.dev/turning-an-app-idea-into-a-plan-with-ux-design-workflows-and-prototypes)</br>
--[Escaping the Post-Truth Era with Good Design](https://panelpicker.sxsw.com/vote/90509): SXSW Talk Proposal
+- [Turning an App Idea into a Plan with UX Design, Workflows, and Prototypes](https://www.learnwithjason.dev/turning-an-app-idea-into-a-plan-with-ux-design-workflows-and-prototypes)</br>
+- [Escaping the Post-Truth Era with Good Design](https://panelpicker.sxsw.com/vote/90509): SXSW Talk Proposal</br>
 
 ### 2018
--[How iterative prototype testing will help you create a winning design, every time](https://www.youtube.com/watch?v=fyomO5NGfdE): Speaking & Workshop</br>
--[Smart Cities, Community and You](https://www.youtube.com/watch?v=f7WGno223Y0): Podcast
--[How Design and Data Can Save the World: Urban Planning and the Future of Cities](https://www.youtube.com/watch?v=jpBPtYttwYE): Speaking
+- [How iterative prototype testing will help you create a winning design, every time](https://www.youtube.com/watch?v=fyomO5NGfdE): Speaking & Workshop</br>
+- [Smart Cities, Community and You](https://www.youtube.com/watch?v=f7WGno223Y0): Podcast
+- [How Design and Data Can Save the World: Urban Planning and the Future of Cities](https://www.youtube.com/watch?v=jpBPtYttwYE): Speaking
 
 
 ### 2017
