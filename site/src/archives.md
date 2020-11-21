@@ -1,10 +1,6 @@
 ---
 layout: default
 title: Archives
-pagination:
-  alias: archives
-  data: archives
-  size: 500
 ---
 ## Speaking, Writing, Projects
 These are all past work related projects I've done. Have a peruse!
