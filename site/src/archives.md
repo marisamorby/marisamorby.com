@@ -6,19 +6,28 @@ title: Archives
 These are all past work related projects I've done. Have a peruse!
 
 ### 2020
-I made it through the year without a total breakdown... so... that's what I did.
+- [Let's Make Lunch: Cooking with Jason and Marisa](https://www.youtube.com/watch?v=NcE_nDlLeJA): Home cooking show</br>
+-
 
 ### 2019
 - [Gatsby Swag Store Case Study](https://www.gatsbyjs.com/blog/2019-01-24-swag-store)</br>
 - [Introducing Gatsby Preview Beta](https://www.gatsbyjs.com/blog/2019-03-22-introducing-gatsby-preview-beta)</br>
 - [How we think about product at Gatsby](https://www.gatsbyjs.com/blog/2019-04-03-how-we-think-about-product-at-gatsby)</br>
 - [Product Management at Gatsby](https://www.gatsbyjs.com/blog/2019-06-17-product-management-at-gatsby)</br>
-- [
+- [Gatsby Days: Gatsby Preview](https://www.youtube.com/watch?v=XG5gdoyAiwE): Speaking</br>
+- [Putting Emphasis on User Outcomes with Marisa Morby](https://egghead.io/podcasts/putting-emphasis-on-user-outcomes-with-marisa-morby): Podcast</br>
+- [Prototyping, Product Management, and Conference Proposals with Marisa Morby](https://techjr.dev/episodes/2019/prototyping-product-management-and-conference-proposals-with-marisa-morby/): Podcast</br>
+-[Turning an App Idea into a Plan with UX Design, Workflows, and Prototypes](https://www.learnwithjason.dev/turning-an-app-idea-into-a-plan-with-ux-design-workflows-and-prototypes)</br>
+-[Escaping the Post-Truth Era with Good Design](https://panelpicker.sxsw.com/vote/90509): SXSW Talk Proposal
 
 ### 2018
+-[How iterative prototype testing will help you create a winning design, every time](https://www.youtube.com/watch?v=fyomO5NGfdE): Speaking & Workshop</br>
+-[Smart Cities, Community and You](https://www.youtube.com/watch?v=f7WGno223Y0): Podcast
+-[How Design and Data Can Save the World: Urban Planning and the Future of Cities](https://www.youtube.com/watch?v=jpBPtYttwYE): Speaking
+
 
 ### 2017
-[]()
+- [What Big Data is Missing: Remembering Our Humanity](https://devitconf.org/speakers/marisa_morby/): Speaking
 
 ### 2016
 - [How Do You Make Renewable Energy Sexy? Ask Costa Rica.](https://www.huffpost.com/entry/how-do-you-make-renewable-energy-sexy-ask-costa-rica_b_57f4498de4b0b7215072c953)</br>
@@ -46,6 +55,7 @@ I made it through the year without a total breakdown... so... that's what I did.
 - [Who's Your Frenemy?](https://marisamorby.medium.com/who-s-your-frenemy-c12eb4f8c7c1)</br>
 - [You Will Only Succeed If You Know How to Fail](https://marisamorby.medium.com/you-will-only-succeed-if-you-know-how-to-fail-fa8a39cf1a92)</br>
 - [Negotiating WHen No One Wants to Listen](https://marisamorby.medium.com/negotiating-when-no-one-wants-to-listen-acb40ce1988f)</br>
+- [Freelance and UX Series on Contently](https://marisamorby.contently.com/)</br>
 
 
 ### 2014
