@@ -1,8 +1,8 @@
-
 ---
 layout: default
 title: Art & Fun
 ---
+
 See my most recent crafting and cooking videos on [Twitch](https://www.twitch.tv/marisamorby).
 
 ## Completed Crafts & Bakes
