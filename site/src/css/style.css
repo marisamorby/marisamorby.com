@@ -13,10 +13,11 @@
 body {
   background-color: #fcfcfc;
   color: var(--text);
-  font-family: 'Nunito sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: 'Nunito sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
   line-height: 1.45;
-  font-weight: 300; 
+  font-weight: 300;
   font-size: 18px;
   margin: 0;
 }
@@ -26,8 +27,8 @@ a {
   text-decoration: none;
 }
 
-strong { 
-font-weight: 600;
+strong {
+  font-weight: 600;
 }
 
 header {
@@ -113,8 +114,9 @@ h2 a {
   padding-top: 25px;
 }
 
-.post:hover h2, .post:hover a {
-    text-decoration: underline;
+.post:hover h2,
+.post:hover a {
+  text-decoration: underline;
 }
 
 figure {
@@ -177,12 +179,13 @@ label:not(:first-of-type) {
 input,
 textarea {
   background-color: white;
-  border: 0;
-  border-bottom: 2px solid var(--muted);
+  border: 1px solid var(--muted);
+  border-radius: 0.25rem;
+  color: var(--text);
   display: block;
   font-size: 1rem;
   margin-top: 0.5rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   transition: 150ms border-color linear;
 }
 
@@ -206,18 +209,16 @@ button {
   background: var(--darkest);
   border: 2px solid transparent;
   border-radius: 10px;
-  color: var(--lightest);
+  color: #fcfcfc;
   display: inline-block;
   font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: 0.125em;
   line-height: 2;
   margin-top: 1rem;
   max-width: 100%;
   overflow: hidden;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 button:active,
@@ -226,6 +227,30 @@ button:focus {
   border-color: var(--muted);
   cursor: pointer;
   outline: none;
+}
+
+.opt-in {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 600px) {
+  .input-group {
+    width: calc(50% - 1rem);
+  }
+}
+
+.submit-group {
+  width: 100%;
+}
+
+.opt-in-submit {
+  border-radius: 2rem;
+  font-size: 1rem;
+  margin: 1rem 0 0;
 }
 
 footer {
