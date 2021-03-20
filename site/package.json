@@ -13,6 +13,6 @@
     "@sanity/block-content-to-markdown": "0.0.5",
     "@sanity/client": "^1.149.7",
     "@sanity/image-url": "^0.140.18",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
