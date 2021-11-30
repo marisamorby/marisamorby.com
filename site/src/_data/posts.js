@@ -22,12 +22,16 @@ module.exports = async () => {
     `,
   });
 
+  const invalidPosts = response.data.allPosts
+    .filter((post) => !post.slug || post.slug.current === '')
+    .map((post) => ({ title: post.title }))
+
   const posts = response.data.allPosts
     .filter((post) => post.slug && post.slug.current !== '')
     .sort(sortByPublishDateDescending)
     .map(getPostBody);
 
-  console.log({ posts });
+  console.log({ invalidPosts });
 
   return posts;
 };
