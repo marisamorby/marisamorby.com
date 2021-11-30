@@ -70,14 +70,13 @@ header a[rel='home'] {
     margin-bottom: 0;
   }
 }
-/*
-// hide header image
+
 header img {
   border-radius: 50%;
   display: inline-block;
   margin-right: 1rem;
   max-width: 80px;
-} */
+} 
 
 header a {
   color: var(--darkest);
