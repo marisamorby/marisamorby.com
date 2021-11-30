@@ -23,7 +23,7 @@ module.exports = async () => {
   });
 
   const posts = response.data.allPosts
-    .filter((post) => post.slug?.current !== '')
+    .filter((post) => post.slug && post.slug.current !== '')
     .sort(sortByPublishDateDescending)
     .map(getPostBody);
 
