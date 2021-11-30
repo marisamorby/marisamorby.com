@@ -22,7 +22,12 @@ module.exports = async () => {
     `,
   });
 
-  return response.data.allPosts
+  const posts = response.data.allPosts
+    .filter((post) => post.slug.current !== '')
     .sort(sortByPublishDateDescending)
     .map(getPostBody);
+
+  console.log({ posts });
+
+  return posts;
 };
