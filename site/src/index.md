@@ -9,7 +9,7 @@ I'm passionate about Design & Research, focusing my work on making tech approach
 
 ## Join my newsletter: Design & Nature Reimagined
 
-Every week I'll compile articles at the intersection of research, design, and tech to help us imagine a better relationship with nature as we address the climate crisis.
+Every week(ish) I'll compile articles at the intersection of research, design, and tech to help us imagine a better relationship with nature as we address the climate crisis.
 
 <form
   method="POST"
