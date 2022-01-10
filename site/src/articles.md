@@ -7,8 +7,8 @@ pagination:
   size: 500
 ---
 
-# Articles
-**Hey there, happy you're here! I've got a few hobbies and interests that I'm really excited about, and love sharing what I'm learning. You'll find articles about design systems, urban design, research, projects, and skills I’ve gained over the years. Enjoy!**
+# All Articles
+**Hey there, happy you're here! I've got a few hobbies and interests that I'm really excited about, and love sharing what I'm learning. You'll find articles about design, research, and climate. Enjoy!**
 
 - [Nature & Climate Change](/nature-and-climate-change/)
 - [Design & Research](/design-and-research/)
