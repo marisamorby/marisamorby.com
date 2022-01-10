@@ -1,3 +1,4 @@
+const { default: slugify } = require('slugify');
 const {
   getPosts,
   sortByPublishDateDescending,
@@ -15,6 +16,9 @@ module.exports = async () => {
               slug {
                   current
               }
+              categories {
+                title
+              }
               markdown
               bodyRaw
           }
@@ -23,15 +27,31 @@ module.exports = async () => {
   });
 
   const invalidPosts = response.data.allPosts
-    .filter((post) => !post.slug || post.slug.current === '')
-    .map((post) => ({ title: post.title }))
-
-  const posts = response.data.allPosts
-    .filter((post) => post.slug && post.slug.current !== '')
-    .sort(sortByPublishDateDescending)
-    .map(getPostBody);
+    .filter(post => !post.slug || post.slug.current === '')
+    .map(post => ({ title: post.title }));
 
   console.log({ invalidPosts });
 
-  return posts;
+  const allPosts = response.data.allPosts
+    .filter(post => post.slug && post.slug.current !== '')
+    .sort(sortByPublishDateDescending)
+    .map(getPostBody);
+
+  const posts = allPosts.reduce((acc, p) => {
+    const cats = p.categories || [];
+
+    cats.forEach(c => {
+      const catSlug = slugify(c.title, { lower: true });
+      acc[catSlug] = [...(acc[catSlug] || []), p];
+    });
+
+    return acc;
+  }, {});
+
+  console.log(Object.keys(posts));
+
+  return {
+    all: allPosts,
+    ...posts,
+  };
 };

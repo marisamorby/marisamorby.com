@@ -2,7 +2,7 @@
 layout: default
 pagination:
   alias: post
-  data: posts
+  data: posts.all
   size: 1
 permalink: /{{ post.slug.current }}/
 ---
