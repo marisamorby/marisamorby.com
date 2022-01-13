@@ -11,4 +11,4 @@ permalink: /{{ post.slug.current }}/
 
 {{ post.body }}
 
-[&larr; back to list](/)
+
