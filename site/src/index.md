@@ -4,8 +4,7 @@ title: Design Research, Flowers, and Sourdough
 ---
 
 # Hey there, I'm Marisa.
-
-I'm passionate about Design & Research, focusing my work on making tech approachable, advocating for climate justice, and urban planning. This site, like me, is a work in progress, so you'll see things come and go as I learn and change based on new information.
+I’m a Sr. Design Researcher at [Netlify](https://netlify.com) where I talk with developers about how we can improve their workflow. I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a weekly(ish) newsletter about the intersection between design, nature, and tech. I believe thoughtful research and design can have a long-lasting, and positive impact, so I enjoy spending time on projects and ideas that make us kinder as people, healthier as a planet, and happier with ourselves. When I’m not working, you’ll find me in my garden or at my pottery wheel [making ceramics](https://marisamorby.com/shop/).
 
 ## Join my newsletter: Design & Nature Reimagined
 
@@ -42,17 +41,3 @@ Every week(ish) I'll compile articles at the intersection of research, design, a
     <button class="opt-in-submit">Subscribe to the newsletter</button>
   </div>
 </form>
-
-## My Mission
-
-In many cases, I think the biggest impact we can make is through focused, incremental change — like an ocean tide rolling over the sand that slowly changes an entire landscape. I believe thoughtful research and design can have a huge, long-lasting, and  positive impact. I love spending time on projects and ideas that make us kinder as people, healthier as a planet, and happier with ourselves.
-
-## I love sharing what I’m learning
-
-I have a few hobbies and interests that I've fallen really hard for, and love sharing those things with people like you! You'll find articles about design systems, urban design, research, projects, and skills I’ve gained over the years in an effort to help teach others. There's a lot already there, and more to come! [See my writing here.](/)
-
-
-## How I work
-
-- I combine the best ideas from broad areas of study, including behavioral psychology, natural systems, and business, to discover not just _what_ is happening, but _why_ it’s happening, so we can confidently define what we need to learn and how to get there
-- I’m a master of identifying the highest-impact problems and working on cross-functional teams toward solutions that get great results
