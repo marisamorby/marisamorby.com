@@ -39,11 +39,11 @@ header {
 }
 
 header::after {
-  background: radial-gradient(hotpink, transparent);
+  /* background: radial-gradient(hotpink, transparent); */
   border-radius: 2px;
   bottom: 0;
   content: '';
-  /* height: 1.5px; */
+  height: 1.5px; 
   left: 0;
   position: absolute;
   width: 100%;
