@@ -16,7 +16,7 @@ body {
   font-family: 'Nunito sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
-  /*line-height: 1.45;*/
+  line-height: 1.45;
   font-weight: 300;
   font-size: 18px;
   margin: 0;
@@ -43,7 +43,7 @@ header::after {
   border-radius: 2px;
   bottom: 0;
   content: '';
-  height: 1.5px;
+  /* height: 1.5px; */
   left: 0;
   position: absolute;
   width: 100%;
