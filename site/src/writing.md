@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Articles
+title: Writing
 pagination:
   alias: posts
   data: posts.all
   size: 500
 ---
 
-# All Articles
-**Hey there, happy you're here! I've got a few hobbies and interests that I'm really excited about, and love sharing what I'm learning. You'll find articles about design, research, and climate. Enjoy!**
+# All Writing
+**Hey there, happy you're here! I've got a few hobbies and interests that I'm really excited about, and love sharing what I'm learning. You'll find posts about design, research, and climate. Enjoy!**
 
 - [Nature & Climate Change](/nature-and-climate-change/)
 - [Design & Research](/design-and-research/)
