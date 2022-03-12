@@ -7,7 +7,7 @@ pagination:
   size: 500
 ---
 
-**These are my most recent drawings. See my [full portfolio](https://dribbble.com/marisamorby) on Dribbble.**
+These are my most recent drawings. See my [full portfolio](https://dribbble.com/marisamorby) on Dribbble.
 
 <div id="dribbble"></div>
 
