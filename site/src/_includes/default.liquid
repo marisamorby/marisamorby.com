@@ -16,19 +16,16 @@
   <body>
     <header>
       <a href="/" rel="home">
-        <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
+        <!-- <img src="/images/marisa-morby-1.jpg" alt="Marisa Morby" /> -->
+        marisa morby
       </a>
       <nav>
-        <a href="/newsletter/" {% if page.url == '/newsletter/' %}class="active"{% endif %}>newsletter</a>
-        <a href="/writing/" {% if page.url == '/writing/' %}class="active"{% endif %}>writing</a>
-        <a href="/drawing/" {% if page.url == '/drawing/' %}class="active"{% endif %}>drawing</a>
-        <a href="/ceramics/" {% if page.url == '/ceramics/' %}class="active"{% endif %}>ceramics</a>
-        <a href="/garden/" {% if page.url == '/garden/' %}class="active"{% endif %}>garden</a>
-        <a href="/media/" {% if page.url == '/media/' %}class="active"{% endif %}>media</a>
-        <a href="/web/" {% if page.url == '/web/' %}class="active"{% endif %}>web</a>
-        
+        <a href="/writing/">writing</a>
+        <a href="/drawing/">drawing</a>
+        <a href="/shop/">shop</a>
+        <a href="/library/">library</a>
+        <a href="/portfolio/">portfolio</a>
         <!--
-          <a href="/portfolio/">portfolio</a>
           <a href="/">about</a>
           <a href="/notes/">notes</a>
           <a href="/archives/">archives</a>
@@ -41,9 +38,8 @@
       {{ content }}
     </main>
 
-
     <footer>
-      All content © Marisa Morby | <a href="https://www.instagram.com/marisamorby/">Instagram</a> | <a href="https://www.x.com/marisamorby/">Twitter</a>
+      All content © Marisa Morby
     </footer>
   </body>
 </html>
