@@ -1,16 +1,15 @@
 ---
-layout: home
-title: Design and Nature
+layout: default
+title: Design Research, Flowers, and Sourdough
 ---
 
-      
 # Hey there, I'm Marisa.
+I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a weekly(ish) newsletter about the intersection between design, nature, and tech. I enjoy spending time on projects that make us kinder as people, healthier as a planet, and happier with ourselves. When I’m not working, you’ll find me in my garden, at my pottery wheel [making ceramics](https://marisamorby.com/shop/), drawing, or baking.
 
-**I connect people to nature through art, information design, and storytelling.**
-
-I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a weekly newsletter about nature, design, and hope. Most days, you’ll find me in my [garden](https://marisamorby.com/garden/), [making ceramics](https://marisamorby.com/ceramics/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
 
 ## Join my newsletter: Design & Nature Reimagined
+
+Every week(ish) I'll compile articles at the intersection of design, nature, and tech to help us imagine a better relationship with nature as we address the climate crisis.
 
 <form
   method="POST"
