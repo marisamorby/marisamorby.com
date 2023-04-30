@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  base = "site"
+  publish = "dist"
+
+[[redirects]]
+  from = "/about"
+  to = "/"
+  status = 301
+  
+[[redirects]]
+  from = "/card"
+  to = "/"
+  status = 301
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
