@@ -7,6 +7,11 @@
   from = "/about"
   to = "/"
   status = 301
+  
+[[redirects]]
+  from = "/card"
+  to = "/"
+  status = 301
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
