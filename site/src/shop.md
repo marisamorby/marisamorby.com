@@ -1,6 +1,6 @@
 ---
 layout: default
-title: shop
+title: ceramics
 ---
 Shop my handmade ceramics for sale at [mm.gifts](https://mm.gifts) 
 <a href=https://mm.gifts>
