@@ -11,6 +11,8 @@ permalink: /{{ post.slug.current }}/
 
 {{ post.body }}
 
+<br>
+<hr>
 ### Join the Design & Nature Reimagined Newsletter
 <form
   method="POST"
