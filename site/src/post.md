@@ -11,10 +11,6 @@ permalink: /{{ post.slug.current }}/
 
 {{ post.body }}
 
-<br>
-<hr>
-
-### Join the Design & Nature Reimagined Newsletter
 <form
   method="POST"
   action="https://app.convertkit.com/forms/1961068/subscriptions" 
