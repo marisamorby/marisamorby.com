@@ -7,6 +7,7 @@ title: Design and Nature
   <div class="box a"><img src="/images/marisa-circle.png">
 </div>
 <div class="box b">
+  
 # Hey there, I'm Marisa.
 
 **I focus on projects that connect people with nature.**
