@@ -292,11 +292,11 @@ button:focus {
     grid-column: col -2 / span -2;
     grid-row: row;
   }
-/*
+  
   .c {
     grid-column: col / span 5;
     grid-row: row 2;
-  } */
+  } 
 /* end of styling for the home page */
   
 /* styling for the blog post page*/
