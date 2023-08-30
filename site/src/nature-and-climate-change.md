@@ -7,11 +7,10 @@ pagination:
   size: 500
 ---
 
+# Nature & Climate Change
+
 {% for post in posts %}
-<div class="card">
-  <div class="image">
-    </div>
-    <div class="text">
+<div class="post">
   
 ## [{{ post.title }}](/{{ post.slug.current }}/)
 
@@ -19,7 +18,6 @@ pagination:
 
 [Read full article &rarr;](/{{ post.slug.current }}/)
 
-  </div>
 </div>
 
 {% endfor %}
