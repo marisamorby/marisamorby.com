@@ -274,7 +274,7 @@ button:focus {
   .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: [col] 100px [col] 100px;
+    grid-template-columns: [col] auto [col] auto;
     grid-template-rows: [row] auto [row] auto ;
     color: #444;
   }
@@ -285,19 +285,19 @@ button:focus {
   }
 
   .a {
-    grid-column: col / span 4;
+    grid-column: 1;
     grid-row: row;
   }
 
   .b {
-    grid-column: col -2 / span -2;
+    grid-column: 2 / -1;
     grid-row: row;
   }
-
+/*
   .c {
     grid-column: col / span 5;
     grid-row: row 2;
-  } 
+  } */
 /* end of styling for the home page */
   
 /* styling for the blog post page*/
