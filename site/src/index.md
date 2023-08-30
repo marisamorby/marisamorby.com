@@ -1,5 +1,6 @@
 ---
 layout: default
+bodyClass: home
 title: Design and Nature
 ---
   
