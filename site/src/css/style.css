@@ -274,7 +274,7 @@ button:focus {
   .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-columns: [col] 80px [col] 80px [col] 80px [col] 80px;
     grid-template-rows: [row] auto [row] auto [row] ;
     color: #444;
   }
