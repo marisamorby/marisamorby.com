@@ -47,4 +47,3 @@ I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-
   </div>
 </form>
 </div>
-</div>
