@@ -284,12 +284,12 @@ button:focus {
   }
 
   .a {
-    grid-column: col / span 4;
+    grid-column:  col -2 / span -2;
     grid-row: row;
   }
 
   .b {
-    grid-column: col -2 / span -2;
+    grid-column: col / span 4;
     grid-row: row;
   }
   
