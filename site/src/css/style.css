@@ -284,7 +284,7 @@ button:focus {
   }
 
   .a {
-    grid-column: col / span 4;
+    grid-column: 1;
     grid-row: row;
   }
 
