@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: writing
 title: Nature & Climate Change
 pagination:
   alias: posts
