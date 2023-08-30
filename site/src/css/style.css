@@ -272,20 +272,19 @@ button:focus {
 }
 /* styling for the home page */
   .box {
-   
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
-
   }
 
   .a {
     grid-column: col / span 4;
-    grid-row: row ;
+    grid-row: row;
   }
+
   .b {
-    grid-column: col -2 / span -2 ;
-    grid-row: row ;
+    grid-column: col -2 / span -2;
+    grid-row: row;
   }
 
   .c {
@@ -293,6 +292,7 @@ button:focus {
     grid-row: row 2;
   }
 /* end of styling for the home page */
+  
 /* styling for the blog post page*/
 .container{
   display: flex;
