@@ -271,6 +271,13 @@ button:focus {
   margin-bottom: 20px;
 }
 /* styling for the home page */
+  .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
+    grid-template-rows: [row] auto [row] auto [row] ;
+    color: #444;
+  }
   .box {
     border-radius: 5px;
     padding: 20px;
@@ -278,19 +285,19 @@ button:focus {
   }
 
   .a {
-    grid-column: 1;
+    grid-column: col / span 4;
     grid-row: row;
   }
 
   .b {
-    grid-column: 2 / -1;
+    grid-column: col -2 / span -2;
     grid-row: row;
   }
 
- /* .c {
+  .c {
     grid-column: col / span 5;
     grid-row: row 2;
-  } */
+  } 
 /* end of styling for the home page */
   
 /* styling for the blog post page*/
