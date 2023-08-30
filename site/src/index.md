@@ -1,9 +1,7 @@
-<!--
 ---
 layout: default
 title: Design and Nature
 ---
--->
 
 <div class="wrapper">
   <div class="box a"><img src="/images/marisa-circle.jpg" />
