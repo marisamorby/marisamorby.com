@@ -4,7 +4,7 @@ title: Design and Nature
 ---
 
 <div class="wrapper">
-  <div class="box a"><img src="/images/marisa-circle.svg">
+  <div class="box a"><img src="/images/marisa-circle.png">
 </div>
 <div class="box b">
     <main>
