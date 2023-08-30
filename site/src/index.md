@@ -2,11 +2,6 @@
 layout: default
 title: Design and Nature
 ---
-
-<div class="wrapper">
-  <div class="box a"><img src="/images/marisa-circle.png">
-</div>
-<div class="box b">
   
 # Hey there, I'm Marisa.
 
@@ -46,4 +41,3 @@ I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-
     <button class="opt-in-submit">Subscribe to the newsletter</button>
   </div>
 </form>
-</div>
