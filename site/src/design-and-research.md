@@ -7,12 +7,10 @@ pagination:
   size: 500
 ---
 
-{% for post in posts %}
+# Design & Research
 
-<div class="card">
-  <div class="image">
-    </div>
-    <div class="text">
+{% for post in posts %}
+<div class="post">
   
 ## [{{ post.title }}](/{{ post.slug.current }}/)
 
@@ -20,7 +18,6 @@ pagination:
 
 [Read full article &rarr;](/{{ post.slug.current }}/)
 
-</div>
 </div>
 
 {% endfor %}
