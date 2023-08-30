@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: writing
 title: Writing
 pagination:
   alias: posts
