@@ -270,7 +270,30 @@ button:focus {
   width: calc(50% - 10px);
   margin-bottom: 20px;
 }
+/* styling for the home page */
+  .box {
+   
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 
+  }
+
+  .a {
+    grid-column: col / span 4;
+    grid-row: row ;
+  }
+  .b {
+    grid-column: col -2 / span -2 ;
+    grid-row: row ;
+  }
+
+  .c {
+    grid-column: col / span 5;
+    grid-row: row 2;
+  }
+/* end of styling for the home page */
+/* styling for the blog post page*/
 .container{
   display: flex;
   gap: 2rem;
@@ -323,6 +346,8 @@ button:focus {
 .card:nth-child(3n + 2) .image {
   background: #FFD8DB;
 }
+/* end of styling for the blog post page */
+  
 footer {
   border-top: 1px solid var(--muted);
   color: var(--text-light);
