@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: writing
 title: Design & Research
 pagination:
   alias: posts
