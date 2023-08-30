@@ -96,6 +96,10 @@ main {
   width: 90vw;
 }
 
+main.home{
+      max-width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -203,7 +207,7 @@ textarea:focus {
 
 input {
   max-width: 100%;
-  width: 90vw;
+  width: 100%;
 }
 
 textarea {
