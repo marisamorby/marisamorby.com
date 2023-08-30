@@ -3,9 +3,7 @@ layout: default
 bodyClass: home
 title: Design and Nature
 ---
-<div class="box a">
-        <img src="/images/marisa-circle.png">
-      </div>
+
       
 # Hey there, I'm Marisa.
 
