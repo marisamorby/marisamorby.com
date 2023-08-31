@@ -351,7 +351,7 @@ button:focus {
 
 @media (min-width: 960px) {
   .card {
-    width: 250px;
+    width: 270px;
   }
 }
 
@@ -370,6 +370,11 @@ button:focus {
 
 .text {
   padding: 10px;
+}
+  
+.text h2{
+  font-size: 1.25rem;
+    line-height: 1.1;
 }
 
 .card:nth-child(3n) .image {
