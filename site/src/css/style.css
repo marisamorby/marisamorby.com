@@ -305,6 +305,10 @@ button:focus {
 /* end of styling for the home page */
   
 /* styling for the blog post page*/
+.page-heading {
+    margin-left: 3rem;
+    font-weight: bold;
+}
 .wrapper-post{
     display: flex;
     grid-gap: 10px;  
