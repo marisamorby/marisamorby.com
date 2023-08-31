@@ -407,7 +407,14 @@ button:focus {
   background: #edb9bd;
 }
 /* end of styling for the blog post page */
-  
+
+/* video styling */
+.videos{
+  max-width: 100%;
+}
+
+/* end of video styling */
+
 footer {
   border-top: 1px solid var(--muted);
   color: var(--text-light);
