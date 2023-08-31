@@ -7,8 +7,6 @@ pagination:
   size: 500
 ---
 
-# Nature & Climate Change
-
 {% for post in posts %}
 <div class="card">
   <div class="image">
