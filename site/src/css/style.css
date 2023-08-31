@@ -276,7 +276,7 @@ button:focus {
 }
 /* styling for the home page */
   .wrapper {
-    display: grid;
+    display: flex;
     grid-gap: 10px;
     grid-template-columns: [col] 80px [col] 80px [col] 80px [col] 80px;
     grid-template-rows: [row] auto [row] auto [row] ;
