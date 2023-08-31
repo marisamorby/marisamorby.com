@@ -375,7 +375,8 @@ button:focus {
   
 .text h2{
   font-size: 1.25rem;
-    line-height: 1.1;
+  line-height: 1.1;
+  font-weight: bold;
 }
 
 .card:nth-child(3n) .image {
