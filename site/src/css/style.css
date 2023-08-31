@@ -271,7 +271,7 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap FONT-WEIGHT: 200;
+  
 }
 
 #dribbble img {
