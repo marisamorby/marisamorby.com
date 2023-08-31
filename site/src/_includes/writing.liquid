@@ -39,7 +39,7 @@
   <div class="container"> 
     <div class="wrapper-post">
         <div class="sidebar">
-          <h1 class="page-heading">writing</h1>
+          <h1 class="page-heading">{% if post.title %}{{ post.title }}{% else %}writing{% endif %}</h1>
             <p><b>Filters</b></p>
               <ul><a href="/nature-and-climate-change/">Nature & Climate Change</a></ul>
               <ul><a href="/design-and-research/">Design & Research</a></ul>
