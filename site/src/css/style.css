@@ -313,7 +313,7 @@ button:focus {
     grid-gap: 10px;  
   }
 
-@media (min-width: 960px){
+@media (min-width: 1050px){
   .page-heading {
     margin-left: 3rem;
   }
@@ -349,7 +349,7 @@ button:focus {
   overflow: hidden;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1050px) {
   .card {
     width: 270px;
   }
