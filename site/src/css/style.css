@@ -409,10 +409,10 @@ button:focus {
 /* end of styling for the blog post page */
 
 /* video styling */
-.videos{
-  max-width: 100%;
+iframe{
+  aspect-ratio: 16/9;
+  width: 100%;
 }
-
 /* end of video styling */
 
 footer {
