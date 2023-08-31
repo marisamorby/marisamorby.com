@@ -277,11 +277,13 @@ button:focus {
 }
 /* styling for the home page */
   .wrapper {
-    display: flex;
-    grid-gap: 10px;
-    grid-template-columns: [col] 80px [col] 80px [col] 80px [col] 80px;
-    grid-template-rows: [row] auto [row] auto [row] ;
     color: #444;
+  }
+  @media(min-width:950px){
+    .wrapper {
+      gap: 10px;
+      display: flex;
+    }
   }
   .box {
     border-radius: 5px;
