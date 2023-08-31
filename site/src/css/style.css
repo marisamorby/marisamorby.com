@@ -323,6 +323,7 @@ button:focus {
 }
 
 .sidebar{
+  margin-bottom: 2rem;
   min-width: 250px
 }
   
@@ -339,11 +340,16 @@ button:focus {
 }
 
 .card {
-  width: 250px;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.70);
   box-shadow: 0 2px 4px hsl(180deg 0% 0% / 0.10);
   overflow: hidden;
+}
+
+@media (min-width: 960px) {
+  .card {
+    width: 250px;
+  }
 }
 
 .image {
