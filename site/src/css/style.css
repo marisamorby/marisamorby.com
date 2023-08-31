@@ -347,6 +347,7 @@ button:focus {
   background: rgba(255, 255, 255, 0.70);
   box-shadow: 0 2px 4px hsl(180deg 0% 0% / 0.10);
   overflow: hidden;
+  max-width: 300px;
 }
 
 @media (min-width: 1050px) {
