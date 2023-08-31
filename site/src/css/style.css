@@ -305,6 +305,10 @@ button:focus {
 /* end of styling for the home page */
   
 /* styling for the blog post page*/
+.wrapper cards{
+    display: flex;
+    grid-gap: 10px;  
+  }
 .container{
   display: flex;
   gap: 2rem;
