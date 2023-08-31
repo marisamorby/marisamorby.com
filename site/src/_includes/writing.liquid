@@ -19,11 +19,11 @@
         <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
       </a>
       <nav>
-        <a href="/writing/" {% if page.url === "/writing" %}class="active"{% endif %}>writing</a>
-        <a href="/drawing/" {% if page.url === "/drawing" %}class="active"{% endif %}>drawing</a>
-        <a href="/ceramics/" {% if page.url === "/ceramics" %}class="active"{% endif %}>ceramics</a>
-        <a href="/library/" {% if page.url === "/library" %}class="active"{% endif %}>library</a>
-        <a href="/acting/" {% if page.url === "/acting" %}class="active"{% endif %}>acting</a>
+        <a href="/writing/" {% if page.url == '/writing/' %}class="active"{% endif %}>writing</a>
+        <a href="/drawing/" {% if page.url == '/drawing/' %}class="active"{% endif %}>drawing</a>
+        <a href="/ceramics/" {% if page.url == '/ceramics/' %}class="active"{% endif %}>ceramics</a>
+        <a href="/library/" {% if page.url == '/library/' %}class="active"{% endif %}>library</a>
+        <a href="/acting/" {% if page.url == '/acting/' %}class="active"{% endif %}>acting</a>
         <!--
           <a href="/portfolio/">portfolio</a>
           <a href="/">about</a>

@@ -58,6 +58,10 @@ header a[rel='home'] {
   margin-bottom: 1rem;
 }
 
+header a.active {
+  border: 1px solid red;
+}
+
 @media (min-width: 600px) {
   header {
     align-items: center;
