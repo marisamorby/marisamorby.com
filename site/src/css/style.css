@@ -396,15 +396,15 @@ button:focus {
 }
 
 .card:nth-child(3n) .image {
-  background: #FFEFD8;
+  background: #f9d49f;
 }
 
 .card:nth-child(3n+1) .image {
-  background: #D7FCDD;
+  background: #a8dbb0;
 }
 
 .card:nth-child(3n + 2) .image {
-  background: #FFD8DB;
+  background: #edb9bd;
 }
 /* end of styling for the blog post page */
   
