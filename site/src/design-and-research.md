@@ -7,8 +7,6 @@ pagination:
   size: 500
 ---
 
-# Design & Research
-
 {% for post in posts %}
 
 <div class="card">
