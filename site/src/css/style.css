@@ -306,7 +306,6 @@ button:focus {
   
 /* styling for the blog post page*/
 .page-heading {
-    margin-left: 3rem;
     font-weight: bold;
 }
 .wrapper-post{
@@ -315,6 +314,10 @@ button:focus {
   }
 
 @media (min-width: 960px){
+  .page-heading {
+    margin-left: 3rem;
+  }
+  
   .container{
     display: flex;
     gap: 2rem;
