@@ -156,7 +156,6 @@ figcaption {
 
 img { 
   max-width: 100%;
-  min-width: 300px;
   height: auto;
 }
 
@@ -294,6 +293,10 @@ button:focus {
   .a {
     grid-column:  col / span 4;
     grid-row: row;
+  }
+  .a img{
+    min-width: 300px;
+    max-width: 300px;
   }
 
   .b {
