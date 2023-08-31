@@ -42,9 +42,9 @@
         <p><b>Filters</b></p>
         <nav>
           {% if title!="Writing" %}<a href="/writing/">View all</a>{% endif %}
-          <a href="/nature-and-climate-change/">Nature & Climate Change</a>
-          <a href="/design-and-research/">Design & Research</a>
-          <a href="/mind-and-body/">Mind & Body</a>
+          <a href="/nature-and-climate-change/"{% if title=="Nature & Climate Change" %} class="active"{% endif %}>Nature & Climate Change</a>
+          <a href="/design-and-research/"{% if title=="Design & Research" %} class="active"{% endif %}>Design & Research</a>
+          <a href="/mind-and-body/{% if title=="Mind & Body" %} class="active"{% endif %}">Mind & Body</a>
         </nav>
       </div>
       <div class="cards">
