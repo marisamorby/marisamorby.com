@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>
+      {% if post.title %}{{ post.title }}{% else %}{{ title }}{% endif %} ·
+      Marisa Morby
+    </title>
+  </head>
+  <body>
+    <header>
+      <a href="/" rel="home">
+        <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
+      </a>
+      <nav>
+        <a href="/writing/">writing</a>
+        <a href="/drawing/">drawing</a>
+        <a href="/ceramics/">ceramics</a>
+        <a href="/library/">library</a>
+        <a href="/acting/">acting</a>
+        <!--
+          <a href="/portfolio/">portfolio</a>
+          <a href="/">about</a>
+          <a href="/notes/">notes</a>
+          <a href="/archives/">archives</a>
+          <a href="/art-and-fun/">art & fun</a>
+        -->
+      </nav>
+    </header>
+  
+  </div>
+<main class="home">
+  <div class="container"> 
+    <div class="wrapper cards">
+        <div class="sidebar">
+          <h1 class="page-heading">writing</h1>
+            <p><b>Filters</b></p>
+              <ul><a href="/nature-and-climate-change/">Nature & Climate Change</a></ul>
+              <ul><a href="/design-and-research/">Design & Research</a></ul>
+              <ul><a href="/mind-and-body/">Mind & Body</a></ul>
+          </div>
+          {{ content }}
+      </div>
+    </div>
+  </main>
+
+    <footer>
+      All content © Marisa Morby
+    </footer>
+  </body>
+</html>
