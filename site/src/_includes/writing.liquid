@@ -14,20 +14,16 @@
     </title>
   </head>
   <body>
-  <!-- current page: {{ page.url }} -->
     <header>
       <a href="/" rel="home">
         <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
       </a>
       <nav>
-        <a href="/newsletter/" {% if page.url == '/newsletter/' %}class="active"{% endif %}>newsletter</a>
-        <a href="/writing/" {% if page.url == '/writing/' or page.url == '/nature-and-climate-change/' or page.url == '/design-and-research/' or page.url == '/mind-and-body/' %}class="active"{% endif %}>writing</a>
-        <a href="/drawing/" {% if page.url == '/drawing/' %}class="active"{% endif %}>drawing</a>
-        <a href="/ceramics/" {% if page.url == '/ceramics/' %}class="active"{% endif %}>ceramics</a>
-        <a href="/garden/" {% if page.url == '/garden/' %}class="active"{% endif %}>garden</a>
-        <a href="/media/" {% if page.url == '/media/' %}class="active"{% endif %}>media</a>
-        <a href="/web/" {% if page.url == '/web/' %}class="active"{% endif %}>web</a>
-
+        <a href="/writing/" {% if page.url === "/writing" %}class="active"{% endif %}>writing</a>
+        <a href="/drawing/" {% if page.url === "/drawing" %}class="active"{% endif %}>drawing</a>
+        <a href="/ceramics/" {% if page.url === "/ceramics" %}class="active"{% endif %}>ceramics</a>
+        <a href="/library/" {% if page.url === "/library" %}class="active"{% endif %}>library</a>
+        <a href="/acting/" {% if page.url === "/acting" %}class="active"{% endif %}>acting</a>
         <!--
           <a href="/portfolio/">portfolio</a>
           <a href="/">about</a>
@@ -46,10 +42,9 @@
         <p><b>Filters</b></p>
         <nav>
           {% if title!="Writing" %}<a href="/writing/">View all</a>{% endif %}
-          <a href="/nature-and-climate-change/"{% if page.url == '/nature-and-climate-change/' %} class="active"{% endif %}>Nature & Climate Change</a>
-          <a href="/design-and-research/"{% if page.url == '/design-and-research/' %} class="active"{% endif %}>Design & Research</a>
-          <a href="/mind-and-body/"{% if page.url == '/mind-and-body/' %} class="active"{% endif %}">Mind & Body</a>
-          <a href="/fiction-and-poetry/"{% if page.url == '/fiction-and-poetry/' %} class="active"{% endif %}">Fiction & Poetry</a>
+          <a href="/nature-and-climate-change/"{% if title=="Nature & Climate Change" %} class="active"{% endif %}>Nature & Climate Change</a>
+          <a href="/design-and-research/"{% if title=="Design & Research" %} class="active"{% endif %}>Design & Research</a>
+          <a href="/mind-and-body/{% if title=="Mind & Body" %} class="active"{% endif %}">Mind & Body</a>
         </nav>
       </div>
       <div class="cards">
@@ -59,7 +54,7 @@
   </main>
 
     <footer>
-      All content © Marisa Morby | <a href="https://www.instagram.com/marisamorby/">Instagram</a> | <a href="https://www.x.com/marisamorby/">Twitter</a>
+      All content © Marisa Morby
     </footer>
   </body>
 </html>
