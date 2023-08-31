@@ -8,7 +8,7 @@ pagination:
 ---
 
 {% for post in posts %}
-<div class="post card">
+<div class="card">
   <div class="image">
     </div>
     <div class="text">
