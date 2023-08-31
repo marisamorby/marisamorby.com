@@ -60,7 +60,8 @@ header a[rel='home'] {
 }
 
 header a.active {
-  border: 1px solid red;
+  border-bottom: 2px solid #fcb71b;
+  max-width: 220px;
 }
 
 @media (min-width: 600px) {
@@ -346,7 +347,8 @@ button:focus {
 }
 
 .sidebar .active {
-  border: 1px solid red;
+  border-bottom: 2px solid #fcb71b;
+  max-width: 220px;
 }
   
 .cards{
