@@ -326,7 +326,8 @@ button:focus {
 .sidebar nav a {
     display: block;
     margin: 0 0 0.5rem 0
-
+}
+  
 .cards{
   display: flex;
   flex-wrap: wrap;
