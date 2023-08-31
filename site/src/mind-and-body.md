@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: writing
 title: Mind & Body
 pagination:
   alias: posts
