@@ -308,6 +308,7 @@ button:focus {
 .container{
   display: flex;
   gap: 2rem;
+  margin-left: 3rem;
 }
 
 .sidebar{
