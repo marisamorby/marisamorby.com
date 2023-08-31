@@ -10,7 +10,10 @@ pagination:
 # Nature & Climate Change
 
 {% for post in posts %}
-<div class="post">
+<div class="card">
+  <div class="image">
+    </div>
+    <div class="text">
   
 ## [{{ post.title }}](/{{ post.slug.current }}/)
 
@@ -18,6 +21,7 @@ pagination:
 
 [Read full article &rarr;](/{{ post.slug.current }}/)
 
+  </div>
 </div>
 
 {% endfor %}
