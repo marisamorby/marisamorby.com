@@ -14,12 +14,13 @@
     </title>
   </head>
   <body>
+  <!-- current page: {{ page.url }} -->
     <header>
       <a href="/" rel="home">
         <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
       </a>
       <nav>
-        <a href="/writing/" {% if page.url == '/writing/' %}class="active"{% endif %}>writing</a>
+        <a href="/writing/" {% if page.url == '/writing/' or page.url == '/nature-and-climate-change/' or page.url == '/design-and-research/' or page.url == '/mind-and-body/' %}class="active"{% endif %}>writing</a>
         <a href="/drawing/" {% if page.url == '/drawing/' %}class="active"{% endif %}>drawing</a>
         <a href="/ceramics/" {% if page.url == '/ceramics/' %}class="active"{% endif %}>ceramics</a>
         <a href="/library/" {% if page.url == '/library/' %}class="active"{% endif %}>library</a>
@@ -33,11 +34,25 @@
         -->
       </nav>
     </header>
-
-    <main>
-      {{ content }}
-    </main>
-
+  
+  </div>
+<main class="home">
+  <h1 class="page-heading">{{title}}</h1>
+  <div class="container"> 
+    <div class="sidebar">
+        <p><b>Filters</b></p>
+        <nav>
+          {% if title!="Writing" %}<a href="/writing/">View all</a>{% endif %}
+          <a href="/nature-and-climate-change/"{% if page.url == '/nature-and-climate-change/' %} class="active"{% endif %}>Nature & Climate Change</a>
+          <a href="/design-and-research/"{% if page.url == '/design-and-research/' %} class="active"{% endif %}>Design & Research</a>
+          <a href="/mind-and-body/"{% if page.url == '/mind-and-body/' %} class="active"{% endif %}">Mind & Body</a>
+        </nav>
+      </div>
+      <div class="cards">
+        {{ content }}
+      </div>
+    </div>
+  </main>
 
     <footer>
       All content © Marisa Morby

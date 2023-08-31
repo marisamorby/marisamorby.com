@@ -1,15 +1,12 @@
 ---
-layout: default
+layout: home
 title: Design and Nature
 ---
 
-<div class="wrapper">
-  <div class="box a"><img src="/images/marisa-circle.jpg" />
-</div>
-<div class="box b">
-    <main>
-      <h1>Hey there, I'm Marisa.</h1>
-      <p><b>I focus on projects that connect people with nature.</b>
+      
+# Hey there, I'm Marisa.
+
+**I focus on projects that connect people with nature.**
 I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a monthly(ish) newsletter about nature, climate change, and hope. Most days, you’ll find me in my garden, [making ceramics](https://marisamorby.com/shop/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
 
 ## Join my newsletter: Design & Nature Reimagined
@@ -45,5 +42,3 @@ I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-
     <button class="opt-in-submit">Subscribe to the newsletter</button>
   </div>
 </form>
-</div>
-</div>
