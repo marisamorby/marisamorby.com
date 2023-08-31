@@ -7,8 +7,6 @@ pagination:
   size: 500
 ---
 
-# Mind & Body
-
 {% for post in posts %}
 
 <div class="card">
