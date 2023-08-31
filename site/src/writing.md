@@ -8,7 +8,7 @@ pagination:
 ---
 
 {% for post in posts %}
-<div class="post">
+<div class="post card">
   
 ## [{{ post.title }}](/{{ post.slug.current }}/)
 
