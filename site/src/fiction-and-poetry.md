@@ -1,6 +1,6 @@
 ---
 layout: writing
-title: Fiction
+title: Fiction & Poetry
 pagination:
   alias: posts
   data: posts.fiction
