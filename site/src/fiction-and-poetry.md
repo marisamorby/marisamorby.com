@@ -3,7 +3,7 @@ layout: writing
 title: Fiction & Poetry
 pagination:
   alias: posts
-  data: posts.fiction
+  data: posts.fiction-and-poetry
   size: 500
 ---
 
