@@ -7,7 +7,7 @@ title: Design and Nature
 # Hey there, I'm Marisa.
 
 **I focus on projects that connect people with nature.**
-I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a monthly(ish) newsletter about nature, climate change, and hope. Most days, you’ll find me in my garden, [making ceramics](https://marisamorby.com/ceramics/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
+I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a monthly(ish) newsletter about nature, climate change, and hope. Most days, you’ll find me in my [garden](https://marisamorby.com/garden/), [making ceramics](https://marisamorby.com/ceramics/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
 
 ## Join my newsletter: Design & Nature Reimagined
 
