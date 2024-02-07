@@ -13,7 +13,7 @@ On the final day of our last day on earth, you will find Jason and I arguing abo
 ## Wet Bulb Calculator 
 We've seen global heat waves the last few years that are becoming increasingly more intense. I put together a wet bulb calculator that can help you decide how much time is safe to spend outdoors, based on relative humidity and ambient temperature.
 
-[Wet Bulb Calculator](https://codepen.io/marisamorby/pen/qBmERPZ)
+[Wet Bulb Calculator](https://codepen.io/marisamorby/live/qBmERPZ)
 
 ## CSS Illustrations
 [A Single Spooky Div with Lynn Fisher](https://codepen.io/marisamorby/live/YzWaqbx) from [Learn with Jason](https://www.youtube.com/watch?v=dlKIOCRnvyc)
