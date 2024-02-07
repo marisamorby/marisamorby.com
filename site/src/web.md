@@ -20,4 +20,4 @@ We've seen global heat waves the last few years that are becoming increasingly m
 [A partly sunny day](https://codepen.io/marisamorby/pen/vYELYNX)
 
 ## Blender
-<img src="/images/donut.mp4" width="721" height="850"/>
+<video src="/images/donut.mp4" width="721" height="850"/>
