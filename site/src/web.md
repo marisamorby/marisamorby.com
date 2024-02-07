@@ -15,9 +15,9 @@ We've seen global heat waves the last few years that are becoming increasingly m
 [Wet Bulb Calculator](https://codepen.io/marisamorby/pen/qBmERPZ)
 
 ## CSS Illustrations
-[A Single Spooky Div with Lynn Fisher](https://codepen.io/marisamorby/pen/YzWaqbx) from [Learn with Jason](https://www.youtube.com/watch?v=dlKIOCRnvyc)
+[A Single Spooky Div with Lynn Fisher](https://codepen.io/marisamorby/live/YzWaqbx) from [Learn with Jason](https://www.youtube.com/watch?v=dlKIOCRnvyc)
 
-[A partly sunny day](https://codepen.io/marisamorby/pen/vYELYNX)
+[A partly sunny day](https://codepen.io/marisamorby/live/vYELYNX)
 
 ## Blender
 <img src="/images/Screenshot 2024-02-06 at 18.49.37.png" width="721" height="850"/>
