@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acting
+title: Media
 ---
 
 ## Acting
