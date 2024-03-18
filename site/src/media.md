@@ -5,7 +5,7 @@ title: Media
 
 ## Acting
 ### 2024
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=I303GQ7mb6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I303GQ7mb6I?si=1tQv0RFze5fQ2jRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### 2023
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gvD-uMO3p0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
