@@ -5,7 +5,7 @@ title: Web
 # Web projects
 Sometimes I make little projects on the web. Check them out!
 
-## Infographics
+## Information Design
 <a href=img src="/images/Stolen-hearts.png"><img src="/images/Stolen-hearts.png" width="721" height="850"/></a>
 <a href=img src="/images/lost-hearts.png"><img src="/images/lost-hearts.png" width="721" height="850"/></a>
 
