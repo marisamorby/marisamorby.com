@@ -6,8 +6,10 @@ title: Web
 Sometimes I make little projects on the web. Check them out!
 
 ## Information Design
+
+<a href=img src="/images/Lifecycle-of-a-bumblebee.png"><img src="/images/Lifecycle-of-a-bumblebee.png" width="721" height="850"/></a>
 <a href=img src="/images/Stolen-hearts.png"><img src="/images/Stolen-hearts.png" width="721" height="850"/></a>
-<a href=img src="/images/lost-hearts.png"><img src="/images/lost-hearts.png" width="721" height="850"/></a>
+
 
 ## Restaurant Picker
 On the final day of our last day on earth, you will find Jason and I arguing about where to eat. Because I'm a true genius and force for good, I made a restaurant picker so we never have to fight about food again. (Note: we still fight about it all the time)
