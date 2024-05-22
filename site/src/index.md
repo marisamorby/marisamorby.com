@@ -8,7 +8,7 @@ title: Design and Nature
 
 **I connect people to nature through art, information design, and storytelling.**
 
-I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a monthly newsletter about nature and hope. Most days, you’ll find me in my [garden](https://marisamorby.com/garden/), [making ceramics](https://marisamorby.com/ceramics/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
+I write [Design & Nature Reimagined](https://marisamorby.com/nature-and-climate-change/), a weekly newsletter about nature, design, and hope. Most days, you’ll find me in my [garden](https://marisamorby.com/garden/), [making ceramics](https://marisamorby.com/ceramics/), [drawing](https://marisamorby.com/drawing/), or [writing](https://marisamorby.com/writing/).
 
 ## Join my newsletter: Design & Nature Reimagined
 
