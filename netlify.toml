@@ -12,6 +12,12 @@
   from = "/card"
   to = "/"
   status = 301
+  
+[[redirects]]
+from = "https://marisamorby.ck.page/posts/"
+to = "https://marisamorby.com/newsletter"
+status = 200
+force = true
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
