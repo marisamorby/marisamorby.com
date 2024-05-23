@@ -19,6 +19,7 @@
         <img src="/images/site-logo.png" alt="Marisa Morby logo" /> 
       </a>
       <nav>
+        <a href="/newsletter/" {% if page.url == '/newsletter/' %}class="active"{% endif %}>newsletter</a>
         <a href="/writing/" {% if page.url == '/writing/' %}class="active"{% endif %}>writing</a>
         <a href="/drawing/" {% if page.url == '/drawing/' %}class="active"{% endif %}>drawing</a>
         <a href="/ceramics/" {% if page.url == '/ceramics/' %}class="active"{% endif %}>ceramics</a>
