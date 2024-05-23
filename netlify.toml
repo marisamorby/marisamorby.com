@@ -20,8 +20,8 @@ status = 200
 force = true
 
 [[redirects]]
-from = "https://marisamorby.com"
-to = "https://marisamorby.ck.page/profile"
+from = "https://marisamorby.ck.page/profile"
+to = "https://marisamorby.com"
 status = 200
 force = true
 
