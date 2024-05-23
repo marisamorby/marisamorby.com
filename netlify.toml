@@ -14,8 +14,8 @@
   status = 301
   
 [[redirects]]
-from = "https://marisamorby.ck.page/posts/"
-to = "https://marisamorby.com/newsletter"
+from = "https://marisamorby.com/newsletter"
+to = "https://marisamorby.ck.page/posts/"
 status = 200
 force = true
 
