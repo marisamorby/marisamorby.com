@@ -19,5 +19,12 @@ to = "https://marisamorby.ck.page/posts/"
 status = 200
 force = true
 
+[[redirects]]
+from = "https://marisamorby.com"
+to = "https://marisamorby.ck.page/profile"
+status = 200
+force = true
+
+
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
