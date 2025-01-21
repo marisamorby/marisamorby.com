@@ -18,6 +18,7 @@ title: Media
 
 
 ## Conference Talks, Podcasts, & Shows
+- <strong>2024</strong> | Design Month Portland by AIGA | <a href="https://docs.google.com/presentation/d/1aKVF3M6rPXNWMJXUrb3joEGA_KQtHmBaR1jW14uawiY/edit?usp=sharing">Lessons from Nature that Improve Digital Design</a>
 - <strong>2024</strong> | The Last Tech Podcast | <a href="https://www.youtube.com/watch?v=K3tCYdEOkf8">Marisa Morby!</a>
 - <strong>2021</strong> | Remotely Interesting | Technology Crossing: The Research Rundown
 - <strong>2019</strong> | TechJr Podcast | <a href="https://open.spotify.com/episode/2im2Rx7qQgmMMypK5RVdZB">Prototyping, Product Management, and Conference Proposals with Marisa Morby</a>
