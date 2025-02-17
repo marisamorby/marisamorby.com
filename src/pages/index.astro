@@ -1,16 +1,47 @@
 ---
-
+import Layout from '../layouts/default.astro';
+import GradientColors from '../components/gradient-colors.astro';
+import Signup from '../components/signup.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+	title="Marisa Morby"
+	description="Marisa's digital garden with nature articles, design, and art."
+	image="https://example.com/image.jpg"
+>
+	<section class="home">
+		<div class="image">
+			<GradientColors />
+		</div>
+		<div class="text">
+			<h1>Hey there, I'm Marisa.</h1>
+
+			<p>
+				<em
+					>I connect people to nature through art, information design, and
+					storytelling.</em
+				>
+			</p>
+
+			<p>
+				I write <strong>Design & Nature Reimagined</strong>, a weekly newsletter
+				about nature, design, and hope.
+			</p>
+
+			<Signup />
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.home {
+		display: flex;
+		gap: 100px;
+		align-items: center;
+		justify-content: start;
+	}
+
+	.text {
+		text-align: start;
+	}
+</style>
