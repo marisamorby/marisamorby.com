@@ -1,0 +1,66 @@
+---
+import { Image } from '@unpic/astro';
+
+export interface Props {
+	path: string;
+	img?: {
+		src: string;
+		alt?: string | null;
+	};
+	title: string;
+	description?: string;
+	topics?: string[];
+	type: string;
+}
+
+const { path, img, title, description, topics = [], type } = Astro.props;
+---
+
+<div class="blog-preview" data-type={type} data-topic={topics.join(' ')}>
+	<a href={path}>
+		{
+			img?.src ? (
+				<Image src={img?.src} alt={img?.alt} />
+			) : (
+				<div class="image-placeholder" />
+			)
+		}
+	</a>
+
+	<h2><a href={path}>{title}</a></h2>
+
+	<p>{description}</p>
+
+	<a href={path}>read more</a>
+</div>
+
+<style>
+	.blog-preview {
+		container: blog-preview / inline-size;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	:is(h2, p, a) {
+		margin: 0;
+	}
+
+	.image-placeholder,
+	img {
+		aspect-ratio: 292 / 230;
+		background: color-mix(in oklch, var(--foreground) 5%, transparent);
+		block-size: auto;
+		border-radius: 4px;
+		display: block;
+		inline-size: 100%;
+		object-fit: cover;
+	}
+
+	h2 {
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+</style>
