@@ -1,0 +1,62 @@
+---
+const navItems = [
+	{ path: 'https://marisamorby.kit.com/posts', label: 'newsletter' },
+	{ path: '/garden', label: 'the garden' },
+	{ path: '/about', label: 'about' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header>
+	<a href="/" rel="home" class="logo">
+		<span aria-label="Marisa Morby">mm.</span>
+	</a>
+
+	<nav>
+		{
+			navItems.map(({ path, label }) => (
+				<a href={path} class:list={[{ active: currentPath === path }]}>
+					{label}
+				</a>
+			))
+		}
+	</nav>
+</header>
+
+<style>
+	header {
+		align-items: baseline;
+		display: flex;
+		justify-content: space-between;
+		margin-inline: auto;
+		max-inline-size: min(90dvi, 1280px);
+	}
+
+	.logo {
+		color: inherit;
+		font-family: 'Oranienbaum', serif;
+		font-size: 3.75rem;
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	nav {
+		display: flex;
+		font-size: 1.675rem;
+		gap: 40px;
+
+		a {
+			color: var(--gray);
+			text-decoration: none;
+
+			&:is(:focus, :active, :hover) {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.active {
+		font-weight: 700;
+	}
+</style>
