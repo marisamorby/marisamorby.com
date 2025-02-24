@@ -1,0 +1,35 @@
+---
+publishedAt: 2023-07-31T07:00:00.000Z
+
+title: >
+  Design and Nature Reimagined: GMO trees for faster growth?
+description: >
+  As trees mature, they tend to take up more CO2. Is there a way to speed up their growth?
+
+type: writing
+topics:
+- nature
+
+---
+
+Anyone who knows even a little bit about me knows how much I love trees. I have favorite trees in the park by my house. I have favorite trees in pretty much any park I've visited, ever. And I'm a big supporter of both old forest conservation and widespread efforts of [reforesting cities](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/vqh3hrhp464m39bg/aHR0cHM6Ly9tYXJpc2Ftb3JieS5jb20vcmVmb3Jlc3RpbmctY2l0aWVzLWFuZC10b3ducy8=) and [rewilding](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/m2h7h5h89x9204hm/aHR0cHM6Ly9tYXJpc2Ftb3JieS5jb20vbmF0dXJlLWJlbG9uZ3MtZXZlcnl3aGVyZS1wMi8=).  
+​  
+And lately I've been wondering... can we use GMOs to speed up tree growth? We use GMOs to increase crop yield. [A lot of the insulin in use now is also a GMO](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/e0hph7h0ezemwzt8/aHR0cHM6Ly93d3cuYmJjLmNvLnVrL2JpdGVzaXplL2d1aWRlcy96Z2ZtM2s3L3JldmlzaW9uLzk=) since it's genetically modified bacteria with human insulin inserted into it.
+
+Scientists have used GMOs to [increase the growth rate of salmon](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/owhkhqhrnenx73fv/aHR0cHM6Ly9lZHVjYXRpb24ubmF0aW9uYWxnZW9ncmFwaGljLm9yZy9yZXNvdXJjZS9nZW5ldGljYWxseS1tb2RpZmllZC1vcmdhbmlzbXMv) so they get a fully grown fish at 18 months instead of three years.  
+​  
+So it stands to reason (at least in my mind) that we could potentially increase the growth rate of trees. What if, instead of it taking 20 - 50 years for an oak tree to reach maturity, we could do it in half that time? This could have huge implications for carbon storage because a mature tree, on average, can pull about 21 kilograms of carbon out of the air per year. That number depends a lot on the tree type and a whole lot on the age of the tree. Younger trees just can't hold as much CO2.  
+​  
+Anyway, I wasn't the first person to think of this idea, and a biotech company called Living Carbon has already been working on cultivating [genetically modified poplars that can grow 1.5 times faster than an average poplar](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/p8heh9hzdedrl2fq/aHR0cHM6Ly93d3cuc2NpZW5jZS5vcmcvY29udGVudC9hcnRpY2xlL2ZpZ2h0LWNsaW1hdGUtY2hhbmdlLWJpb3RlY2gtZmlybS1oYXMtZ2VuZXRpY2FsbHktZW5naW5lZXJlZC12ZXJ5LXBlcHB5LXBvcGxhciM6fjp0ZXh0PUElMjBDYWxpZm9ybmlhJTIwYmlvdGVjaCUyMGNvbXBhbnklMjBzZWVraW5nLHVubW9kaWZpZWQlMjBvbmVzJTIwaW4lMjBsYWIlMjB0cmlhbHMu).
+
+So then I thought, what if we could modify a tree to store MORE carbon. Maybe, instead of pulling out 21 kilograms per year it could pull twice that out of the air. The Living Carbon team is trying this, too, by decreasing the rate of [photorespiration](https://click.convertkit-mail2.com/68u4ro74kvsou06046aohk/e0hph7h0ezem22i8/aHR0cHM6Ly9tYXJpc2Ftb3JieS5jb20vcGhvdG9yZXNwaXJhdGlvbi8=) in the poplars.  
+​  
+I know there's a lot of controversy over the impact of genetically modified organisms. In fact, GMOs as crops are widely banned in Europe because they believe the risks outweigh the benefits. Additionally, genetically modifying anything can have unintended consequences since we don't fully understand how our ecological fabric works. And we likely wouldn't want GMO trees to be able to spread. Personally, I don't think this is something that should be pursued outside of a controlled environment, at least until we have more data on effects of a GMO poplar on its environment.  
+​  
+But what I find so interesting about this is the deep dive into understanding how plant growth works, what hinders it, and what conditions or changes might improve it in future.  
+​  
+We've always been in a changing world. But now, it's changing rapidly at a pace we're not ready for. Understanding the plants outside our doors could get us on step closer to better adaptations in a changing climate.  
+  
+
+
+![A grove of poplar trees in Ontario, Canada](https://cdn.sanity.io/images/xq50spjj/production/f7feec8c79acf534c385d31531b3c46d37a18f5a-924x748.jpg)

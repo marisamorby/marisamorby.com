@@ -1,0 +1,19 @@
+---
+publishedAt: 2023-10-29T07:00:00.000Z
+
+title: >
+  Mermaid
+description: >
+  I was a mermaid once.
+
+type: writing
+topics:
+- fiction
+
+---
+
+### Mermaid
+
+I was a mermaid once. In fact, it was only recently I became human. I have always been something else. And I prefer it. I remember feeling the warm water rushing over and under my hands, flowing its way through the spaces in my fingers. I would examine my fingertips, wrinkling with excess moisture, slowly touching my thumb and each finger together, one, two, three, four…. Eventually, my head would sink under the waves, eyes barely above water, and I could feel my hair, suspended and flowing outward. My fingers combed through my hair, slick and long, twice as long with its curls now relaxed in the water. I would sway back and forth, feeling each tendril play against my cheek, and listen to the water bubbling in my ear as I swayed, left then right. Left then right.
+
+I would close my eyes, and my tail would shine, the scales iridescent against the light, glittering as a reflection of the stars. My ocean was dark. A vast expanse of space under the blanket of a moonlit sky. With my eyes closed, it expanded on forever, but every time I opened them, my ocean was contained, crashing up against four white ceramic walls, glaring against the bathroom lights and boxing me back in to this reality. I was a mermaid once, when magic was real.
