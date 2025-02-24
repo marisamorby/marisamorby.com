@@ -1,0 +1,115 @@
+---
+import Header from '../components/header.astro';
+import Footer from '../components/footer.astro';
+
+export interface Props {
+	title: string;
+	description?: string;
+	image?: string;
+}
+
+const {
+	title,
+	description = 'Marisa Morby connects people to nature through art, information design, and storytelling.',
+	image = 'https://res.cloudinary.com/jlengstorf/image/upload/f_auto/q_auto/v1739753529/marisa-morby-og.jpg',
+} = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" /><link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oranienbaum&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<slot name="head">
+			<meta name="description" content={description} />
+			<meta name="image" content={image} />
+
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content={title} />
+			<meta property="og:site_name" content="Marisa Morby" />
+			<meta property="og:description" content={description} />
+			<meta property="og:url" content={Astro.url} />
+
+			<meta property="og:image" content={image} />
+			<meta property="og:image:width" content="1600" />
+			<meta property="og:image:height" content="900" />
+			<meta
+				property="og:image:alt"
+				content={`Hey there, I'm Marisa. I connect people to nature through art, information design, and storytelling. I write Design & Nature Reimagined, a weekly newsletter about nature, design, and hope. Most days, you’ll find me in my garden, making ceramics, drawing, or writing.`}
+			/>
+
+			<meta name="twitter:dnt" content="on" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:description" content={description} />
+			<meta name="twitter:image" content={image} />
+		</slot>
+	</head>
+	<body>
+		<Header />
+
+		<main>
+			<slot />
+		</main>
+
+		<Footer />
+	</body>
+</html>
+
+<style is:global>
+	/*
+ * NOTE: This should only be used for stuff that affects the ENTIRE site, like
+ * typography, colors, etc. — for individual component or page styles, add the
+ * rules to the component or page file itself.
+ */
+
+	*,
+	*::after,
+	*::before {
+		box-sizing: border-box;
+	}
+
+	:root {
+		/* typically colors and such will go here */
+		--background: #ededed;
+		--foreground: black;
+		--gray: #252525;
+
+		background: var(--background);
+		color: var(--foreground);
+		font-family: 'Manrope', serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 1.45;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	:is(h1, h2, h3, h4, h5, h6) {
+		font-family: 'Oranienbaum', serif;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 1.1;
+	}
+</style>
+
+<style>
+	/* these styles will ONLY apply to the layout file */
+	main {
+		inline-size: min(90dvi, 1280px);
+		margin: 50px auto 80px;
+	}
+</style>
