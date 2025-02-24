@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/default.astro';
+---
+
+<Layout
+	title="About Marisa Morby"
+	description="Blah blah blah"
+	image="https://example.com/image.jpg"
+>
+	<section class="about">
+		<div class="text">
+			<h1>About Marisa Morby</h1>
+		</div>
+		<div class="image">
+			<img src="https://jason.energy/headshot.jpg" alt="Jason" />
+		</div>
+	</section>
+</Layout>
+
+<style>
+	.about {
+		display: flex;
+		gap: 40px;
+		justify-content: space-between;
+	}
+</style>
