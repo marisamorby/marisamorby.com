@@ -1,0 +1,62 @@
+---
+publishedAt: 2023-09-29T07:00:00.000Z
+
+title: >
+  Viral
+description: >
+  The video came with a warning.
+
+type: writing
+topics:
+- fiction
+
+---
+
+The video came with a warning.
+
+But, like most warnings, people glanced over it, assuming the warning was best for someone else. Someone other than them. Someone less strong. Someone less cultured. Someone less.
+
+But the warning was for everyone.
+
+_Please do not watch this video. This video is not meant to be viewed and we are in the process of getting it removed. This video was originally intended for mature audiences only. It contains extremely disturbing images and audio. This is not a joke._
+
+Nothing on the internet ever disappears. Things gets forgotten. Things get taken down. But there is always a record of it, once it’s been pushed out into the world.
+
+After a certain point of critical popularity, a video reaches a tipping point. It doesn’t even matter what the content is.
+
+Sometimes, no one even remembers what’s inside. Others comment, “Cool!” never having pressed play. The pressure is too much. Too many people have watched. And more must watch to keep up.  
+But sometimes when things go viral, you can’t reel them back in. So a short warning is placed on it and maybe people will come to their senses.
+
+The video was 37 seconds long. Less time than a commercial break, when we still had to watch commercials. Less time than some of those annoying Youtube ads that you can’t skip.
+
+Not enough time to do much of anything, really.
+
+It started with a black screen.
+
+Darkness has a way of touching everything and making that thing its own. It envelops. But some things are darker than the darkness. They sit in the shadows. And in its vastness, they move.
+
+Slowly, subtly, almost imperceptibly, something in the darkness shifts. The darkest corner has moved to center screen. It’s become a shape, although it’s hard to remember when it started to change in the first place. The shape resembles a thick, hunched human form. Somewhere between a mass of shadow and a human silhouette.
+
+There is no light, but the darkness is getting darker, folding in on itself. It forms the lines of the figure. The shadows within the shadow create lines, and the lines come together. They connect. A skeleton created from nothing.
+
+And here in this shadow there is a space where a face should be. Or perhaps a space where a face once was.
+
+No wait. There is a face now. Shadows that form to resemble a face. A face that is wrong, with over large eyes and a stumped, wrinkled nose, and a mouth with jagged teeth set in a scream. Maybe. It’s hard to see detail.
+
+But no. There is no face. Or it has changed. Or it is the same but different than before.
+
+There is no music. Should there be music? But there is a rushing noise. No, a pulsing noise, like the sound of a heartbeat, but slowed down. And the noise gets louder, and deeper. And now it’s more of a feeling than a sound. A feeling that vibrates in the bones and sloshes through the stomach and makes its way down the legs, finally settling in the toes until the whole body is vibrating with it. A new heartbeat.
+
+And now there is another noise. A voice? Who’s talking? What are they saying? It sounds familiar. It’s the voice of a friend. The voice sounds panicked, it’s talking too fast. None of the words make any sense. It sounds like it’s coming from the room, but it has to be coming from the video.
+
+And the voice changes. It’s a voice so low that it’s almost impossible to hear. It’s a voice that can be heard only behind the ears, like someone leaning in close to whisper. And it growls as it forms words. These words make sense. And the voice says things that people only get to think once in their lives. When they’re on the edge of the cliff, the wrong end of a gun, under the hands of the person they thought loved them. The voice is desperate and cruel and eternal. A constant whisper behind the left ear, fading in and out like a fickle radio signal.
+
+The shadow on the screen lifts up what should be its arms. It’s been 34 seconds. Its arms are extended, and it glides toward the screen, welcoming.
+
+The voice is getting louder now. The sound of the heartbeat pulses, pushing out any coherent thoughts. There is only rushing. Only growling. Only shadow. The darkness is vast. And in its vastness, it conquers.
+
+The video came with 5 million views. It came with comments that said, “Awesome!”, “Rad!”, and “Holy shit!”
+
+The video was viral.
+
+The video came with a warning. A warning that never got read.
