@@ -1,0 +1,231 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/default.astro';
+import BlogPreview from '../components/blog-preview.astro';
+import { types, topics } from '../content.config';
+
+const posts = await getCollection('blog');
+---
+
+<Layout title="Marisa Morby's Garden">
+	<div class="filters">
+		<div class="types">
+			<p>Types:</p>
+
+			<fieldset>
+				<legend>A list of types to select</legend>
+				<label>
+					<input type="radio" name="type" value="" checked />
+					<p>all</p>
+				</label>
+
+				{
+					types.map((type) => {
+						// don't show type filters if there are no posts of that type
+						if (!posts.some((p) => p.data.type === type)) {
+							return null;
+						}
+
+						return (
+							<label>
+								<input type="radio" name="type" value={type} />
+								<p>{type}</p>
+							</label>
+						);
+					})
+				}
+			</fieldset>
+		</div>
+
+		<div class="topics">
+			<p>Topics:</p>
+
+			<fieldset>
+				<legend>A list of topics to select</legend>
+				<label>
+					<input type="radio" name="topic" value="" checked />
+					<p>all</p>
+				</label>
+
+				{
+					topics.map((topic) => {
+						// don't show topic filters if there are no posts in that topic
+						if (!posts.some((p) => p.data.topics.includes(topic))) {
+							return null;
+						}
+
+						return (
+							<label>
+								<input type="radio" name="topic" value={topic} />
+								<p>{topic}</p>
+							</label>
+						);
+					})
+				}
+			</fieldset>
+		</div>
+	</div>
+
+	<section class="preview-grid">
+		{
+			posts.map((post) => (
+				<BlogPreview
+					path={`/${post.id}`}
+					title={post.data.title}
+					description={post.data.description}
+					img={post.data.image}
+					type={post.data.type}
+					topics={post.data.topics}
+				/>
+			))
+		}
+	</section>
+</Layout>
+
+<style>
+	.filters {
+		display: flex;
+		flex-direction: column;
+		font-size: 0.875rem;
+		gap: 10px;
+		margin-block-end: 30px;
+
+		> div {
+			display: flex;
+
+			> p {
+				inline-size: 10ch;
+				text-align: end;
+			}
+		}
+
+		p {
+			display: inline-block;
+			margin: 0;
+			padding: 8px 16px;
+		}
+
+		fieldset {
+			border: none;
+			display: flex;
+			gap: 10px;
+			margin: 0;
+			padding: 0;
+
+			legend {
+				block-size: 0;
+				inline-size: 0;
+				overflow: clip;
+			}
+
+			label {
+				background: var(--background);
+				border-radius: 4px;
+				cursor: pointer;
+				display: grid;
+				grid-template-columns: auto 1fr;
+
+				&:has(:checked) {
+					background: color-mix(in oklch, var(--foreground) 3%, transparent);
+				}
+			}
+
+			:has(:checked) {
+				p {
+					font-weight: 700;
+				}
+			}
+
+			input,
+			p {
+				grid-area: 1 / 1;
+			}
+
+			input {
+				appearance: none;
+				background: none;
+				border: none;
+				inline-size: 100%;
+				block-size: 100%;
+			}
+		}
+	}
+
+	.preview-grid {
+		display: grid;
+		gap: 25px;
+		grid-template-columns: repeat(auto-fit, 292px);
+		place-content: center;
+	}
+
+	/* FILTER STUFF — DON'T TOUCH THIS */
+	:global(
+			:has([name='type'][value='art']:checked)
+				[data-type]:not([data-type*='art'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='type'][value='writing']:checked)
+				[data-type]:not([data-type*='writing'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='type'][value='talks']:checked)
+				[data-type]:not([data-type*='talks'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='type'][value='podcasts']:checked)
+				[data-type]:not([data-type*='podcasts'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='type'][value='acting']:checked)
+				[data-type]:not([data-type*='acting'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='topic'][value='nature']:checked)
+				[data-topic]:not([data-topic*='nature'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='topic'][value='design']:checked)
+				[data-topic]:not([data-topic*='design'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='topic'][value='research']:checked)
+				[data-topic]:not([data-topic*='research'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='topic'][value='mind']:checked)
+				[data-topic]:not([data-topic*='mind'])
+		) {
+		display: none;
+	}
+
+	:global(
+			:has([name='topic'][value='fiction']:checked)
+				[data-topic]:not([data-topic*='fiction'])
+		) {
+		display: none;
+	}
+</style>
