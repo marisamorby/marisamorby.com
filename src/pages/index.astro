@@ -1,11 +1,27 @@
 ---
 import Layout from '../layouts/default.astro';
+import GradientColors from '../components/gradient-colors.astro';
 ---
 
 <Layout
 	title="Marisa Morby"
-	description="Blah blah blah"
+	description="Marisa's digital garden with nature articles, design, and art."
 	image="https://example.com/image.jpg"
 >
-	<h1>Marisa Morby</h1>
+	<section class="home">
+		<div class="image">
+			<GradientColors />
+		</div>
+		<div class="text">
+			<h1>About Marisa Morby</h1>
+		</div>
+	</section>
 </Layout>
+
+<style>
+	.home {
+		display: flex;
+		gap: 100px;
+		justify-content: start;
+	}
+</style>
