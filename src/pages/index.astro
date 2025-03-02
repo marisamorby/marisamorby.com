@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/default.astro';
 import GradientColors from '../components/gradient-colors.astro';
+import Signup from '../components/signup.astro';
 ---
 
 <Layout
@@ -13,7 +14,13 @@ import GradientColors from '../components/gradient-colors.astro';
 			<GradientColors />
 		</div>
 		<div class="text">
-			<h1>About Marisa Morby</h1>
+				<h1>Hey there, I'm Marisa.</h1>
+
+				<p><em>I connect people to nature through art, information design, and storytelling.</em></p>
+
+				<p>I write <strong>Design & Nature Reimagined</strong>, a weekly newsletter about nature, design, and hope.</p>
+
+			<Signup />
 		</div>
 	</section>
 </Layout>
@@ -22,6 +29,14 @@ import GradientColors from '../components/gradient-colors.astro';
 	.home {
 		display: flex;
 		gap: 100px;
+		align-items: center;
 		justify-content: start;
 	}
+
+	.text {
+		text-align: start;
+	}
 </style>
+
+
+
