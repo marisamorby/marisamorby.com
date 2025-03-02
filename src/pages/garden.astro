@@ -68,16 +68,18 @@ const posts = await getCollection('blog');
 
 	<section class="preview-grid">
 		{
-			posts.map((post) => (
-				<BlogPreview
-					path={`/${post.id}`}
-					title={post.data.title}
-					description={post.data.description}
-					img={post.data.image}
-					type={post.data.type}
-					topics={post.data.topics}
-				/>
-			))
+			posts
+				.sort((a, b) => (a.data.publishedAt > b.data.publishedAt ? -1 : 1))
+				.map((post) => (
+					<BlogPreview
+						path={`/${post.id}`}
+						title={post.data.title}
+						description={post.data.description}
+						img={post.data.image}
+						type={post.data.type}
+						topics={post.data.topics}
+					/>
+				))
 		}
 	</section>
 </Layout>
