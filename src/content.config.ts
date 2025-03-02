@@ -21,7 +21,7 @@ export const BlogSchema = z.object({
 	title: z.string(),
 	publishedAt: z.date(),
 	type: z.enum(types),
-	topics: z.array(z.enum(topics)),
+	topics: z.array(z.enum(topics)).optional().default([]),
 	image: z
 		.object({
 			src: z.string().url(),
