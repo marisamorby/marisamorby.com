@@ -1,0 +1,70 @@
+---
+
+---
+<h1>Join my newsletter: Design & Nature Reimagined</h1>
+
+				<form
+  					method="POST"
+  					action="https://app.convertkit.com/forms/1961068/subscriptions" 
+  					class="opt-in"
+				>
+  				<div class="input-group">
+   					<label for="fname">FIRST NAME</label>
+    				<input
+     			 		id="fname"
+      					type="text"
+      					class="formkit-input"
+      					aria-label="First Name"
+      					name="fields[first_name]"
+    				/>
+  				</div>
+
+  <div class="input-group">
+    <label for="email">EMAIL</label>
+    <input
+      id="email"
+      type="email"
+      class="formkit-input"
+      name="email_address"
+      aria-label="Your email address"
+      required
+    />
+  </div>
+  <div class="submit-group">
+    <button class="opt-in-submit">SUBSCRIBE</button>
+  </div>
+</form>
+
+<style>
+    form{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .input-group{
+        inline-size:calc(50% - 20px);
+        font-size:small;
+
+        label{
+            display:block;
+        }
+
+        input{
+            inline-size: 100%;
+            height: 30px;
+        }
+    }
+    .submit-group{
+        inline-size: 100%;
+
+        button{
+            color: white;
+            background: black;
+            borders: none;
+            height: 35px;
+            border-radius: 10px; 
+            inline-size: 100%; 
+        }
+        
+    }
+</style>
