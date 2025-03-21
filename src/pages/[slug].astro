@@ -39,6 +39,15 @@ const { Content } = await render(post);
 		<meta name="twitter:image" content={post.data.image?.src} />
 	</Fragment>
 
-	<h1>{post.data.title}</h1>
-	<Content />
+	<article>
+		<h1>{post.data.title}</h1>
+		<Content />
+	</article>
 </Layout>
+
+<style>
+article{
+	inline-size: min(100%, 58ch);
+	margin-inline: auto;
+}
+</style>
