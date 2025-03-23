@@ -13,8 +13,8 @@ topics:
 image:
   src: https://cdn.sanity.io/images/xq50spjj/production/bfc9ef759e964bf2d18bc5c20e1a7e8165e40c54-1920x1080.png
   alt: Research framework that shows how to perform varying levels of resaerch
-  caption: Research framework that shows how to perform varying levels of resaerch
+  caption: Research framework that shows how to perform varying levels of research
   
 ---
 
-![Research framework that shows how to perform varying levels of resaerch](https://cdn.sanity.io/images/xq50spjj/production/bfc9ef759e964bf2d18bc5c20e1a7e8165e40c54-1920x1080.png)
+![Research framework that shows how to perform varying levels of research](https://cdn.sanity.io/images/xq50spjj/production/bfc9ef759e964bf2d18bc5c20e1a7e8165e40c54-1920x1080.png)
