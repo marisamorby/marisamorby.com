@@ -12,6 +12,11 @@ topics:
 - nature
 - design
 
+image:
+  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1742260995/fallon-michael-DTpKjgHpHj4-unsplash_taniz9.jpg
+  alt: Peonies in a white vase.
+  caption: Peonies in a white vase.
+
 ---
 I was walking in the garden the other day and as I came around the corner, walked into the wall of fragrance of jasmine, citrus, and vanilla. The huge daphne bush in the middle of the yard had finally bloomed. This one plant, in our relatively small garden, makes washes over you as soon as you step outside. 
 
