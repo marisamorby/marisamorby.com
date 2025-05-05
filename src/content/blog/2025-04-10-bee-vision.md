@@ -12,10 +12,10 @@ topics:
 - nature
 - design
 
-image: https://res.cloudinary.com/dnchijmuf/image/upload/v1746423798/aaron-burden-2xhOYKK-jAM-unsplash_uemuy1.jpg
-  src: A honeybee landing on a small white clover flower.
+image: 
+  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1746423798/aaron-burden-2xhOYKK-jAM-unsplash_uemuy1.jpg
   alt: A honeybee landing on a small white clover flower.
-  caption: 
+  caption: A honeybee landing on a small white clover flower.
 
 ---
 
