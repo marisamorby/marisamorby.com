@@ -19,7 +19,6 @@ image:
 
 ---
 
-# How we see the world
 I'm fascinated with the idea that when presented with the world around us, we literally see things completely differently. Philosophically it reminds me that this is what makes a shared reality so hard. We're each looking at the world and seeing something a little differently than another. I recently went to the [Saatchi Gallery](https://www.saatchigallery.com/) in London, and they had a whole exhibit on flowers in contemporary art. One image that caught my eye, and made me want to write this article, was this. It's a UV image of an iris, an exploration on how a bee might see a flower.
 
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746422755/Screenshot_2025-05-04_at_22.25.41_vceot2.png)
