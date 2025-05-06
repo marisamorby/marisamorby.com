@@ -23,7 +23,7 @@ I recently went to the [Saatchi Gallery](https://www.saatchigallery.com/) in Lon
 
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746422755/Screenshot_2025-05-04_at_22.25.41_vceot2.png)
 
-Every morning from the cool, early spring to the cool, last days of fall, I sit in my garden and watch the bees. My neighbor has honeybees that lazily move through and I plant native wildflowers to attract the native bumblebees. I love all the colors that rise up during the season, the violet lupine, the orange poppies, and the delicately pink bleeding heart. But as the bees and I share the garden, me watching as they hover intently around the flowers, I wonder, do they see the garden the same way I do?
+Every morning from the cool, early days of spring to the cool, last days of fall, I sit in my garden and watch the bees. My neighbor has honeybees that lazily move through and I plant native wildflowers to attract the native bumblebees. I love all the colors that rise up during the season, the violet lupine, the orange poppies, and the delicately pink bleeding heart. But as the bees and I share the garden, me watching as they hover intently around the flowers, I wonder, do they see the garden the same way I do?
 
 The book _What the Bees See: A Honeybee's Eye View of the World_ by Craig Burrows, suggests that although we share the same space in the garden, we don't see the same things.
 
@@ -55,7 +55,8 @@ For a better grasp of the colors they see, we need to look again at Craig Burrow
 And here on the left, a simple, but beautiful yellow flower to us, almost glows when seen by a bee.
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746423234/Screenshot_2025-05-04_at_22.33.15_uj6jvp.png)
 
-[This video](https://www.youtube.com/watch?v=2Hs3vAZYsA8) is also really fascinating and explains how bees might see the world: a world shifted into a more blue-green spectrum, with a dark strip of blue polarity across the sky to help them navigate, and flowers with vibrant patterns that invite them to come and land!
+[This video](https://www.youtube.com/watch?v=2Hs3vAZYsA8) is also really fascinating and explains how bees might see the world: a world shifted into a more blue-green spectrum, with a dark strip of blue polarity across the sky to help them navigate, and flowers with vibrant patterns that invite them to come and land.
 
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746505719/Screenshot_2025-05-05_at_21.28.32_xrn8fa.png)
 
+I have a lot of bees in my garden, which tells me that overall, it must be pretty eye-catching—even if what I'm seeing and what the bees are seeing are nowhere near the same thing.
