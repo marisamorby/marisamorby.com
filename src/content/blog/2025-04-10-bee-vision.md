@@ -32,9 +32,9 @@ The book [_What the Bees See: A Honeybee's Eye View of the World_](https://www.b
 Here we are, living on the same planet, side by side, in two completely different worlds.
 
 # How color works with our eyes
-In a previous newsletter, I've talked about [how color works](https://marisamorby.kit.com/posts/design-nature-reimagined-how-color-works). But how does an eye perceive color? Animals that can see color have photoreceptors in their eyes. In humans, that translates into rods and cones. Rods allow us to perceive light and periphery vision and cones allow us to perceive different color waves. In humans, we have three cones that can perceive red, blue, and green. Every color we perceive is a single color or combination of more than one color.
+In a previous newsletter, I've talked about [how color works](https://marisamorby.kit.com/posts/design-nature-reimagined-how-color-works). But how does an eye perceive color? Animals that can see color have photoreceptors in their eyes. In humans, [that translates into rods and cones](https://www.bbc.com/future/article/20150727-what-are-the-limits-of-human-vision). Rods allow us to perceive light and periphery vision and cones allow us to perceive different color waves. In humans, we have three cones that can perceive red, blue, and green. Every color we perceive is a single color or combination of more than one color.
 
-With our 3 cones humans are able to see up to [10 million colors!](https://www.allaboutvision.com/eye-care/eye-anatomy/color-vision/). 
+With our 3 cones humans are able to see around a million colors!
 
 Bees have compound eyes made up of individual ommatidia. Scientists currently think that bees see in a pixelated way, with a higher resolution image the more omatidia they have. Bees can also see polarized light, creating a band running across the sky like a stripe,90 degrees from the sun. Bees use this polarity to navigate. They can also see color, but their visible range is yellow, blue, green, violet, and ultraviolet. Their visible color range is shorter, but they can see ultraviolet light, and so the world looks very different than what we see. 
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746418495/Screenshot_2025-05-04_at_20.02.26_fnq4cg.png)
