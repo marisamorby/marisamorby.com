@@ -25,7 +25,7 @@ I recently went to the [Saatchi Gallery](https://www.saatchigallery.com/) in Lon
 
 Every morning from the cool, early days of spring to the cool, last days of fall, I sit in my garden and watch the bees. My neighbor has honeybees that lazily move through and I plant native wildflowers to attract the native bumblebees. I love all the colors that rise up during the season, the violet lupine, the orange poppies, and the delicately pink bleeding heart. But as the bees and I share the garden, me watching as they hover intently around the flowers, I wonder, do they see the garden the same way I do?
 
-The book _What the Bees See: A Honeybee's Eye View of the World_ by Craig Burrows, suggests that although we share the same space in the garden, we don't see the same things.
+The book [_What the Bees See: A Honeybee's Eye View of the World_](https://www.barnesandnoble.com/w/what-the-bees-see-craig-p-burrows/1143809956) by Craig Burrows, suggests that although we share the same space in the garden, we don't see the same things.
 
 ![](https://res.cloudinary.com/dnchijmuf/image/upload/v1746505271/Screenshot_2025-05-05_at_21.20.54_cvnnaz.png)
 
