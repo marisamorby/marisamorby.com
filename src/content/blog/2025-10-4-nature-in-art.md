@@ -12,9 +12,9 @@ topics:
 - nature
 
 image: 
-  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1750046703/Screenshot_2025-06-08_at_21.55.29_1_p4soye.png
-  alt: A tufted puffin sitting on a rock.
-  caption: A tufted puffin sititng on a rock.
+  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1759969508/Screenshot_2025-09-21_at_18.04.29_otjojm.png
+  alt: A white ceramic pumpkin with red and orange floral designs in the Petrykivka style.
+  caption: An autumn painted pumpkin
 
 ---
 
