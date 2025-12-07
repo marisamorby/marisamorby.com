@@ -3,33 +3,40 @@ import Layout from '../layouts/default.astro';
 ---
 
 <Layout
-	title="About Marisa Morby"
-	description="Blah blah blah"
-	image="https://example.com/image.jpg"
+  title="About Marisa Morby"
+  description="Blah blah blah"
+  image="https://example.com/image.jpg"
 >
-	<section class="about">
-		<div class="text">
-			<h1>About Marisa Morby</h1>
-				<p>Marisa Morby is a researcher, designer, and artist focusing on projects that connect people with nature. 
-					She writes Design & Nature Reimagined, a newsletter about hope, nature, and technology. 
-					She's a contributing author on the book "Usability for the World: Building Better Cities and Communities", 
-					leads product and research work at <a href="https://observablehq.com/">Observable</a>.</p>
-		</div>
-		<div class="image">
-			<img src="https://res.cloudinary.com/dnchijmuf/image/upload/v1743563096/DSC00299_1_ai3ctw.png" alt="Marisa" />
-		</div>
-	</section>
+  <section class="about">
+    <div class="text">
+      <h1>About Marisa Morby</h1>
+      <p>
+        Marisa Morby is a researcher, designer, and artist focusing on projects
+        that connect people with nature. She writes Design & Nature Reimagined,
+        a newsletter about hope, nature, and technology. She's a contributing
+        author on the book "Usability for the World: Building Better Cities and
+        Communities", leads product and research work at <a
+          href="https://observablehq.com/">Observable</a
+        >.
+      </p>
+    </div>
+    <div class="image">
+      <img
+        src="https://res.cloudinary.com/marisa/image/upload/v1743563096/DSC00299_1_ai3ctw.png"
+        alt="Marisa"
+      />
+    </div>
+  </section>
 </Layout>
 
-
 <style>
-	.about {
-		display: flex;
-		gap: 40px;
-		justify-content: space-between;
-	}
-	.text {
-		text-align: start;
-		max-width: 450px;
-	}
+  .about {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .text {
+    text-align: start;
+    max-width: 450px;
+  }
 </style>
