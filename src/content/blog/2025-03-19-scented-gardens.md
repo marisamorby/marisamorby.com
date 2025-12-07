@@ -13,7 +13,7 @@ topics:
 - design
 
 image:
-  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1742260995/fallon-michael-DTpKjgHpHj4-unsplash_taniz9.jpg
+  src: https://res.cloudinary.com/marisa/image/upload/v1742260995/fallon-michael-DTpKjgHpHj4-unsplash_taniz9.jpg
   alt: Peonies in a white vase.
   caption: Peonies in a white vase.
 
@@ -26,7 +26,7 @@ And that got me thinking. Most gardens don't have tons of smells. I've been to b
 
 A lot of the stronger scents have been bred out of our most popular flowers like roses and peonies, in an effort to get larger and showier blooms. 
 
-![](https://res.cloudinary.com/dnchijmuf/image/upload/v1742260995/fallon-michael-DTpKjgHpHj4-unsplash_taniz9.jpg)
+![](https://res.cloudinary.com/marisa/image/upload/v1742260995/fallon-michael-DTpKjgHpHj4-unsplash_taniz9.jpg)
 
 This is because aroma production and length of flower life are tightly linked by a plant hormone called ethylene. More ethylene makes a flower fade faster but produce more scent, while less ethylene allows a flower to last longer but release less scent. In trying to create a more visually beautiful bloom that lasted longer, plant breeders ended up removing this secret third thing that adds to a flower's beauty.
 
@@ -42,12 +42,12 @@ The loss of garden fragrance is something that we don't always notice is missing
 
 But we get wonderful wild fragrances even in more temperate areas like the Pacific Northwest with the piney and somehow floral smell of the Western red cedar trees (_Thuja plicata_) and the vanilla meets jasmine fragrance of Mock Orange (_Philadelpius lewisii_). It even extends to the northern bogs of the subarctic. Bogs are a fairly overlooked part of the natural world, but together ​hold [twice as much carbon as all the world's forests](https://marisamorby.com/the-beauty-of-bogs/)​. [_Rhododendron tomentosum_](https://parks.canada.ca/pn-np/mb/wapusk/nature/plantes-plants/labrador), a shrubby flower in the heath family, give bogs their characteristic smell as you walk through—a mixture of pine, eucalyptus, rosemary, or as one person said, it smells like "a nice hipster from the pacific northwest".
 
-![](https://res.cloudinary.com/dnchijmuf/image/upload/v1742270272/Screenshot_2025-03-17_at_20.57.37_li3a3l.png)
+![](https://res.cloudinary.com/marisa/image/upload/v1742270272/Screenshot_2025-03-17_at_20.57.37_li3a3l.png)
 
 ## Scent as Art?
 One of my favorite explorations around scent is [_Resurrecting the Sublime_](https://www.daisyginsberg.com/work/resurrecting-the-sublime) by artist ​Alexandra Daisy Ginsberg. She wanted to re-create the scent of flowers that were driven to extinction by human activity. Using small amounts of DNA from herbarium samples, scientists created a synthetic approximation of what the flower might have smelled like. The exhibit has a digitally recreated landscape of where the flower would have been found and the scent is released into the air as you watch the area come into view. I was lucky enough to see this exhibit in 2019 and it's stayed in my mind as one of the more unique and immersive art experiences that I've gotten to enjoy.
 
-![](https://res.cloudinary.com/dnchijmuf/image/upload/Screenshot_2025-03-17_at_18.01.55_l8ghc8.png)
+![](https://res.cloudinary.com/marisa/image/upload/Screenshot_2025-03-17_at_18.01.55_l8ghc8.png)
 ​
 ## Finding Your Next Great Smell
 If you're looking for a bit of a field trip, botanical gardens sometimes have an area dedicated to sensory gardens or fragrance gardens, where you can learn and experience more of the scents that flowers have to offer. 

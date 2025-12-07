@@ -9,11 +9,11 @@ description: >
 type: art
 
 image:
-  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1742691122/Stolen-hearts_ctsgjs.png
+  src: https://res.cloudinary.com/marisa/image/upload/v1742691122/Stolen-hearts_ctsgjs.png
   alt: Information design with hearts
   caption: Stolen hearts information design work.
 ---
 
-![](https://res.cloudinary.com/dnchijmuf/image/upload/v1742691122/Stolen-hearts_ctsgjs.png)
+![](https://res.cloudinary.com/marisa/image/upload/v1742691122/Stolen-hearts_ctsgjs.png)
 
-![](https://res.cloudinary.com/dnchijmuf/image/upload/v1742691128/Lifecycle-of-a-bumblebee_gllgyu.png)
+![](https://res.cloudinary.com/marisa/image/upload/v1742691128/Lifecycle-of-a-bumblebee_gllgyu.png)
