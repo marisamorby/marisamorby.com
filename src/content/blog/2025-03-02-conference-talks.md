@@ -9,7 +9,7 @@ description: >
 type: talks
 
 image:
-  src: https://res.cloudinary.com/dnchijmuf/image/upload/v1742693786/Screenshot_2025-03-22_at_18.28.33_t9mgoz.png
+  src: https://res.cloudinary.com/marisa/image/upload/v1742693786/Screenshot_2025-03-22_at_18.28.33_t9mgoz.png
   alt: Marisa on stage speaking at Generate Conf.
   caption: Speaking at Generate Conf.
 ---
