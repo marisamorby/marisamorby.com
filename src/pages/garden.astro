@@ -167,72 +167,71 @@ const posts = [...markdownPosts, ...notionPosts].sort(
 
   /* FILTER STUFF — DON'T TOUCH THIS */
   :global(
-      :has([name='type'][value='art']:checked)
-        [data-type]:not([data-type*='art'])
-    ) {
+    :has([name='type'][value='art']:checked) [data-type]:not([data-type*='art'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='type'][value='writing']:checked)
-        [data-type]:not([data-type*='writing'])
-    ) {
+    :has([name='type'][value='writing']:checked)
+      [data-type]:not([data-type*='writing'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='type'][value='talks']:checked)
-        [data-type]:not([data-type*='talks'])
-    ) {
+    :has([name='type'][value='talks']:checked)
+      [data-type]:not([data-type*='talks'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='type'][value='podcasts']:checked)
-        [data-type]:not([data-type*='podcasts'])
-    ) {
+    :has([name='type'][value='podcasts']:checked)
+      [data-type]:not([data-type*='podcasts'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='type'][value='acting']:checked)
-        [data-type]:not([data-type*='acting'])
-    ) {
+    :has([name='type'][value='acting']:checked)
+      [data-type]:not([data-type*='acting'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='topic'][value='nature']:checked)
-        [data-topic]:not([data-topic*='nature'])
-    ) {
+    :has([name='topic'][value='nature']:checked)
+      [data-topic]:not([data-topic*='nature'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='topic'][value='design']:checked)
-        [data-topic]:not([data-topic*='design'])
-    ) {
+    :has([name='topic'][value='design']:checked)
+      [data-topic]:not([data-topic*='design'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='topic'][value='research']:checked)
-        [data-topic]:not([data-topic*='research'])
-    ) {
+    :has([name='topic'][value='research']:checked)
+      [data-topic]:not([data-topic*='research'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='topic'][value='mind']:checked)
-        [data-topic]:not([data-topic*='mind'])
-    ) {
+    :has([name='topic'][value='mind']:checked)
+      [data-topic]:not([data-topic*='mind'])
+  ) {
     display: none;
   }
 
   :global(
-      :has([name='topic'][value='fiction']:checked)
-        [data-topic]:not([data-topic*='fiction'])
-    ) {
+    :has([name='topic'][value='fiction']:checked)
+      [data-topic]:not([data-topic*='fiction'])
+  ) {
     display: none;
   }
 </style>
