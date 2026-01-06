@@ -190,7 +190,6 @@ async function parseNotionProperty(property: z.infer<typeof NotionProperty>) {
           crop: 'fill',
           gravity: 'faces',
           quality: 'auto',
-          format: 'auto',
         });
       } catch (error) {
         console.log(
@@ -298,6 +297,8 @@ export function notionLoader({
                 block_id: page.id,
               }),
             ]);
+
+            console.log(imageSrc);
 
             const data = await parseData({
               id: rt.plain_text,
