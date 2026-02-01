@@ -38,16 +38,29 @@ const blog = defineCollection({
   schema: BlogSchema,
 });
 
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
 const notionBlog = defineCollection({
   loader: notionLoader({
     integration_token: import.meta.env.NOTION_TOKEN,
     data_source_id: import.meta.env.NOTION_DATABASE_ID,
     // Use Notion sorting and filtering
     filter: {
-      property: 'Status',
-      select: {
-        equals: 'Published',
-      },
+      and: [
+        {
+          property: 'Status',
+          select: {
+            equals: 'Published',
+          },
+        },
+        {
+          property: 'Publish date',
+          date: {
+            on_or_after: today.toISOString(),
+          },
+        },
+      ],
     },
     sorts: [
       {
