@@ -57,7 +57,7 @@ const notionBlog = defineCollection({
         {
           property: 'Publish date',
           date: {
-            on_or_after: today.toISOString(),
+            on_or_before: today.toISOString(),
           },
         },
       ],
